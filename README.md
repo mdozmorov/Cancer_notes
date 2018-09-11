@@ -8,6 +8,7 @@ Issues with suggestions and pull requests are welcome!
   * [Immune cell deconvolution](#immune-cell-deconvolution)
   * [BRCA](#brca)
   * [TCGA](#tcga)
+  * [Image analysis](#image-analysis)
   * [Clonal analysis](#clonal-analysis)
 * [Survival analysis](#suvival-analysis)
 * [Cancer driver genes](#cancer-driver-genes)
@@ -51,6 +52,12 @@ Issues with suggestions and pull requests are welcome!
 
 - NCI Genomics Data Commons API. https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/ - docs. https://github.com/Bioconductor/GenomicDataCommons - R package
     - Shane Wilson, Michael Fitzsimons, Martin Ferguson, Allison Heath, Mark Jensen, Josh Miller, Mark W. Murphy, James Porter, Himanso Sahni, Louis Staudt, Yajing Tang, Zhining Wang, Christine Yu, Junjun Zhang, Vincent Ferretti and Robert L. Grossman. "Developing Cancer Informatics Applications and Tools Using the NCI Genomic Data Commons API." DOI: 10.1158/0008-5472.CAN-17-0598 Published November 2017 http://cancerres.aacrjournals.org/content/77/21/e15
+
+## Image analysis
+
+- `IHCount` - IHC-image analysis workflow, https://github.com/mui-icbi/IHCount
+
+- `pathology_learning` - Using traditional machine learning and deep learning methods to predict stuff from TCGA pathology slides. [https://github.com/millett/pathology_learning](https://github.com/millett/pathology_learning)
 
 ## Clonal analysis
 
