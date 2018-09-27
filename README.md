@@ -14,6 +14,7 @@ Issues with suggestions and pull requests are welcome!
 * [Cancer driver genes](#cancer-driver-genes)
 * [Drugs](#drugs)
 * [Consortia](#consortia)
+* [Methylation](#methylation)
 * [Misc](#misc)
 
 ## Tools
@@ -157,11 +158,13 @@ Issues with suggestions and pull requests are welcome!
 - Zehir, Ahmet, Ryma Benayed, Ronak H Shah, Aijazuddin Syed, Sumit Middha, Hyunjae R Kim, Preethi Srinivasan, et al. “Mutational Landscape of Metastatic Cancer Revealed from Prospective Clinical Sequencing of 10,000 Patients.” Nature Medicine 23, no. 6 (May 8, 2017): 703–13. https://doi.org/10.1038/nm.4333. - MSK-IMPACT study. Deep sequencing of 341-410 genes in 10,000 samples in multiple cancers. Focus on mutations, copy number alterations, fusions. Data at http://www.cbioportal.org/study?id=msk_impact_2017#summary, downloadable, includes clinical data for survival analysis.
 
 
+## Methylation
+
+- `MEXPRESS` - Gene-centric methylation and correlation with clinical parameters. http://mexpress.be/
+
 
 
 ## Misc
-
-- `MEXPRESS` - Gene-centric methylation and correlation with clinical parameters. http://mexpress.be/
 
 - Zhang, Zhuo, Hao Li, Shuai Jiang, Ruijiang Li, Wanying Li, Hebing Chen, and Xiaochen Bo. “A Survey and Evaluation of Web-Based Tools/Databases for Variant Analysis of TCGA Data.” Briefings in Bioinformatics, March 29, 2018. https://doi.org/10.1093/bib/bby023. - The most comprehensive review of TCGA-related tools. Table 3 - List of Web servers and databases. 
 
