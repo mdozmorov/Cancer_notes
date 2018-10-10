@@ -12,6 +12,7 @@ Issues with suggestions and pull requests are welcome!
   * [Clonal analysis](#clonal-analysis)
 * [Survival analysis](#suvival-analysis)
 * [Cancer driver genes](#cancer-driver-genes)
+* [Cancer driver mutations](#Cancer-driver-mutations)
 * [Drugs](#drugs)
 * [Consortia](#consortia)
   * [TCGA](#tcga)
@@ -137,6 +138,9 @@ Issues with suggestions and pull requests are welcome!
 - `data/Tokheim_2016_cancer_driver_genes.xlsx` - Dataset S2: Predicted driver genes by various number of methods
     - Tokheim, Collin J., Nickolas Papadopoulos, Kenneth W. Kinzler, Bert Vogelstein, and Rachel Karchin. “Evaluating the Evaluation of Cancer Driver Genes.” Proceedings of the National Academy of Sciences 113, no. 50 (December 13, 2016): 14330–35. https://doi.org/10.1073/pnas.1616440113. - 20/20+ machine learning method, ratiometric approach to predict cancer driver genes. Performance comparison of other methods, 20/20+, TUSON, OncodriveFML and MutsigCV are the top performers. https://github.com/KarchinLab/2020plus
 
+## Cancer driver mutations
+
+- `clinvar` -  tools to convert ClinVar data into a tab-delimited flat file, and also provides that resulting tab-delimited flat file. https://github.com/macarthur-lab/clinvar
 
 ## Drugs
 
