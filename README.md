@@ -4,6 +4,7 @@ Issues with suggestions and pull requests are welcome!
 
 
 * [Tools](#tools)
+  * [Preprocessing](#preprocessing)
   * [Purity](#purity)
   * [Immune cell deconvolution](#immune-cell-deconvolution)
   * [BRCA](#brca)
@@ -20,6 +21,10 @@ Issues with suggestions and pull requests are welcome!
 * [Misc](#misc)
 
 ## Tools
+
+### Preprocessing
+
+- `cacao` - Callable Cancer Loci - assessment of sequencing coverage for actionable and pathogenic loci in cancer, example of QC report. Data: BED files for cancer loci from ClinVar, CIViC, cancerhotspots. https://github.com/sigven/cacao
 
 ### Purity
 
