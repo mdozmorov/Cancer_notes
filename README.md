@@ -153,6 +153,10 @@ Issues with suggestions and pull requests are welcome!
 
 ## Drugs
 
+- `CARE` - biomarker identification from interactions of drug target genes with other genes. Multivariate linear modeling with interaction term. Illustrative example of interaction of BRAF mutation and EGFR expression. Sample separation by gene expression correlation with CARE score better predicts survival. Comparison with correlation, elastic net, support vector regression. http://care.dfci.harvard.edu/, download page http://care.dfci.harvard.edu/download/, nls_logsig tool to compute AUC for dose curves.
+    - Jiang, Peng, Winston Lee, Xujuan Li, Carl Johnson, Jun S. Liu, Myles Brown, Jon Christopher Aster, and X. Shirley Liu. “Genome-Scale Signatures of Gene Interaction from Compound Screens Predict Clinical Efficacy of Targeted Cancer Therapies.” Cell Systems 6, no. 3 (March 2018): 343-354.e5. https://doi.org/10.1016/j.cels.2018.01.009.
+
+
 - `CellMinerCDB` - genomics (gene expression, mutations, copy number, methylation, and protein expression) and pharmacogenomics (drug responses and genomics interplay) analyses of cancer cell lines. Integrates NCI-60, GDSC, CCLE, CTRP, and NCI-SCLC databases built on top of `rcellminer` R package. Correlation and multivariate analyses. Tissue-specific analysis. https://discover.nci.nih.gov/cellminercdb/, 10m video tutorial https://youtu.be/XljXazRGkQ8.
     - Rajapakse, Vinodh N., Augustin Luna, Mihoko Yamade, Lisa Loman, Sudhir Varma, Margot Sunshine, Francesco Iorio, et al. “CellMinerCDB for Integrative Cross-Database Genomics and Pharmacogenomics Analyses of Cancer Cell Lines.” IScience 10 (December 2018): 247–64. https://doi.org/10.1016/j.isci.2018.11.029.
 
