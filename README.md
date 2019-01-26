@@ -65,6 +65,8 @@ Issues with suggestions and pull requests are welcome!
 
 ## Image analysis
 
+- `DeepPATH` - Classification of Lung cancer slide images using deep-learning. https://github.com/ncoudray/DeepPATH
+
 - `IHCount` - IHC-image analysis workflow, https://github.com/mui-icbi/IHCount
 
 - `pathology_learning` - Using traditional machine learning and deep learning methods to predict stuff from TCGA pathology slides. [https://github.com/millett/pathology_learning](https://github.com/millett/pathology_learning)
