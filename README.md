@@ -68,7 +68,9 @@ Issues with suggestions and pull requests are welcome!
 
 ## Image analysis
 
-- `DeepPATH` - Classification of Lung cancer slide images using deep-learning. https://github.com/ncoudray/DeepPATH
+- `DeepPATH` - Lung cancer image classification using deep convolutional neural network. Classification by tumor type, mutation type. Refs to other image classification studies that use deep learning. GoogleNet inception v3 architecture. Training, validation, testing cohorts (70%, 15%, 15%). Details on image processing. https://github.com/ncoudray/DeepPATH
+    - Coudray, Nicolas, Paolo Santiago Ocampo, Theodore Sakellaropoulos, Navneet Narula, Matija Snuderl, David Fenyö, Andre L. Moreira, Narges Razavian, and Aristotelis Tsirigos. “Classification and Mutation Prediction from Non–Small Cell Lung Cancer Histopathology Images Using Deep Learning.” Nature Medicine 24, no. 10 (October 2018): 1559–67. https://doi.org/10.1038/s41591-018-0177-5.
+
 
 - `IHCount` - IHC-image analysis workflow, https://github.com/mui-icbi/IHCount
 
