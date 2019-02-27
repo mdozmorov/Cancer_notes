@@ -181,6 +181,10 @@ Issues with suggestions and pull requests are welcome!
 
 - `CTRP` - The Cancer Therapeutics Response Portal (CTRP) links genetic, lineage, and other cellular features of cancer cell lines to small-molecule sensitivity with the goal of accelerating discovery of patient-matched cancer therapeutics. https://portals.broadinstitute.org/ctrp/
 
+- Drug combination screen, synergy. Statistics for the analysis of large-scale drug screens, 108 drugs, 40 cell lines. Bliss independence model description. Bliss-based linear model to evaluate viabilities for individual drugs. Web-interface: http://www.cmtlab.org:3000/combo_app.html. Code to reproduce the analysis: https://github.com/arnaudmgh/synergy-screen. Raw data: https://raw.githubusercontent.com/arnaudmgh/synergy-screen/master/data/rawscreen.csv
+    - Amzallag, Arnaud, Sridhar Ramaswamy, and Cyril H. Benes. “Statistical Assessment and Visualization of Synergies for Large-Scale Sparse Drug Combination Datasets.” BMC Bioinformatics 20, no. 1 (December 2019). https://doi.org/10.1186/s12859-019-2642-7.
+
+
 
 ## Data
 
