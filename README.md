@@ -81,6 +81,8 @@ Issues with suggestions and pull requests are welcome!
 
 - `Awesome-CancerEvolution` - list of papers and tools for studying cancer evolution. https://github.com/iron-lion/Awesome-CancerEvolution
 
+- `fishplot` - Create timecourse "fish plots" that show changes in the clonal architecture of tumors. https://github.com/chrisamiller/fishplot
+
 - `MACHINA` - Metastatic And Clonal History INtegrative Analysis. https://github.com/raphael-group/machina 
 
 - `PyClone` - inferring the cellular prevalence of point mutations from deeply sequenced data. http://compbio.bccrc.ca/software/pyclone/
