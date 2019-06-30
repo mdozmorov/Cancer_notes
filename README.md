@@ -95,6 +95,8 @@ Issues with suggestions and pull requests are welcome!
 
 - `MACHINA` - Metastatic And Clonal History INtegrative Analysis. https://github.com/raphael-group/machina 
 
+- `MEDICC` - Minimum Event Distance for Intra-tumour Copy number Comparisons. https://bitbucket.org/rfs/medicc
+
 - `oncoNEM` - A package for inferring clonal lineage trees from single-cell somatic single nucleotide variants. https://bitbucket.org/edith_ross/onconem
 
 - `PyClone` - inferring the cellular prevalence of point mutations from deeply sequenced data. http://compbio.bccrc.ca/software/pyclone/
