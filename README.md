@@ -101,6 +101,7 @@ Issues with suggestions and pull requests are welcome!
 
 - `SciClone` - number and genetic composition of tumor subclones by analyzing the variant allele frequencies of somatic mutations. Excludes CNV regions. https://github.com/genome/sciclone
 
+- `treeomics` - Decrypting somatic mutation patterns to reveal the evolution of cancer. https://github.com/johannesreiter/treeomics
 
 
 ## Survival analysis
