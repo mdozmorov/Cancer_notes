@@ -218,6 +218,9 @@ Issues with suggestions and pull requests are welcome!
 
 ## Data
 
+- `MiOncoCirc` - cancer-oriented circRNA database. Exome-capture RNA-seq protocol achieves better enrichment for circRNAs than Ribo-Zero and Rnase R protocols. CIRCExplorer pipeline. Data: https://mioncocirc.github.io/download/
+    - Vo, Josh N., Marcin Cieslik, Yajia Zhang, Sudhanshu Shukla, Lanbo Xiao, Yuping Zhang, Yi-Mi Wu, et al. “The Landscape of Circular RNA in Cancer.” Cell 176, no. 4 (February 2019): 869-881.e13. https://doi.org/10.1016/j.cell.2018.12.021.
+
 - `UCSCXenaTools` - An R package downloading and exploring data from UCSC Xena data hubs. CRAN: https://cran.r-project.org/web/packages/UCSCXenaTools/, GitHub: https://github.com/ShixiangWang/UCSCXenaTools, https://shixiangwang.github.io/UCSCXenaTools/. The accompanying package is a Shiny app, https://github.com/openbiox/XenaShiny.
     - Wang, Shixiang, and Xuesong Liu. “The UCSCXenaTools R Package: A Toolkit for Accessing Genomics Data from UCSC Xena Platform, from Cancer Multi-Omics to Single-Cell RNA-Seq.” Journal of Open Source Software 4, no. 40 (August 5, 2019): 1627. https://doi.org/10.21105/joss.01627.
 
