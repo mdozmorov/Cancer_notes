@@ -156,6 +156,9 @@ Issues with suggestions and pull requests are welcome!
 
 ## Cancer driver genes
 
+- `CancerGeneNet` - CancerGeneNet is a resource that aims at linking genes that are frequently mutated in cancers to cancer phenotypes. The resource takes advantage of a curation effort aimed at embedding a large fraction of the gene products that are found altered in cancers in the cell network of causal protein relationships. Graph algorithms, in turn, allow to infer likely paths of causal interactions linking cancer associated genes to cancer phenotypes thus offering a rational framework for the design of strategies to revert disease phenotypes. CancerGenNet bridges two interaction layers by connecting proteins whose activities are affected by cancer gene products to proteins that impact on cancer phenotypes. This is achieved by implementing graph algorithms that allow searching for graph path that link any gene of interest to the “hallmarks of cancer". https://signor.uniroma2.it/CancerGeneNet/
+
+
 - Cancer Gene Census (CGC), download [COSMIC](http://cancer.sanger.ac.uk/cosmic/download)
     - Hudson, T. J. et al. International network of cancer genome projects. Nature 464, 993–8 (2010).
     - `data/Census_all*.csv` - [The cancer Gene Census](http://cancer.sanger.ac.uk/census)
