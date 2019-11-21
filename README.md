@@ -11,7 +11,7 @@ Issues with suggestions and pull requests are welcome!
   * [TCGA PanCancer](#tcga-pancancer)
   * [Image analysis](#image-analysis)
   * [Clonal analysis](#clonal-analysis)
-* [Survival analysis](#suvival-analysis)
+* [Survival analysis](#survival-analysis)
   * [Methods to find best cutoff for survival](#methods-to-find-best-cutoff-for-survival)
 * [Cancer driver genes](#cancer-driver-genes)
 * [Cancer driver mutations](#Cancer-driver-mutations)
