@@ -18,6 +18,7 @@ Issues with suggestions and pull requests are welcome!
 * [Drugs](#drugs)
 * [Data](#data)
   * [TCGA](#tcga)
+  * [Pediatric](#pediatric)
 * [Methylation](#methylation)
 * [Misc](#misc)
 
@@ -274,6 +275,11 @@ Issues with suggestions and pull requests are welcome!
 
 - `PCAGW` - The PCAWG study is an international collaboration to identify common patterns of mutation in more than 2,800 cancer whole genomes from the International Cancer Genome Consortium. The project produced large amount data with many types including simple somatic mutations (SNVs, MNVs and small INDELs), large-scale somatic structural variations, copy number alterations, germline variations, RNA expression profiles, gene fusions, and phenotypic annotations etc. PCAWG data have been imported, processed and made available in the following four major online resources for download and exploration by the cancer researchers worldwide. http://docs.icgc.org/pcawg/
     - Goldman, Mary, Junjun Zhang, Nuno A. Fonseca, Qian Xiang, Brian Craft, Elena Piñeiro, Brian O’Connor, et al. “Online Resources for PCAWG Data Exploration, Visualization, and Discovery.” BioRxiv, October 18, 2017. https://doi.org/10.1101/163907. https://www.biorxiv.org/content/early/2017/10/18/163907
+
+### Pediatric
+
+- `PedcBioPortal` - childhood cancer genomics portal. 261 pediatric PDX models, 37 pediatric malignancies, CNS and rhabdoid tumors, extracranial solid tumors, hematological malignancies. WES (includes segmentation, copy number estimates, high breakpoint density), RNA-seq. Description of individual tumor types. hg19-mm10 alignment. Processed data: https://figshare.com/projects/Genomic_landscape_of_childhood_cancer_patient-derived_xenograft_models/38147, Online cBioPortal interface: https://pedcbioportal.kidsfirstdrc.org/
+    - Rokita, Jo Lynne, Komal S. Rathi, Maria F. Cardenas, Kristen A. Upton, Joy Jayaseelan, Katherine L. Cross, Jacob Pfeil, et al. “Genomic Profiling of Childhood Tumor Patient-Derived Xenograft Models to Enable Rational Clinical Trial Design.” Cell Reports 29, no. 6 (November 2019): 1675-1689.e9. https://doi.org/10.1016/j.celrep.2019.09.071.
 
 
 ## Methylation
