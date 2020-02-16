@@ -301,5 +301,7 @@ Issues with suggestions and pull requests are welcome!
 
 ## Misc
 
+- Oncology Model Fidelity Score based on the Hallmarks of Cancer. Quantify fidelity of PDX models in recapitulating human cancers. https://github.com/tedgoldstein/hallmarks
+
 -  SMAP is a pipeline for the process of xenografts sequencing data. It takes FASTQ as input and outputs specie-specific BAM or gene counts. https://github.com/cit-bioinfo/SMAP
 
