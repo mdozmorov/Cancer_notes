@@ -232,6 +232,9 @@ Issues with suggestions and pull requests are welcome!
 - `DSigDB` - drug-gene signature database. D1 (approved drugs), D2 (kinase inhibitors), D3 (perturbagent signatures), D4 (computational predictions). Download, online. http://tanlab.ucdenver.edu/DSigDB/DSigDBv1.0/download.html
     - Yoo, Minjae, Jimin Shin, Jihye Kim, Karen A. Ryall, Kyubum Lee, Sunwon Lee, Minji Jeon, Jaewoo Kang, and Aik Choon Tan. “DSigDB: Drug Signatures Database for Gene Set Analysis: Fig. 1.” Bioinformatics 31, no. 18 (September 15, 2015): 3069–71. https://doi.org/10.1093/bioinformatics/btv313.
 
+- `Drug Repurposing Hub` - drugs with targets, manually curated, experimentally validated. Data, drugs and targets, are at https://clue.io/repurposing#download-data
+    - Corsello, Steven M, Joshua A Bittker, Zihan Liu, Joshua Gould, Patrick McCarren, Jodi E Hirschman, Stephen E Johnston, et al. “The Drug Repurposing Hub: A next-Generation Drug Library and Information Resource.” Nature Medicine 23, no. 4 (April 2017): 405–8. https://doi.org/10.1038/nm.4306.
+
 - `CancerRxGene` - Drug-gene targets. Lots of drug sensitivity information. http://www.cancerrxgene.org/
     - Yang, Wanjuan, Jorge Soares, Patricia Greninger, Elena J. Edelman, Howard Lightfoot, Simon Forbes, Nidhi Bindal, et al. “Genomics of Drug Sensitivity in Cancer (GDSC): A Resource for Therapeutic Biomarker Discovery in Cancer Cells.” Nucleic Acids Research 41, no. Database issue (January 2013): D955-961. https://doi.org/10.1093/nar/gks1111.
 
