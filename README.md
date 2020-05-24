@@ -130,6 +130,8 @@ Issues with suggestions and pull requests are welcome!
 
 - [Breast Cancer Gene-Expression Miner v4.4](http://bcgenex.centregauducheau.fr/BC-GEM/GEM-Accueil.php?js=1) - gene expression, correlation, and survival analysis in different microarray (e.g., METABRIC) and RNA-seq (e.g., TCGA) datasets
 
+- [G-2-O, Genotype to Outcome](http://www.g-2-o.com/) -  web-server linking mutation (or CNV) of a gene to clinical outcome (survival) by utilizing next generation sequencing and gene chip data. For Breast and Lung cancer
+
 - `PRECOG` - PREdiction of Clinical Outcomes from Genomic Profiles. Gene-centric, quick overview of survival effect of a gene across all cancers, KM plots. https://precog.stanford.edu
     - Gentles, Andrew J., Aaron M. Newman, Chih Long Liu, Scott V. Bratman, Weiguo Feng, Dongkyoon Kim, Viswam S. Nair, et al. “The Prognostic Landscape of Genes and Infiltrating Immune Cells across Human Cancers.” Nature Medicine 21, no. 8 (August 2015): 938–45. https://doi.org/10.1038/nm.3909. - TCGA pan-cancer survival analysis PRECOG, CIBERSORT. 39 cancers. Intro into heterogeneity. Z-score description. Batch effect does not significantly affect z-scores. 2/3 prognostic genes shared across cancers. AutoSOME clustering method
 
