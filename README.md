@@ -56,6 +56,8 @@ Issues with suggestions and pull requests are welcome!
 
 - [TIDE](http://tide.dfci.harvard.edu/) - Tumor Immune Dysfunction and Exclusion, a gene expression biomarker to predict the clinical response to immune checkpoint blockade using patient-specific gene expression. http://tide.dfci.harvard.edu/
 
+- [TRUST4](https://github.com/liulab-dfci/TRUST4) - infers tumor-infiltrating TCR and BCR repertores from bulk and scRNA-seq (5' 10X Genomics kit). https://github.com/liulab-dfci/TRUST4
+
 ### BRCA
 
 - `TNBCtype` tool to classify triple negative breast cancer samples (microarray gene expression) into six subtypes, http://cbc.mc.vanderbilt.edu/tnbc/index.php
