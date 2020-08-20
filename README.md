@@ -1,27 +1,34 @@
-# A continually expanding collection of cancer genomics notes and data
+<!-- START doctoc generated TOC please keep comment here to allow auto update -->
+<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-Issues with suggestions and pull requests are welcome!
 
+- [Tools](#tools)
+  - [Preprocessing](#preprocessing)
+  - [Purity](#purity)
+  - [Immune cell deconvolution](#immune-cell-deconvolution)
+  - [BRCA](#brca)
+  - [OvCa](#ovca)
+  - [TCGA](#tcga)
+- [Image analysis](#image-analysis)
+- [Clonal analysis](#clonal-analysis)
+- [Survival analysis](#survival-analysis)
+  - [Methods to find best cutoff for survival](#methods-to-find-best-cutoff-for-survival)
+- [Cancer driver genes](#cancer-driver-genes)
+- [Cancer driver mutations](#cancer-driver-mutations)
+- [Drugs](#drugs)
+- [Data](#data)
+  - [TCGA PanCancer](#tcga-pancancer)
+  - [Pediatric](#pediatric)
+- [Methylation](#methylation)
+- [Misc](#misc)
 
-* [Tools](#tools)
-  * [Preprocessing](#preprocessing)
-  * [Purity](#purity)
-  * [Immune cell deconvolution](#immune-cell-deconvolution)
-  * [BRCA](#brca)
-  * [OvCa](#ovca)
-  * [TCGA PanCancer](#tcga-pancancer)
-  * [Image analysis](#image-analysis)
-  * [Clonal analysis](#clonal-analysis)
-* [Survival analysis](#survival-analysis)
-  * [Methods to find best cutoff for survival](#methods-to-find-best-cutoff-for-survival)
-* [Cancer driver genes](#cancer-driver-genes)
-* [Cancer driver mutations](#Cancer-driver-mutations)
-* [Drugs](#drugs)
-* [Data](#data)
-  * [TCGA PanCancer](#tcga-pancancer)
-  * [Pediatric](#pediatric)
-* [Methylation](#methylation)
-* [Misc](#misc)
+<!-- END doctoc generated TOC please keep comment here to allow auto update -->
+
+# A continually expanding collection of cancer genomics tools and data
+
+Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https://github.com/mdozmorov/MDmisc_notes) for other programming and genomics-related notes.
+
+# Table of content
 
 ## Tools
 
