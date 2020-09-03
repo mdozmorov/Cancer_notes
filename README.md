@@ -76,6 +76,9 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### BRCA
 
+- [HRDetect](https://github.com/eyzhao/hrdetect-pipeline) (homologous recombination-repair deficiency) classification of TNBC patients. Whole-genome sequencing-based. HRDetect-high have higher chemosensitivity, better survival profiles
+    - Staaf, Johan, Dominik Glodzik, Ana Bosch, Johan Vallon-Christersson, Christel Reuterswärd, Jari Häkkinen, Andrea Degasperi, et al. “[Whole-Genome Sequencing of Triple-Negative Breast Cancers in a Population-Based Clinical Study](https://doi.org/10.1038/s41591-019-0582-4).” Nature Medicine, September 30, 2019
+
 - `TNBCtype` tool to classify triple negative breast cancer samples (microarray gene expression) into six subtypes, http://cbc.mc.vanderbilt.edu/tnbc/index.php
 
 - `genefu` R package for PAM50 classification and survival analysis. https://www.bioconductor.org/packages/release/bioc/html/genefu.html
