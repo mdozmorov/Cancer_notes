@@ -104,6 +104,9 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Image analysis
 
+- Prediction of chromosomal instability (CIN, fraction of genome altered, binarized into high/low) in breast cancer using deep learning on histology images. Tested different convnet architectures, Densenet-121 worked best. TensorFlow2. [Code for CIN](https://github.com/eipm/CIN)
+    - Xu, Zhuoran, Akanksha Verma, Uska Naveed, Samuel Bakhoum, Pegah Khosravi, and Olivier Elemento. “[Using Histopathology Images to Predict Chromosomal Instability in Breast Cancer: A Deep Learning Approach](https://doi.org/10.1101/2020.09.23.20200139).” Preprint. Genetic and Genomic Medicine, September 24, 2020. 
+
 - `DeepPATH` - Lung cancer image classification using deep convolutional neural network. Classification by tumor type, mutation type. Refs to other image classification studies that use deep learning. GoogleNet inception v3 architecture. Training, validation, testing cohorts (70%, 15%, 15%). Details on image processing. https://github.com/ncoudray/DeepPATH
     - Coudray, Nicolas, Paolo Santiago Ocampo, Theodore Sakellaropoulos, Navneet Narula, Matija Snuderl, David Fenyö, Andre L. Moreira, Narges Razavian, and Aristotelis Tsirigos. “Classification and Mutation Prediction from Non–Small Cell Lung Cancer Histopathology Images Using Deep Learning.” Nature Medicine 24, no. 10 (October 2018): 1559–67. https://doi.org/10.1038/s41591-018-0177-5.
 
