@@ -108,7 +108,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - [DrugCell](https://github.com/idekerlab/DrugCell) - interpretable neural network, directly mapping neurons of a deep neural network to Gene Ontology hierarchy. Input - genotype (binary gene indicator) and drugs, output - response of cell to drug. Performance is the same as unconstrained network. Trained on 1235 tumor cell lines and 684 drugs. Allows for the detection of synergistic combinations. [Perspective](https://www.sciencedirect.com/science/article/pii/S1535610820305456)
     - Kuenzi, Brent M., Jisoo Park, Samson H. Fong, Kyle S. Sanchez, John Lee, Jason F. Kreisberg, Jianzhu Ma, and Trey Ideker. “[Predicting Drug Response and Synergy Using a Deep Learning Model of Human Cancer Cells](https://doi.org/10.1016/j.ccell.2020.09.014).” Cancer Cell 38, no. 5 (November 2020)
 
-
+- Drug response prediction from gene expression data. Deep Neural Network (DNN, H2O.ai framework) compared with Elastic Net, Random Forest. Trained on highly variable (by MAD) gene expression in 1001 cell lines and 251 drugs pharmacogenomic dataset (GDSC. CCLP) to predict IC50. Hyper-parameter optimization using 5-fold cross-validation and minimizing Mean Square Error. Batch correction between the datasets Tested on unseen patient cohorts (OCCAMS, MD Anderson, TCGA, Multiple Myeloma Consortium) to predict IC50 and test low, medium, high IC50 groups for survival differences. [RDS files data](https://genome.med.nyu.edu/public/tsirigoslab/deep-drug-response/), [R code](https://genome.med.nyu.edu/public/tsirigoslab/deep-drug-response/)
+    - Sakellaropoulos, Theodore, Konstantinos Vougas, Sonali Narang, Filippos Koinis, Athanassios Kotsinas, Alexander Polyzos, Tyler J. Moss, et al. “[A Deep Learning Framework for Predicting Response to Therapy in Cancer](https://doi.org/10.1016/j.celrep.2019.11.017).” Cell Reports 29, no. 11 (December 2019)
 
 
 ### Image analysis
