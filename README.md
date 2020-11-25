@@ -208,6 +208,12 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Cancer driver genes
 
+- Integrative pathway and network analysis of 2583 cancers (27 tumor types) identified 87 driver Pathway Implicated Driver (PID) genes with coding variants (PID-C) and 93 drivers with noncoding variants (PID-N). These gene classes are associated with different biological processes. Six pathway databases, seven pathway and network methods, data references in Methods. Non-Coding Added Value (NCVA) score to identify genes with noncoding variants increasing the overall significance.
+    - PCAWG Drivers and Functional Interpretation Working Group, PCAWG Consortium, Matthew A. Reyna, David Haan, Marta Paczkowska, Lieven P. C. Verbeke, Miguel Vazquez, et al. “[Pathway and Network Analysis of More than 2500 Whole Cancer Genomes](https://doi.org/10.1038/s41467-020-14367-0).” Nature Communications 11, no. 1 (December 2020)
+    - [Supplementary Data 2: PID-C genes. List of 87 genes](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-14367-0/MediaObjects/41467_2020_14367_MOESM4_ESM.txt), [PCAWG_2020_PID_C_87_genes.txt](data/PCAWG_2020_PID_C_87_genes.txt)
+    - [Supplementary Data 3: PID-N genes. List of 93  genes](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-14367-0/MediaObjects/41467_2020_14367_MOESM5_ESM.txt), [PCAWG_2020_PID_N_93_genes.txt](data/PCAWG_2020_PID_N_93_genes.txt)
+    - More lists in [Supplementary data](https://www.nature.com/articles/s41467-020-14367-0#Sec23), [description](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-14367-0/MediaObjects/41467_2020_14367_MOESM2_ESM.pdf). 
+
 - `MoonlightR` - integrative analysis of TCGA data to predict cancer driver genes. http://bioconductor.org/packages/release/bioc/vignettes/MoonlightR/inst/doc/Moonlight.html, https://github.com/ibsquare/MoonlightR
     - [Supplementary Data 5](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-13803-0/MediaObjects/41467_2019_13803_MOESM8_ESM.xlsx) - Cancer Driver Genes for TCGA BRCA molecular subtypes
     - [Supplementary Data 6](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-13803-0/MediaObjects/41467_2019_13803_MOESM9_ESM.xlsx) - Moonlight’s oncogenic mediators in 18 cancer types
