@@ -226,8 +226,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - Cancer Gene Census (CGC), download [COSMIC](http://cancer.sanger.ac.uk/cosmic/download)
     - Hudson, T. J. et al. International network of cancer genome projects. Nature 464, 993–8 (2010).
-    - `data/Census_all*.csv` - [The cancer Gene Census](http://cancer.sanger.ac.uk/census)
-    - `data/COSMIC_genes.txt` - Genes sorted by the number of records associated with them. Obtained using `zcat <CosmicCompleteTargetedScreensMutantExport.tsv.gz | sed '1d' | cut -f1 | sort | uniq -c | sort -k1 -r -n > COSMIC_genes.txt`
+    - [data/Census_all.csv](data/Census_allThu_Dec_3_19_52_03_2020.csv) - [The cancer Gene Census](http://cancer.sanger.ac.uk/census). Updated 2020-12-03
+    - [data/COSMIC_genes.txt](data/COSMIC_genes.txt) - Genes sorted by the number of records associated with them. Obtained using `cat Census_allThu_Dec_3_19_52_03_2020.csv  | sed '1d' | cut -f1 -d, | sort | uniq  > COSMIC_genes.txt`. Updated 2020-12-03
     - `data/CosmicCodingMuts.vcf.gz` - VCF file of all coding mutations in the current release (release v83, 7th November 2017).
 
 - Oncology Model Fidelity Score based on the Hallmarks of Cancer, an R/Shiny app to check cancer samples from preprocessed or user-supplied gene expression data for the presence of these hallmarks. https://github.com/tedgoldstein/hallmarks
