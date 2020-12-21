@@ -15,6 +15,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [Immune cell deconvolution](#immune-cell-deconvolution)
   - [BRCA](#brca)
   - [OvCa](#ovca)
+  - [SCLC](#sclc)
   - [TCGA](#tcga)
   - [Integrative](#integrative)
 - [Deep Learning](#deep-learning)
@@ -89,6 +90,12 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [PrOTYPE](https://ovcare.shinyapps.io/PrOType/) - Ovarian Cancer subtype prediction. Model trained on gene expression from 1650 tumors (specimens from the Ovarian Tumor Tissue Analysis consortium), validated on NanoString data on 3829 tumors. 55 genes, predict with >95% accuracy, also associated with age, stage, residual disease, TILs, outcome. Review of previous studies classifying into 5 outcomes. Random Forest, cross-validation. [Supplemental Table SC7](https://clincancerres.aacrjournals.org/content/early/2020/06/17/1078-0432.CCR-20-0103.figures-only) lists all predictor genes. PrOTYPE web tool to classify NanoString OvCa samples, https://ovcare.shinyapps.io/PrOType/
     - Talhouk, Aline, Joshy George, Chen Wang, Timothy Budden, Tuan Zea Tan, Derek S Chiu, Stefan Kommoss, et al. “Development and Validation of the Gene-Expression Predictor of High-Grade-Serous Ovarian Carcinoma Molecular SubTYPE (PrOTYPE).” Clinical Cancer Research, June 17, 2020, clincanres.0103.2020. https://doi.org/10.1158/1078-0432.CCR-20-0103.
+
+### SCLC
+
+- [SCLC-CellMiner](https://discover.nci.nih.gov/SclcCellMinerCDB/) - an analysis portal for Small Cell Lung Cancer. Integrating drug sensitivity and methylome (Illumina 80K), CNV (ChAMP, from methylation), and transcriptome data from 118 SCLC cell lines. Integrated data from multiple resources, uniformly processed. Confirms NEUROD1, ASCL1, POU2F3, and YAP1 (NAPY) classification. Table 1 - types of analyses. [Shiny web interface](https://discover.nci.nih.gov/SclcCellMinerCDB/) and [data download](https://zenodo.org/record/3959142#.X9-lf2RKgoI)
+    - Tlemsani, Camille, Lorinc Pongor, Fathi Elloumi, Luc Girard, Kenneth E. Huffman, Nitin Roper, Sudhir Varma, et al. “[SCLC-CellMiner: A Resource for Small Cell Lung Cancer Cell Line Genomics and Pharmacology Based on Genomic Signatures](https://doi.org/10.1016/j.celrep.2020.108296).” Cell Reports 33, no. 3 (October 2020)
+
 
 
 ### TCGA
