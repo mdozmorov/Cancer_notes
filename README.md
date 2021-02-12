@@ -152,6 +152,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - `Awesome-CancerEvolution` - list of papers and tools for studying cancer evolution. https://github.com/iron-lion/Awesome-CancerEvolution
 
+- [timescape](https://bioconductor.org/packages/timescape/) - an R package for visualizing temporal clonal evolution data. [Examples](https://bioconductor.org/packages/release/bioc/vignettes/timescape/inst/doc/timescape_vignette.html), [GitHub](https://github.com/shahcompbio/timescape)
+
 - `clonevol` R package, Inferring and visualizing clonal evolution in multi-sample cancer sequencing. https://github.com/hdng/clonevol
     - Dang, H. X., B. S. White, S. M. Foltz, C. A. Miller, J. Luo, R. C. Fields, and C. A. Maher. “ClonEvol: Clonal Ordering and Visualization in Cancer Sequencing.” Annals of Oncology: Official Journal of the European Society for Medical Oncology 28, no. 12 (December 1, 2017): 3076–82. https://doi.org/10.1093/annonc/mdx517.
 
