@@ -137,6 +137,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Image analysis
 
+- [High content image analysis with CellProfiler (2D and 3D)](https://github.com/hmbotelho/SPAOM2020-ws1-high-content-screening) - detailed Python- and R-based workshop
+
 - Prediction of chromosomal instability (CIN, fraction of genome altered, binarized into high/low) in breast cancer using deep learning on histology images. Tested different convnet architectures, Densenet-121 worked best. TensorFlow2. [Code for CIN](https://github.com/eipm/CIN)
     - Xu, Zhuoran, Akanksha Verma, Uska Naveed, Samuel Bakhoum, Pegah Khosravi, and Olivier Elemento. “[Using Histopathology Images to Predict Chromosomal Instability in Breast Cancer: A Deep Learning Approach](https://doi.org/10.1101/2020.09.23.20200139).” Preprint. Genetic and Genomic Medicine, September 24, 2020. 
 
