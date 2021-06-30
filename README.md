@@ -242,6 +242,15 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Cancer driver genes
 
+- [MOMA Oncogenic Architecture](http://www.mr-graph.org/) - A network-based integrative genomic analysis of 20 The Cancer Genome Atlas cohorts characterizes conserved master regulator blocks underlying cancer hallmarks across different tumor types, providing insights into the connection between genetic alterations and tumor transcriptional identity. [Tumor Subtypes Explorer](http://www.mr-graph.org/)
+    - Integrative genomic analysis of 20 TCGA cohorts identifies 112 distinct tumor subtypes
+    - 407 master regulators (MRs) canalize the effects of mutations to implement cancer states
+    - 24 conserved master regulator blocks regulate cancer hallmarks across tumors
+    - Paull, Evan O., Alvaro Aytes, Sunny J. Jones, Prem S. Subramaniam, Federico M. Giorgi, Eugene F. Douglass, Somnath Tagore, et al. “[A Modular Master Regulator Landscape Controls Cancer Transcriptional Identity](https://doi.org/10.1016/j.cell.2020.11.045).” Cell, (January 2021) - supplementary material with data
+        - Table S1 - summary, cancer subtypes.
+        - Table S2 - master regulators, tumor checkpoints (hyperconnected modules)
+        - Table S4 - 24 MR modules (genes in them), their association with survival, enrichment in hallmarks of cancer, upstream genomics
+        - Table S6 - Cluster maps of each cancer cohort into subtypes by master regulators
 
 - [The Network of Cancer Genes]() - NCG contains information on duplicability, evolution, protein-protein and microRNA-gene interaction, function, expression and essentiality of 2,372 cancer genes from 273 manually curated publications. [Downloads](http://ncg.kcl.ac.uk/download.php)
 
