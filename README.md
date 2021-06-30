@@ -27,6 +27,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - [Cancer driver mutations](#cancer-driver-mutations)
 - [Drugs](#drugs)
 - [Data](#data)
+  - [cBioPortal](#cbioportal)
   - [TCGA PanCancer](#tcga-pancancer)
   - [Pediatric](#pediatric)
 - [Methylation](#methylation)
@@ -371,6 +372,9 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - `CCLE2 data` - CCLE characterization using sequencing technologies. Data described: RNA splicing, DNA methylation, Histone modification, miRNA expression, RPPA for 1072 cells. Data availability: https://portals.broadinstitute.org/ccle/data, https://depmap.org/portal/download/
     - Ghandi, Mahmoud, Franklin W. Huang, Judit Jané-Valbuena, Gregory V. Kryukov, Christopher C. Lo, E. Robert McDonald, Jordi Barretina, et al. “Next-Generation Characterization of the Cancer Cell Line Encyclopedia.” Nature, May 8, 2019. https://doi.org/10.1038/s41586-019-1186-3.
 
+### cBioPortal
+
+- [Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)](https://www.cbioportal.org/study/summary?id=brca_metabric) - Targeted sequencing of 2509 primary breast tumors with 548 matched normals. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27161491,30867590,22522925)
 
 ### TCGA PanCancer
 
