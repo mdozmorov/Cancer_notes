@@ -108,16 +108,16 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### TCGA
 
-- Google Cloud Pilot RNA-Sequencing for CCLE and TCGA, https://osf.io/gqrz9/
+- [Google Cloud Pilot RNA-Sequencing for CCLE and TCGA](https://osf.io/gqrz9/)
 
-- PanCancer atlas RNA-seq, RPPA, Methylation, miRNA, Copy Number, Mutation, Clinical data, includes ABSOLUTE purity estimates, https://gdc.cancer.gov/about-data/publications/pancanatlas
+- [PanCancer atlas RNA-seq, RPPA, Methylation, miRNA, Copy Number, Mutation, Clinical data, includes ABSOLUTE purity estimates](https://gdc.cancer.gov/about-data/publications/pancanatlas)
 
-- Normalized TCGA RNA-seq data, from Yu, K., Chen, B., Aran, D., Charalel, J., Yau, C., Wolf, D.M., van ‘t Veer, L.J., Butte, A.J., Goldstein, T., and Sirota, M. (2019). Comprehensive transcriptomic analysis of cell lines as models of primary tumors across 22 tumor types. Nature Communications 10. https://www.synapse.org/#!Synapse:syn18685536/files/
+- Normalized TCGA RNA-seq data, from Yu, K., Chen, B., Aran, D., Charalel, J., Yau, C., Wolf, D.M., van ‘t Veer, L.J., Butte, A.J., Goldstein, T., and Sirota, M. (2019). "[Comprehensive transcriptomic analysis of cell lines as models of primary tumors across 22 tumor types](https://www.synapse.org/#!Synapse:syn18685536/files/)". Nature Communications 10. 
 
-- Zhang, Zhuo, Hao Li, Shuai Jiang, Ruijiang Li, Wanying Li, Hebing Chen, and Xiaochen Bo. “A Survey and Evaluation of Web-Based Tools/Databases for Variant Analysis of TCGA Data.” Briefings in Bioinformatics, March 29, 2018. https://doi.org/10.1093/bib/bby023. - The most comprehensive review of TCGA-related tools. Table 3 - List of Web servers and databases. 
+- Zhang, Zhuo, Hao Li, Shuai Jiang, Ruijiang Li, Wanying Li, Hebing Chen, and Xiaochen Bo. “[A Survey and Evaluation of Web-Based Tools/Databases for Variant Analysis of TCGA Data](https://doi.org/10.1093/bib/bby023).” Briefings in Bioinformatics, March 29, 2018 - The most comprehensive review of TCGA-related tools. Table 3 - List of Web servers and databases. 
 
-- NCI Genomics Data Commons API. https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/ - docs. https://github.com/Bioconductor/GenomicDataCommons - R package
-    - Shane Wilson, Michael Fitzsimons, Martin Ferguson, Allison Heath, Mark Jensen, Josh Miller, Mark W. Murphy, James Porter, Himanso Sahni, Louis Staudt, Yajing Tang, Zhining Wang, Christine Yu, Junjun Zhang, Vincent Ferretti and Robert L. Grossman. "Developing Cancer Informatics Applications and Tools Using the NCI Genomic Data Commons API." DOI: 10.1158/0008-5472.CAN-17-0598 Published November 2017 http://cancerres.aacrjournals.org/content/77/21/e15
+- NCI Genomics Data Commons API. https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/ - docs. https://github.com/Bioconductor/GenomicDataCommons - R package. [BAM Slicing API](https://docs.gdc.cancer.gov/API/Users_Guide/BAM_Slicing/)
+    - Shane Wilson, Michael Fitzsimons, Martin Ferguson, Allison Heath, Mark Jensen, Josh Miller, Mark W. Murphy, James Porter, Himanso Sahni, Louis Staudt, Yajing Tang, Zhining Wang, Christine Yu, Junjun Zhang, Vincent Ferretti and Robert L. Grossman. "[Developing Cancer Informatics Applications and Tools Using the NCI Genomic Data Commons API](http://cancerres.aacrjournals.org/content/77/21/e15)." DOI: 10.1158/0008-5472.CAN-17-0598 Published November 2017 
 
 ### Integrative
 
