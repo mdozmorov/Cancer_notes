@@ -179,7 +179,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - `oncoNEM` - A package for inferring clonal lineage trees from single-cell somatic single nucleotide variants. https://bitbucket.org/edith_ross/onconem
 
-- `PyClone` - inferring the cellular prevalence of point mutations from deeply sequenced data. http://compbio.bccrc.ca/software/pyclone/
+- [PyClone](https://github.com/Roth-Lab/pyclone) - a statistical model (Bayesian clustering method) for inferring the clonal populations  from deeply (over 100X) sequenced data in a single patient.
+    - Roth, Andrew, Jaswinder Khattra, Damian Yap, Adrian Wan, Emma Laks, Justina Biele, Gavin Ha, Samuel Aparicio, Alexandre Bouchard-Côté, and Sohrab P Shah. “[PyClone: Statistical Inference of Clonal Population Structure in Cancer](https://doi.org/10.1038/nmeth.2883).” Nature Methods, (April 2014)
 
 - `SciClone` - number and genetic composition of tumor subclones by analyzing the variant allele frequencies of somatic mutations. Excludes CNV regions. https://github.com/genome/sciclone
 
