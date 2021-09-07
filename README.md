@@ -335,6 +335,9 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - `CARE` - biomarker identification from interactions of drug target genes with other genes. Multivariate linear modeling with interaction term. Illustrative example of interaction of BRAF mutation and EGFR expression. Sample separation by gene expression correlation with CARE score better predicts survival. Comparison with correlation, elastic net, support vector regression. http://care.dfci.harvard.edu/, download page http://care.dfci.harvard.edu/download/, nls_logsig tool to compute AUC for dose curves.
     - Jiang, Peng, Winston Lee, Xujuan Li, Carl Johnson, Jun S. Liu, Myles Brown, Jon Christopher Aster, and X. Shirley Liu. “Genome-Scale Signatures of Gene Interaction from Compound Screens Predict Clinical Efficacy of Targeted Cancer Therapies.” Cell Systems 6, no. 3 (March 2018): 343-354.e5. https://doi.org/10.1016/j.cels.2018.01.009.
 
+- [PharmacoDB](https://pharmacodb.pmgenomics.ca/) - A database to mine cancer pharmacogenomics datasets. Guide to the database. [Data download and Docker image](https://pharmacodb.pmgenomics.ca/download). [GitHub](https://github.com/bhklab/PharmacoDB)
+    - Smirnov, Petr, Victor Kofia, Alexander Maru, Mark Freeman, Chantal Ho, Nehme El-Hachem, George-Alexandru Adam, Wail Ba-alawi, Zhaleh Safikhani, and Benjamin Haibe-Kains. “[PharmacoDB: An Integrative Database for Mining in Vitro Anticancer Drug Screening Studies](https://doi.org/10.1093/nar/gkx911).” Nucleic Acids Research, October 9, 2017. 
+
 - `OncoKB` - OncoKB cancer gene database, different levels of evidence, fully downloadable. http://oncokb.org
     - Chakravarty, Debyani, Jianjiong Gao, Sarah M. Phillips, Ritika Kundra, Hongxin Zhang, Jiaojiao Wang, Julia E. Rudolph, et al. “OncoKB: A Precision Oncology Knowledge Base.” JCO Precision Oncology 2017 (July 2017).
 
