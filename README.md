@@ -130,6 +130,9 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Deep Learning
 
+- [TDC](https://tdcommons.ai/overview/) (Therapeutic Data Commons) - Kaggle for therapeutics, discovery and development of safe and effective medicines. A framework to evaluate machine learning, contains 66 datasets, 22 learning tasks (single-instance, multi-instance, generative learning). [PyTDC](https://github.com/mims-harvard/TDC) - python interface. The paper describes details of each data, task, resource.
+    - Huang, Kexin, Tianfan Fu, Wenhao Gao, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun, and Marinka Zitnik. “[Therapeutics Data Commons: Machine Learning Datasets and Tasks for Therapeutics](http://arxiv.org/abs/2102.09548).” ArXiv:2102.09548, February 18, 2021.
+
 - Review of drug response prediction methods in cancer. Overview of deep learning architectures, Table 1 - DL terminology, Table 2 - data resources (NCI-60, CCLE, GDSC1 etc.), Table 3 - drug combination screening studies. DREAM challenges addressing drug sensitivity. Approaches for building and evaluating drug response prediction models, single-drug (Table 4 - studies, models) and drug combination (Table 6) approaches. DeepSynergy, NCI-ALMANAC dataset, AstraZeneca-Sanger Drug Combination DREAM challenge paper. Evaluation of model ensembles. Deep learning for drug repurposing. Methods for model evaluation, improving performance, increase interpretability. Deep reading with lots of references.
     - Baptista, Delora, Pedro G Ferreira, and Miguel Rocha. “[Deep Learning for Drug Response Prediction in Cancer](https://doi.org/10.1093/bib/bbz171),” Briefings in Bioinformatics, 17 January 2020
 
