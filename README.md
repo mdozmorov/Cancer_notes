@@ -317,6 +317,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Drugs
 
+- [oncoPharmaDB](https://github.com/sigven/oncoPharmaDB) - R package providing a dataset and method to query targeted and non-targeted cancer drugs, including comprehensive annotations per target, drug mechanism-of-action, approval dates, clinical trial phases for various indications etc.
+
 - [Cancer Perturbed Proteomics data](https://bioinformatics.mdanderson.org/public-software/cppa/) - Protein responses to drug perturbations across cancer cell lines. Approx. 210 clinically relevant proteins. A systematic map of protein-drug connectivity. [Download](https://tcpaportal.org/cppa/#/download)
     - Zhao, Wei, Jun Li, Mei-Ju M. Chen, Yikai Luo, Zhenlin Ju, Nicole K. Nesser, Katie Johnson-Camacho, et al. “[Large-Scale Characterization of Drug Responses of Clinically Relevant Proteins in Cancer Cell Lines](https://doi.org/10.1016/j.ccell.2020.10.008).” Cancer Cell, (December 2020)
 
