@@ -249,6 +249,13 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Cancer driver genes
 
+- Nucleotide context of mutations is associated with driver/passenger status. Pan-cancer analysis (data from 87 studies, including TCGA), seven methods for driver-gene detection, 460 driver genes clustered into 21 cancer-related pathways. Apoptosis regulation and chromatin modification are recurrent pathways. MutPanning software (Mac, Windows, Java) for analyzing nucleotide content.
+    - Dietlein, Felix, Donate Weghorn, Amaro Taylor-Weiner, André Richters, Brendan Reardon, David Liu, Eric S. Lander, Eliezer M. Van Allen, and Shamil R. Sunyaev. “[Identification of Cancer Driver Genes Based on Nucleotide Context](https://doi.org/10.1038/s41588-019-0572-y).” Nature Genetics, February 3, 2020.
+    - [Dietlein_2020_Drivers.xlsx](data/Dietlein_2020_Drivers.xlsx) - [Supplementary Tables 1–5](https://www.nature.com/articles/s41588-019-0572-y#Sec32)
+        - Supplementary Table 3 - Stratification of gene-tumor pairs based on their literature support (460 genes aggregated by cancer type).
+        - Supplementary Table 4 - Stratification of driver genes based on their literature support (460 genes aggregated by gene).
+        - Supplementary Table 5 - Literature references for additional cancer genes (30 genes).
+
 - [MOMA Oncogenic Architecture](http://www.mr-graph.org/) - A network-based integrative genomic analysis of 20 The Cancer Genome Atlas cohorts characterizes conserved master regulator blocks underlying cancer hallmarks across different tumor types, providing insights into the connection between genetic alterations and tumor transcriptional identity. [Tumor Subtypes Explorer](http://www.mr-graph.org/)
     - Integrative genomic analysis of 20 TCGA cohorts identifies 112 distinct tumor subtypes
     - 407 master regulators (MRs) canalize the effects of mutations to implement cancer states
