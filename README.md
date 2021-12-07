@@ -249,6 +249,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Cancer driver genes
 
+- Many cancer genes switch between one-hit and two-hit drivers. Mutations of genes in the same biological pathway is a contributing factor. Higher-order interactions are abundant. [GitHub](https://github.com/SolipParkLab/CancerFitness), [Supplsmentary Information](https://www.nature.com/articles/s41467-021-27242-3#Sec19). [Park_2021_cancer_genes.xlsx](data/Park_2021_cancer_genes.xlsx) - Supplementary Dataset 1, 201 genes include 117 tumor-suppressor genes (TSGs), 77 oncogenes (OGs) and 7 dual-function genes (DFGs) <details>
+    <summary>Paper</summary>
+    Park, Solip, Fran Supek, and Ben Lehner. “[Higher Order Genetic Interactions Switch Cancer Genes from Two-Hit to One-Hit Drivers](https://doi.org/10.1038/s41467-021-27242-3).” Nature Communications, (December 2021)
+</details>
+
 - Nucleotide context of mutations is associated with driver/passenger status. Pan-cancer analysis (data from 87 studies, including TCGA), seven methods for driver-gene detection, 460 driver genes clustered into 21 cancer-related pathways. Apoptosis regulation and chromatin modification are recurrent pathways. MutPanning software (Mac, Windows, Java) for analyzing nucleotide content.
     - Dietlein, Felix, Donate Weghorn, Amaro Taylor-Weiner, André Richters, Brendan Reardon, David Liu, Eric S. Lander, Eliezer M. Van Allen, and Shamil R. Sunyaev. “[Identification of Cancer Driver Genes Based on Nucleotide Context](https://doi.org/10.1038/s41588-019-0572-y).” Nature Genetics, February 3, 2020.
     - [Dietlein_2020_Drivers.xlsx](data/Dietlein_2020_Drivers.xlsx) - [Supplementary Tables 1–5](https://www.nature.com/articles/s41588-019-0572-y#Sec32)
