@@ -9,6 +9,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
 
+- [Drugs](#drugs)
 - [Tools](#tools)
   - [Preprocessing](#preprocessing)
   - [Purity](#purity)
@@ -25,7 +26,6 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [Methods to find best cutoff for survival](#methods-to-find-best-cutoff-for-survival)
 - [Cancer driver genes](#cancer-driver-genes)
 - [Cancer driver mutations](#cancer-driver-mutations)
-- [Drugs](#drugs)
 - [Data](#data)
   - [cBioPortal](#cbioportal)
   - [TCGA PanCancer](#tcga-pancancer)
@@ -35,6 +35,84 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
+
+## Drugs
+
+- [Cancer Perturbed Proteomics data](https://bioinformatics.mdanderson.org/public-software/cppa/) - Protein responses to drug perturbations across cancer cell lines. Approx. 210 clinically relevant proteins. A systematic map of protein-drug connectivity. [Download](https://tcpaportal.org/cppa/#/download) <details>
+    <summary>Paper</summary>
+    Zhao, Wei, Jun Li, Mei-Ju M. Chen, Yikai Luo, Zhenlin Ju, Nicole K. Nesser, Katie Johnson-Camacho, et al. “[Large-Scale Characterization of Drug Responses of Clinically Relevant Proteins in Cancer Cell Lines](https://doi.org/10.1016/j.ccell.2020.10.008).” Cancer Cell, (December 2020)
+</details>
+
+- [CARE](http://care.dfci.harvard.edu/) - biomarker identification from interactions of drug target genes with other genes. Multivariate linear modeling with interaction term. Illustrative example of interaction of BRAF mutation and EGFR expression. Sample separation by gene expression correlation with CARE score better predicts survival. Comparison with correlation, elastic net, support vector regression. [Download](http://care.dfci.harvard.edu/download/), nls_logsig tool to compute AUC for dose curves. <details>
+    <summary>Paper</summary>
+    Jiang, Peng, Winston Lee, Xujuan Li, Carl Johnson, Jun S. Liu, Myles Brown, Jon Christopher Aster, and X. Shirley Liu. “[Genome-Scale Signatures of Gene Interaction from Compound Screens Predict Clinical Efficacy of Targeted Cancer Therapies](https://doi.org/10.1016/j.cels.2018.01.009).” Cell Systems 6, no. 3 (March 2018)
+</details>
+
+- [CancerRxGene](http://www.cancerrxgene.org/) - Drug-gene targets. Lots of drug sensitivity information. <details>
+    <summary>Paper</summary>
+    Yang, Wanjuan, Jorge Soares, Patricia Greninger, Elena J. Edelman, Howard Lightfoot, Simon Forbes, Nidhi Bindal, et al. “[Genomics of Drug Sensitivity in Cancer (GDSC): A Resource for Therapeutic Biomarker Discovery in Cancer Cells](https://doi.org/10.1093/nar/gks1111).” Nucleic Acids Research 41, no. Database issue (January 2013)
+</details>
+
+- [CellMinerCDB](https://discover.nci.nih.gov/cellminercdb/) - genomics (gene expression, mutations, copy number, methylation, and protein expression) and pharmacogenomics (drug responses and genomics interplay) analyses of cancer cell lines. Integrates NCI-60, GDSC, CCLE, CTRP, and NCI-SCLC databases built on top of `rcellminer` R package. Correlation and multivariate analyses. Tissue-specific analysis. [10m video tutorial](https://youtu.be/XljXazRGkQ8) <details>
+    <summary>Paper</summary>
+    Rajapakse, Vinodh N., Augustin Luna, Mihoko Yamade, Lisa Loman, Sudhir Varma, Margot Sunshine, Francesco Iorio, et al. “[CellMinerCDB for Integrative Cross-Database Genomics and Pharmacogenomics Analyses of Cancer Cell Lines](https://doi.org/10.1016/j.isci.2018.11.029).” IScience 10 (December 2018)
+</details>
+
+- [CDGnet](http://epiviz.cbcb.umd.edu/shiny/CDGnet/) - targeted therapies recommendation system. Input - text file with molecular alterations. Integrating them with KEGG pathways, FDA-approved drugs, DailyMed, DrugBank, PubChem.Four drug prioritization categories: indication for the same cancer type, different type, pathway-guided, relevant in other cancer types. [GitHub](https://github.com/SiminaB/CDGnet/). Similar functionality - [PreMedKB](http://www.fudan-pgx.org/premedkb/index.html#/home). <details>
+    <summary>Preprint</summary>
+    Kancherla, Jayaram, Shruti Rao, Krithika Bhuvaneshwar, Rebecca B. Riggins, Robert A. Beckman, Subha Madhavan, Héctor Corrada Bravo, and Simina M. Boca. “[An Evidence-Based Network Approach to Recommending Targeted Cancer Therapies](https://doi.org/10.1101/605261).” Bioinformatics, April 11, 2019.
+</details>
+
+- [CTRP](https://portals.broadinstitute.org/ctrp/) - The Cancer Therapeutics Response Portal (CTRP) links genetic, lineage, and other cellular features of cancer cell lines to small-molecule sensitivity with the goal of accelerating discovery of patient-matched cancer therapeutics. 
+
+- [DepMap](https://depmap.org/portal/depmap/) - Large-scale RNAi screen for cancer vulnerability genes in 501 cell lines from 20 cancers, shRNA silencing \~17,000 genes. DEMETER - Modeling and removal of shRNA off-target effects. 6 sigma cutoff of DEMETER scores to identify 769 differential gene dependencies. ATLANTIS model to predict other genes - MDPs, marker dependency pairs. [Story 1](https://www.broadinstitute.org/news/mapping-cancers-vulnerabilities), [Story 2](http://news.harvard.edu/gazette/story/2017/07/first-draft-of-genome-wide-cancer-dependency-map-released/), [Story 3](https://depmap.org/rnai/index) <details>
+    <summary>Paper</summary> 
+    Tsherniak, Aviad, Francisca Vazquez, Phil G. Montgomery, Barbara A. Weir, Gregory Kryukov, Glenn S. Cowley, Stanley Gill, et al. “[Defining a Cancer Dependency Map](https://doi.org/10.1016/j.cell.2017.06.010).” Cell 170, no. 3 (July 2017)
+</details>
+
+- [DGB](http://amp.pharm.mssm.edu/DGB/) - Drug Gene Budger, small molecule prioritization using LINCS L1000, CMap, GEO, CREEDS. Output - drugs that up- or downregulated the selected gene, stratified per database. <details>
+    <summary>Paper</summary>
+    Wang, Zichen, Edward He, Kevin Sani, Kathleen M Jagodnik, Moshe C Silverstein, and Avi Ma’ayan. “[Drug Gene Budger (DGB): An Application for Ranking Drugs to Modulate a Specific Gene Based on Transcriptomic Signatures](https://doi.org/10.1093/bioinformatics/bty763).” Edited by Jonathan Wren. Bioinformatics 35, no. 7 (April 1, 2019): 1247–48. 
+</details>
+
+- [DGIdb](http://www.dgidb.org/) - drug-gene interaction database integrating 30 sources. [API access](http://dgidb.org/api). [Downloads in text format](http://dgidb.org/downloads). R/Bioconductor [rDGIdb package](https://bioconductor.org/packages/rDGIdb/). <details>
+    <summary>Paper</summary>
+    Cotto, Kelsy C, Alex H Wagner, Yang-Yang Feng, Susanna Kiwala, Adam C Coffman, Gregory Spies, Alex Wollam, Nicholas C Spies, Obi L Griffith, and Malachi Griffith. “[DGIdb 3.0: A Redesign and Expansion of the Drug–Gene Interaction Database](https://doi.org/10.1093/nar/gkx1143).” Nucleic Acids Research, (January 4, 2018)
+</details>
+
+- [DSigDB](http://dsigdb.tanlab.org/DSigDBv1.0/) - drug-gene signature database. D1 (approved drugs), D2 (kinase inhibitors), D3 (perturbagent signatures), D4 (computational predictions). [Download](http://dsigdb.tanlab.org/DSigDBv1.0/download.html).
+    Yoo, Minjae, Jimin Shin, Jihye Kim, Karen A. Ryall, Kyubum Lee, Sunwon Lee, Minji Jeon, Jaewoo Kang, and Aik Choon Tan. “[DSigDB: Drug Signatures Database for Gene Set Analysis](https://doi.org/10.1093/bioinformatics/btv313)” Bioinformatics 31, no. 18 (September 15, 2015)
+
+- [Drug Repurposing Hub](https://clue.io/repurposing#download-data) - drugs with targets, manually curated, experimentally validated. Data, drugs and targets. <details>
+    <summary>Paper</summary>
+    Corsello, Steven M, Joshua A Bittker, Zihan Liu, Joshua Gould, Patrick McCarren, Jodi E Hirschman, Stephen E Johnston, et al. “[The Drug Repurposing Hub: A next-Generation Drug Library and Information Resource](https://doi.org/10.1038/nm.4306).” Nature Medicine 23, no. 4 (April 2017)
+</details>
+
+- [GDA](http://gda.unimore.it/) - Genomics and Drugs integrated Analysis. The Genomics and Drugs integrated Analysis portal (GDA) is a web-based tool that combines NCI60 uniquely large number of drug sensitivity data with CCLE and NCI60 gene mutation and expression profiles. Gene-to-drug and reverse analysis.
+
+- [OncoKB](http://oncokb.org) - OncoKB cancer gene-drug database, different levels of evidence, fully downloadable. [API access](https://www.oncokb.org/apiAccess). <details>
+    <summary>
+    Chakravarty, Debyani, Jianjiong Gao, Sarah M. Phillips, Ritika Kundra, Hongxin Zhang, Jiaojiao Wang, Julia E. Rudolph, et al. “[OncoKB: A Precision Oncology Knowledge Base](https://doi.org/10.1200/po.17.00011).” JCO Precision Oncology 2017 (July 2017).
+</summary>
+
+- [oncoPharmaDB](https://github.com/sigven/oncoPharmaDB) - R package providing a dataset and method to query targeted and non-targeted cancer drugs, including comprehensive annotations per target, drug mechanism-of-action, approval dates, clinical trial phases for various indications etc.
+
+- [PharmacoDB](https://pharmacodb.pmgenomics.ca/) - A database to mine cancer pharmacogenomics datasets. Guide to the database. [Data download and Docker image](https://pharmacodb.pmgenomics.ca/download). [GitHub](https://github.com/bhklab/PharmacoDB) <details>
+    <summary>Paper</summary>
+    Smirnov, Petr, Victor Kofia, Alexander Maru, Mark Freeman, Chantal Ho, Nehme El-Hachem, George-Alexandru Adam, Wail Ba-alawi, Zhaleh Safikhani, and Benjamin Haibe-Kains. “[PharmacoDB: An Integrative Database for Mining in Vitro Anticancer Drug Screening Studies](https://doi.org/10.1093/nar/gkx911).” Nucleic Acids Research, October 9, 2017. 
+</details>
+
+- [PMKB](https://pmkb.weill.cornell.edu/) The Precision Medicine Knowledgebase is a project of the Englander Institute for Precision Medicine (EIPM) at Weill Cornell Medicine. [API access](https://pmkb.weill.cornell.edu/api/index.html). [Download](https://pmkb.weill.cornell.edu/about).
+
+- [TTD](http://db.idrblab.net/ttd/) (Therapeutic Target Database), contains 1) target-regulating miRNAs and TFs, 2) target-interacting proteins, and 3) patented agents and their targets. Uses ICD-11 codes, support for ICD-9 and ICD-10 remains. Also includes COVID-19 target and drug database. [Data downloads](http://db.idrblab.net/ttd/full-data-download), full and subsets. [Mirror 2](http://db.idrblab.org/ttd/), [Mirror 3](http://bidd.nus.edu.sg/group/ttd/ttd.asp) <details>
+    <summary>Paper</summary>
+    Wang, Yunxia, Song Zhang, Fengcheng Li, Ying Zhou, Ying Zhang, Zhengwen Wang, Runyuan Zhang, et al. “[Therapeutic Target Database 2020: Enriched Resource for Facilitating Research and Early Development of Targeted Therapeutics](https://doi.org/10.1093/nar/gkz981),” Nucleic Acids Research, 06 November 2019
+</details>
+
+- [Drug combination screen, synergy](http://www.cmtlab.org:3000/combo_app.html). Statistics for the analysis of large-scale drug screens, 108 drugs, 40 cell lines. Bliss independence model description. Bliss-based linear model to evaluate viabilities for individual drugs. [GitHub](https://github.com/arnaudmgh/synergy-screen). [Raw data](https://raw.githubusercontent.com/arnaudmgh/synergy-screen/master/data/rawscreen.csv) <details>
+    <summary>Paper</summary>
+    Amzallag, Arnaud, Sridhar Ramaswamy, and Cyril H. Benes. “[Statistical Assessment and Visualization of Synergies for Large-Scale Sparse Drug Combination Datasets](https://doi.org/10.1186/s12859-019-2642-7).” BMC Bioinformatics 20, no. 1 (December 2019). 
+</details>
 
 ## Tools
 
@@ -325,55 +403,6 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - `CANCERSIGN` - identifies 3-mer and 5-mer mutational signatures, cluster samples by signatures. Based on Alexandrov method, Non-negative matrix factorization, explanation. Other tools - SomaticSignatures, SigneR, deconstructSigs, compared in Table 1. https://github.com/ictic-bioinformatics/CANCERSIGN
     - Bayati, Masroor, Hamid Reza Rabiee, Mehrdad Mehrbod, Fatemeh Vafaee, Diako Ebrahimi, Alistair Forrest, and Hamid Alinejad-Rokny. “CANCERSIGN: A User-Friendly and Robust Tool for Identification and Classification of Mutational Signatures and Patterns in Cancer Genomes.” BioRxiv, January 1, 2019, 424960. https://doi.org/10.1101/424960.
-
-
-## Drugs
-
-- [oncoPharmaDB](https://github.com/sigven/oncoPharmaDB) - R package providing a dataset and method to query targeted and non-targeted cancer drugs, including comprehensive annotations per target, drug mechanism-of-action, approval dates, clinical trial phases for various indications etc.
-
-- [Cancer Perturbed Proteomics data](https://bioinformatics.mdanderson.org/public-software/cppa/) - Protein responses to drug perturbations across cancer cell lines. Approx. 210 clinically relevant proteins. A systematic map of protein-drug connectivity. [Download](https://tcpaportal.org/cppa/#/download)
-    - Zhao, Wei, Jun Li, Mei-Ju M. Chen, Yikai Luo, Zhenlin Ju, Nicole K. Nesser, Katie Johnson-Camacho, et al. “[Large-Scale Characterization of Drug Responses of Clinically Relevant Proteins in Cancer Cell Lines](https://doi.org/10.1016/j.ccell.2020.10.008).” Cancer Cell, (December 2020)
-
-- Drug combination screen, synergy. Statistics for the analysis of large-scale drug screens, 108 drugs, 40 cell lines. Bliss independence model description. Bliss-based linear model to evaluate viabilities for individual drugs. Web-interface: http://www.cmtlab.org:3000/combo_app.html. Code to reproduce the analysis: https://github.com/arnaudmgh/synergy-screen. Raw data: https://raw.githubusercontent.com/arnaudmgh/synergy-screen/master/data/rawscreen.csv
-    - Amzallag, Arnaud, Sridhar Ramaswamy, and Cyril H. Benes. “Statistical Assessment and Visualization of Synergies for Large-Scale Sparse Drug Combination Datasets.” BMC Bioinformatics 20, no. 1 (December 2019). https://doi.org/10.1186/s12859-019-2642-7.
-
-- [TTD](http://db.idrblab.net/ttd/) (Therapeutic Target Database), contains 1) target-regulating miRNAs and TFs, 2) target-interacting proteins, and 3) patented agents and their targets. Uses ICD-11 codes, support for ICD-9 and ICD-10 remains. Also includes COVID-19 target and drug database. [Data downloads](http://db.idrblab.net/ttd/full-data-download), full and subsets. [Mirror 2](http://db.idrblab.org/ttd/), [Mirror 3](http://bidd.nus.edu.sg/group/ttd/ttd.asp)
-    - Wang, Yunxia, Song Zhang, Fengcheng Li, Ying Zhou, Ying Zhang, Zhengwen Wang, Runyuan Zhang, et al. “[Therapeutic Target Database 2020: Enriched Resource for Facilitating Research and Early Development of Targeted Therapeutics](https://doi.org/10.1093/nar/gkz981),” Nucleic Acids Research, 06 November 2019
-
-- `DGB` - Drug Gene Budger, small molecule prioritization using LINCS L1000, CMap, GEO, CREEDS. Output - drugs that up- or downregulated the selected gene, stratified per database. http://amp.pharm.mssm.edu/DGB/
-    - Wang, Zichen, Edward He, Kevin Sani, Kathleen M Jagodnik, Moshe C Silverstein, and Avi Ma’ayan. “Drug Gene Budger (DGB): An Application for Ranking Drugs to Modulate a Specific Gene Based on Transcriptomic Signatures.” Edited by Jonathan Wren. Bioinformatics 35, no. 7 (April 1, 2019): 1247–48. https://doi.org/10.1093/bioinformatics/bty763.
-
-- `CellMinerCDB` - genomics (gene expression, mutations, copy number, methylation, and protein expression) and pharmacogenomics (drug responses and genomics interplay) analyses of cancer cell lines. Integrates NCI-60, GDSC, CCLE, CTRP, and NCI-SCLC databases built on top of `rcellminer` R package. Correlation and multivariate analyses. Tissue-specific analysis. https://discover.nci.nih.gov/cellminercdb/, 10m video tutorial https://youtu.be/XljXazRGkQ8.
-    - Rajapakse, Vinodh N., Augustin Luna, Mihoko Yamade, Lisa Loman, Sudhir Varma, Margot Sunshine, Francesco Iorio, et al. “CellMinerCDB for Integrative Cross-Database Genomics and Pharmacogenomics Analyses of Cancer Cell Lines.” IScience 10 (December 2018): 247–64. https://doi.org/10.1016/j.isci.2018.11.029.
-
-- `DGIdb` - drug-gene interaction database integrating 30 sources. API access http://dgidb.org/api. Downloads in text format http://dgidb.org/downloads. http://www.dgidb.org/
-    - Cotto, Kelsy C, Alex H Wagner, Yang-Yang Feng, Susanna Kiwala, Adam C Coffman, Gregory Spies, Alex Wollam, Nicholas C Spies, Obi L Griffith, and Malachi Griffith. “DGIdb 3.0: A Redesign and Expansion of the Drug–Gene Interaction Database.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D1068–73. https://doi.org/10.1093/nar/gkx1143.
-
-- `CARE` - biomarker identification from interactions of drug target genes with other genes. Multivariate linear modeling with interaction term. Illustrative example of interaction of BRAF mutation and EGFR expression. Sample separation by gene expression correlation with CARE score better predicts survival. Comparison with correlation, elastic net, support vector regression. http://care.dfci.harvard.edu/, download page http://care.dfci.harvard.edu/download/, nls_logsig tool to compute AUC for dose curves.
-    - Jiang, Peng, Winston Lee, Xujuan Li, Carl Johnson, Jun S. Liu, Myles Brown, Jon Christopher Aster, and X. Shirley Liu. “Genome-Scale Signatures of Gene Interaction from Compound Screens Predict Clinical Efficacy of Targeted Cancer Therapies.” Cell Systems 6, no. 3 (March 2018): 343-354.e5. https://doi.org/10.1016/j.cels.2018.01.009.
-
-- [PharmacoDB](https://pharmacodb.pmgenomics.ca/) - A database to mine cancer pharmacogenomics datasets. Guide to the database. [Data download and Docker image](https://pharmacodb.pmgenomics.ca/download). [GitHub](https://github.com/bhklab/PharmacoDB)
-    - Smirnov, Petr, Victor Kofia, Alexander Maru, Mark Freeman, Chantal Ho, Nehme El-Hachem, George-Alexandru Adam, Wail Ba-alawi, Zhaleh Safikhani, and Benjamin Haibe-Kains. “[PharmacoDB: An Integrative Database for Mining in Vitro Anticancer Drug Screening Studies](https://doi.org/10.1093/nar/gkx911).” Nucleic Acids Research, October 9, 2017. 
-
-- `OncoKB` - OncoKB cancer gene database, different levels of evidence, fully downloadable. http://oncokb.org
-    - Chakravarty, Debyani, Jianjiong Gao, Sarah M. Phillips, Ritika Kundra, Hongxin Zhang, Jiaojiao Wang, Julia E. Rudolph, et al. “OncoKB: A Precision Oncology Knowledge Base.” JCO Precision Oncology 2017 (July 2017).
-
-- `DepMap` - Large-scale RNAi screen for cancer vulnerability genes in 501 cell lines from 20 cancers, shRNA silencing \~17,000 genes. DEMETER - Modeling and removal of shRNA off-target effects. 6 sigma cutoff of DEMETER scores to identify 769 differential gene dependencies. ATLANTIS model to predict other genes - MDPs, marker dependency pairs. https://www.broadinstitute.org/news/mapping-cancers-vulnerabilities, http://news.harvard.edu/gazette/story/2017/07/first-draft-of-genome-wide-cancer-dependency-map-released/, https://depmap.org/rnai/index, https://depmap.org/portal/depmap/
-    - Tsherniak, Aviad, Francisca Vazquez, Phil G. Montgomery, Barbara A. Weir, Gregory Kryukov, Glenn S. Cowley, Stanley Gill, et al. “Defining a Cancer Dependency Map.” Cell 170, no. 3 (July 2017): 564-576.e16. https://doi.org/10.1016/j.cell.2017.06.010.
-
-- `DSigDB` - drug-gene signature database. D1 (approved drugs), D2 (kinase inhibitors), D3 (perturbagent signatures), D4 (computational predictions). Download, online. http://tanlab.ucdenver.edu/DSigDB/DSigDBv1.0/download.html
-    - Yoo, Minjae, Jimin Shin, Jihye Kim, Karen A. Ryall, Kyubum Lee, Sunwon Lee, Minji Jeon, Jaewoo Kang, and Aik Choon Tan. “DSigDB: Drug Signatures Database for Gene Set Analysis: Fig. 1.” Bioinformatics 31, no. 18 (September 15, 2015): 3069–71. https://doi.org/10.1093/bioinformatics/btv313.
-
-- `Drug Repurposing Hub` - drugs with targets, manually curated, experimentally validated. Data, drugs and targets, are at https://clue.io/repurposing#download-data
-    - Corsello, Steven M, Joshua A Bittker, Zihan Liu, Joshua Gould, Patrick McCarren, Jodi E Hirschman, Stephen E Johnston, et al. “The Drug Repurposing Hub: A next-Generation Drug Library and Information Resource.” Nature Medicine 23, no. 4 (April 2017): 405–8. https://doi.org/10.1038/nm.4306.
-
-- `CancerRxGene` - Drug-gene targets. Lots of drug sensitivity information. http://www.cancerrxgene.org/
-    - Yang, Wanjuan, Jorge Soares, Patricia Greninger, Elena J. Edelman, Howard Lightfoot, Simon Forbes, Nidhi Bindal, et al. “Genomics of Drug Sensitivity in Cancer (GDSC): A Resource for Therapeutic Biomarker Discovery in Cancer Cells.” Nucleic Acids Research 41, no. Database issue (January 2013): D955-961. https://doi.org/10.1093/nar/gks1111.
-
-- `GDA` - Genomics and Drugs integrated Analysis. The Genomics and Drugs integrated Analysis portal (GDA) is a web-based tool that combines NCI60 uniquely large number of drug sensitivity data with CCLE and NCI60 gene mutation and expression profiles. Gene-to-drug and reverse analysis. http://gda.unimore.it/
-
-- `CTRP` - The Cancer Therapeutics Response Portal (CTRP) links genetic, lineage, and other cellular features of cancer cell lines to small-molecule sensitivity with the goal of accelerating discovery of patient-matched cancer therapeutics. https://portals.broadinstitute.org/ctrp/
-
 
 
 ## Data
