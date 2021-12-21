@@ -460,6 +460,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### TCGA PanCancer
 
+- Catalog of cancer-associated gene alterations. PCAWG, ICGC and TCGA data analysis. Somatic alterations change gene expression, associated with splicing. Massive analysis results, figures, tables. [All data links](https://www.nature.com/articles/s41586-020-1970-0#data-availability), [All supplementary tables](https://www.nature.com/articles/s41586-020-1970-0#Sec54) - S1 - characteristics of all samples, covariates. S5 - somatic eGenes, 649 eQTLs, coordinates, genes, p-values, effect sizes. <details>
+    <summary>Paper</summary>
+    PCAWG Transcriptome Core Group, PCAWG Transcriptome Working Group, PCAWG Consortium, Claudia Calabrese, Natalie R. Davidson, Deniz Demircioğlu, Nuno A. Fonseca, et al. “Genomic Basis for RNA Alterations in Cancer.” Nature 578, no. 7793 (February 2020): 129–36. https://doi.org/10.1038/s41586-020-1970-0.
+</details>
+
 - Pan-cancer analysis of somatic noncoding driver mutations. Raw data: https://docs.icgc.org/pcawg/data/, Processed data: https://dcc.icgc.org/releases/PCAWG/drivers, significantly recurring breakpoints and juxtapositions http://www.svscape.org/. Extended data figures and tables should be considered individually https://www.nature.com/articles/s41586-020-1965-x#additional-information
     - PCAWG Drivers and Functional Interpretation Working Group, PCAWG Structural Variation Working Group, PCAWG Consortium, Esther Rheinbay, Morten Muhlig Nielsen, Federico Abascal, Jeremiah A. Wala, et al. “Analyses of Non-Coding Somatic Drivers in 2,658 Cancer Whole Genomes.” Nature 578, no. 7793 (February 2020): 102–11. https://doi.org/10.1038/s41586-020-1965-x.
 
