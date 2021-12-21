@@ -124,6 +124,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Purity
 
+- [GenomeScope](https://github.com/tbenavi1/genomescope2.0) and [Smudgeplot](https://github.com/KamilSJaron/smudgeplot) for ploidy detection directly from sequencing data. Based on k-mer counting using [KMC](https://github.com/refresh-bio/KMC) or [Jellyfish](https://github.com/gmarcais/Jellyfish), negative binomial-based mathematical model. [Web-GenomeScope](http://qb.cshl.edu/genomescope/genomescope2.0/). <details>
+    <summary>Paper</summary>
+    Ranallo-Benavidez, T Rhyker, Kamil S Jaron, and Michael C Schatz. “GenomeScope 2.0 and Smudgeplot for Reference-Free Profiling of Polyploid Genomes,” Nature Communications volume 11, Article number: 1432 (2020) https://doi.org/10.1038/s41467-020-14998-3
+</details>
+
 - `ABSOLUTE` - infers tumor purity, ploidy from SNPs, CNVs. Also detects subclonal heterogeneity.
     - Carter, Scott L., Kristian Cibulskis, Elena Helman, Aaron McKenna, Hui Shen, Travis Zack, Peter W. Laird, et al. “Absolute Quantification of Somatic DNA Alterations in Human Cancer.” Nature Biotechnology 30, no. 5 (May 2012): 413–21. https://doi.org/10.1038/nbt.2203.
     - Aran, Dvir, Marina Sirota, and Atul J. Butte. “Systematic Pan-Cancer Analysis of Tumour Purity.” Nature Communications 6, no. 1 (December 2015). https://doi.org/10.1038/ncomms9971. - TCGA tumor purity estimation using four methods: ESTIMATE, ABSOLUTE, LUMP, IHC, and a median consensus purity estimation. Gene expression correlates with purity and may affect correlation and differential expression detection analyses - big confounding effect.
