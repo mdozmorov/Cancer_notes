@@ -13,6 +13,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - [Tools](#tools)
   - [Preprocessing](#preprocessing)
   - [Purity](#purity)
+  - [Ploidy](#ploidy)
   - [Immune cell deconvolution](#immune-cell-deconvolution)
   - [BRCA](#brca)
   - [OvCa](#ovca)
@@ -59,7 +60,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 </details>
 
 - [CDGnet](http://epiviz.cbcb.umd.edu/shiny/CDGnet/) - targeted therapies recommendation system. Input - text file with molecular alterations. Integrating them with KEGG pathways, FDA-approved drugs, DailyMed, DrugBank, PubChem.Four drug prioritization categories: indication for the same cancer type, different type, pathway-guided, relevant in other cancer types. [GitHub](https://github.com/SiminaB/CDGnet/). Similar functionality - [PreMedKB](http://www.fudan-pgx.org/premedkb/index.html#/home). <details>
-    <summary>Preprint</summary>
+    <summary>Paper</summary>
     Kancherla, Jayaram, Shruti Rao, Krithika Bhuvaneshwar, Rebecca B. Riggins, Robert A. Beckman, Subha Madhavan, Héctor Corrada Bravo, and Simina M. Boca. “[An Evidence-Based Network Approach to Recommending Targeted Cancer Therapies](https://doi.org/10.1101/605261).” Bioinformatics, April 11, 2019.
 </details>
 
@@ -141,6 +142,13 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [ISOpureR](https://CRAN.R-project.org/package=ISOpureR) - Deconvolution of Tumour Profiles to purify tumor samples. Regression-based, uses purified tumor profile to estimate the proportion of tumor samples. Discussion of overfitting due to overparametrization
     - Quon, Gerald, Syed Haider, Amit G Deshwar, Ang Cui, Paul C Boutros, and Quaid Morris. “[Computational Purification of Individual Tumor Gene Expression Profiles Leads to Significant Improvements in Prognostic Prediction](https://doi.org/10.1186/gm433).” Genome Medicine 5, no. 3 (2013)
+
+### Ploidy
+
+- [Sequenza](https://sequenzatools.bitbucket.io/#/home) - paired tumor-normal WGS and WES analysis. Estimates tumor cellularity, ploidy, infer allele-speific copy number profiles. Python-based sequenza-utils perform data preprocessing. R package [sequenza](https://CRAN.R-project.org/package=sequenza) performs the analysis. [Documentation](https://cran.r-project.org/web/packages/sequenza/vignettes/sequenza.html). <details>
+    <summary>Paper</summary>
+    Favero, F., T. Joshi, A. M. Marquard, N. J. Birkbak, M. Krzystanek, Q. Li, Z. Szallasi, and A. C. Eklund. “Sequenza: Allele-Specific Copy Number and Mutation Profiles from Tumor Sequencing Data.” Annals of Oncology 26, no. 1 (January 2015): 64–70. https://doi.org/10.1093/annonc/mdu479.
+</details>
 
 ### Immune cell deconvolution
 
