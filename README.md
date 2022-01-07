@@ -145,6 +145,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Ploidy
 
+- [GenomeScope](http://qb.cshl.edu/genomescope/genomescope2.0/) and [Smudgeplot](https://github.com/KamilSJaron/smudgeplot) for ploidy detection directly from sequencing data. Based on k-mer counting using KMC or Jellyfish, negative binomial-based mathematical model. [GenomeScope](https://github.com/tbenavi1/genomescope2.0). <details>
+    <summary>Paper</summary>
+    Ranallo-Benavidez, T. Rhyker, Kamil S. Jaron, and Michael C. Schatz. "GenomeScope 2.0 and Smudgeplot for reference-free profiling of polyploid genomes." Nature Communications 11, no. 1 (2020): 1-10. https://doi.org/10.1038/s41467-020-14998-3
+</details>
+
 - [Sequenza](https://sequenzatools.bitbucket.io/#/home) - paired tumor-normal WGS and WES analysis. Estimates tumor cellularity, ploidy, infer allele-speific copy number profiles. Python-based sequenza-utils perform data preprocessing. R package [sequenza](https://CRAN.R-project.org/package=sequenza) performs the analysis. [Documentation](https://cran.r-project.org/web/packages/sequenza/vignettes/sequenza.html). <details>
     <summary>Paper</summary>
     Favero, F., T. Joshi, A. M. Marquard, N. J. Birkbak, M. Krzystanek, Q. Li, Z. Szallasi, and A. C. Eklund. “Sequenza: Allele-Specific Copy Number and Mutation Profiles from Tumor Sequencing Data.” Annals of Oncology 26, no. 1 (January 2015): 64–70. https://doi.org/10.1093/annonc/mdu479.
