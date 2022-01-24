@@ -31,6 +31,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [cBioPortal](#cbioportal)
   - [TCGA PanCancer](#tcga-pancancer)
   - [Pediatric](#pediatric)
+  - [BRCA data](#brca-data)
 - [Methylation](#methylation)
 - [Misc](#misc)
 
@@ -414,11 +415,6 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - Resources / databases for clinical interpretation of cancer variants, by Malachi Griffith, https://www.biostars.org/p/403117/
 
-- BRCA GWAS identifies 32 novel susceptibility loci. 133,384 breast cancer cases and 113,789 controls, plus 18,908 BRCA1 mutation carriers (9,414 with breast cancer) of European ancestry, using both standard and novel methodologies that account for underlying tumor heterogeneity by estrogen receptor, progesterone receptor and human epidermal growth factor receptor 2 status and tumor grade. [INQUISIT](https://github.com/jmbeesley/inquisit_for_bc_screen)  (Integrated eQTL and In Silico Prediction of GWAS Targets) to intersect candidate causal variants (CCVs) with functional annotation data from public databases to identify potential target genes. [Scripts](https://github.com/andrewhaoyu/breast_cancer_data_analysis), [TOP](https://github.com/andrewhaoyu/TOP) - R package for Two-stage polytomous logistic regression. [Summary statistics](https://bcac.ccge.medschl.cam.ac.uk/bcacdata/) at the Breast Cancer Association Consortium (BCAC) and at [CIMBA](https://cimba.ccge.medschl.cam.ac.uk/projects/) – Consortium of Investigators of Modifiers of BRCA1/2. [Supplementary information](https://www.nature.com/articles/s41588-020-0609-2#Sec20) Table S5-S14 - variants identified by different methods in differenc conditions. Supplementary Table 15: INQUISIT analysis results, linking coordinates of variants with genes. <details>
-    <summary>Paper</summary>
-    kConFab Investigators, ABCTB Investigators, EMBRACE Study, GEMO Study Collaborators, Haoyu Zhang, Thomas U. Ahearn, Julie Lecarpentier, et al. “Genome-Wide Association Study Identifies 32 Novel Breast Cancer Susceptibility Loci from Overall and Subtype-Specific Analyses.” Nature Genetics 52, no. 6 (June 2020): 572–81. https://doi.org/10.1038/s41588-020-0609-2
-</details>
-
 - [sigminer](https://github.com/ShixiangWang/sigminer) - an R package for SNP, CNV, DBS, InDel signature extraction from whole-exome data. NMF-based. Tested on tumor-notmal prostate cancer data. https://github.com/ShixiangWang/sigminer
     - Wang, Shixiang, Huimin Li, Minfang Song, Zaoke He, Tao Wu, Xuan Wang, Ziyu Tao, Kai Wu, and Xue-Song Liu. “Copy Number Signature Analyses in Prostate Cancer Reveal Distinct Etiologies and Clinical Outcomes.” Preprint. Genetic and Genomic Medicine, April 29, 2020. https://doi.org/10.1101/2020.04.27.20082404.
 
@@ -434,8 +430,6 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [nstd186 (NCBI Curated Common Structural Variants)](https://www.ncbi.nlm.nih.gov/dbvar/studies/nstd186/) - hg19 genomic coordinates of variant regions
 
-- LINCS, Breast Cancer Profiling Project, Gene Expression 1: Baseline mRNA sequencing on 35 breast cell lines, downloadable matrix of RPKM values. http://lincs.hms.harvard.edu/db/datasets/20348/main
-
 - `MiOncoCirc` - cancer-oriented circRNA database. Exome-capture RNA-seq protocol achieves better enrichment for circRNAs than Ribo-Zero and Rnase R protocols. CIRCExplorer pipeline. Data: https://mioncocirc.github.io/download/
     - Vo, Josh N., Marcin Cieslik, Yajia Zhang, Sudhanshu Shukla, Lanbo Xiao, Yuping Zhang, Yi-Mi Wu, et al. “The Landscape of Circular RNA in Cancer.” Cell 176, no. 4 (February 2019): 869-881.e13. https://doi.org/10.1016/j.cell.2018.12.021.
 
@@ -449,9 +443,6 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Zhang, Tongwu, Philippe Joubert, Naser Ansari-Pour, Wei Zhao, Phuc H. Hoang, Rachel Lokanga, Aaron L. Moye, et al. “Genomic and Evolutionary Classification of Lung Cancer in Never Smokers.” Nature Genetics 53, no. 9 (September 2021): 1348–59. https://doi.org/10.1038/s41588-021-00920-0.
 </details>
 
-- BREAST CANCER LANDSCAPE RESOURCE, A web portal to proteomics, transcriptomics, genomics and metabolomics of breast cancer. Download http://www.breastcancerlandscape.org/
-    - Consortia Oslo Breast Cancer Research Consortium (OSBREAC), Henrik J. Johansson, Fabio Socciarelli, Nathaniel M. Vacanti, Mads H. Haugen, Yafeng Zhu, Ioannis Siavelis, et al. “Breast Cancer Quantitative Proteome and Proteogenomic Landscape.” Nature Communications 10, no. 1 (December 2019): 1600. https://doi.org/10.1038/s41467-019-09018-y. - Proteogenomics of breast cancer subtypes. \~10K proteins by LS-MS/MS. 9 samples for each of the five PAM50 subtypes. Protein expression partially recapitulates PAM50 subtypes, their own consensus clustering. High correlation with mRNA, less so for CNV. Correlation of 290 proteins that are FDA-approved drug targets. Online tool, http://www.breastcancerlandscape.org/, supplementary Data 1 has the full protein expression matrix,https://www.nature.com/articles/s41467-019-09018-y#Sec15
-
 - `Refine.bio` harmonizes petabytes of publicly available biological data into ready-to-use datasets for cancer researchers and AI/ML scientists. https://www.refine.bio/. Documentation, http://docs.refine.bio/en/latest/, GitHub, https://github.com/AlexsLemonade/refinebio.
 
 - Zehir, Ahmet, Ryma Benayed, Ronak H Shah, Aijazuddin Syed, Sumit Middha, Hyunjae R Kim, Preethi Srinivasan, et al. “Mutational Landscape of Metastatic Cancer Revealed from Prospective Clinical Sequencing of 10,000 Patients.” Nature Medicine 23, no. 6 (May 8, 2017): 703–13. https://doi.org/10.1038/nm.4333. - MSK-IMPACT study. Deep sequencing of 341-410 genes in 10,000 samples in multiple cancers. Focus on mutations, copy number alterations, fusions. Data at http://www.cbioportal.org/study?id=msk_impact_2017#summary, downloadable, includes clinical data for survival analysis.
@@ -461,20 +452,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - `DepMap` - Large-scale RNAi screen for cancer vulnerability genes in 501 cell lines from 20 cancers, shRNA silencing \~17,000 genes. DEMETER - Modeling and removal of shRNA off-target effects. 6 sigma cutoff of DEMETER scores to identify 769 differential gene dependencies. ATLANTIS model to predict other genes - MDPs, marker dependency pairs. Main data portal: https://depmap.org/portal/download/
     - Tsherniak, Aviad, Francisca Vazquez, Phil G. Montgomery, Barbara A. Weir, Gregory Kryukov, Glenn S. Cowley, Stanley Gill, et al. “Defining a Cancer Dependency Map.” Cell 170, no. 3 (July 2017): 564-576.e16. https://doi.org/10.1016/j.cell.2017.06.010. [Supplemental tables](https://www.sciencedirect.com/science/article/pii/S0092867417306517?via%3Dihub#app2), `DepMap_TableS3_DependencyCorrelation.csv` - Table S3. Gene Dependency-Dependency Correlations, pairs of genes essential for proliferation/viability. Columns: Gene symbol 1, Gene symbol 2, correlation (r), z_score. [Source](https://ars.els-cdn.com/content/image/1-s2.0-S0092867417306517-mmc3.csv)
 
-- Pooled shRNA screen of 77 breast cancer cell lines. siMEM algorithm to improve identification of susceptibility/driver genes. Known and novel genes. [Processed gene expression and proteomics data](http://neellab.github.io/bfg/), [Supplementary data](https://www.cell.com/cell/fulltext/S0092-8674(15)01624-4#supplementaryMaterial) with BRCA genes
-    - Marcotte, Richard, Azin Sayad, Kevin R. Brown, Felix Sanchez-Garcia, Jüri Reimand, Maliha Haider, Carl Virtanen, et al. “[Functional Genomic Landscape of Human Breast Cancer Drivers, Vulnerabilities, and Resistance](https://doi.org/10.1016/j.cell.2015.11.062).” Cell 164, no. 1–2 (January 14, 2016)
-    - [Table S2](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc3.xls) - BRCA general essential and HER2+ specific genes.
-    - [Table S3](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc4.xls) - subtype-specific essential genes
-    - [Table S4](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc5.xls) - Genes Synthetic Lethal with Specific CNAs, MYCN-interacting genes
-    - [Table S5](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc6.xls) - Genes Associated with Functional Clusters and Drug Response
-    - [Table S6](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc7.xls) - Genes Associated with Expression or Copy Number Loss
-
 - `CCLE2 data` - CCLE characterization using sequencing technologies. Data described: RNA splicing, DNA methylation, Histone modification, miRNA expression, RPPA for 1072 cells. Data availability: https://portals.broadinstitute.org/ccle/data, https://depmap.org/portal/download/
     - Ghandi, Mahmoud, Franklin W. Huang, Judit Jané-Valbuena, Gregory V. Kryukov, Christopher C. Lo, E. Robert McDonald, Jordi Barretina, et al. “Next-Generation Characterization of the Cancer Cell Line Encyclopedia.” Nature, May 8, 2019. https://doi.org/10.1038/s41586-019-1186-3.
-
-### cBioPortal
-
-- [Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)](https://www.cbioportal.org/study/summary?id=brca_metabric) - Targeted sequencing of 2509 primary breast tumors with 548 matched normals. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27161491,30867590,22522925)
 
 ### TCGA PanCancer
 
@@ -523,6 +502,57 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     - Rokita, Jo Lynne, Komal S. Rathi, Maria F. Cardenas, Kristen A. Upton, Joy Jayaseelan, Katherine L. Cross, Jacob Pfeil, et al. “Genomic Profiling of Childhood Tumor Patient-Derived Xenograft Models to Enable Rational Clinical Trial Design.” Cell Reports 29, no. 6 (November 2019): 1675-1689.e9. https://doi.org/10.1016/j.celrep.2019.09.071.
 
 - TARGET pediatric tumors RNA-sequencing dataset: https://ocg.cancer.gov/programs/target/data-matrix
+
+### BRCA data
+
+- BRCA GWAS identifies 32 novel susceptibility loci. 133,384 breast cancer cases and 113,789 controls, plus 18,908 BRCA1 mutation carriers (9,414 with breast cancer) of European ancestry, using both standard and novel methodologies that account for underlying tumor heterogeneity by estrogen receptor, progesterone receptor and human epidermal growth factor receptor 2 status and tumor grade. [INQUISIT](https://github.com/jmbeesley/inquisit_for_bc_screen)  (Integrated eQTL and In Silico Prediction of GWAS Targets) to intersect candidate causal variants (CCVs) with functional annotation data from public databases to identify potential target genes. [Scripts](https://github.com/andrewhaoyu/breast_cancer_data_analysis), [TOP](https://github.com/andrewhaoyu/TOP) - R package for Two-stage polytomous logistic regression. [Summary statistics](https://bcac.ccge.medschl.cam.ac.uk/bcacdata/) at the Breast Cancer Association Consortium (BCAC) and at [CIMBA](https://cimba.ccge.medschl.cam.ac.uk/projects/) – Consortium of Investigators of Modifiers of BRCA1/2. [Supplementary information](https://www.nature.com/articles/s41588-020-0609-2#Sec20) Table S5-S14 - variants identified by different methods in differenc conditions. Supplementary Table 15: INQUISIT analysis results, linking coordinates of variants with genes. <details>
+    <summary>Paper</summary>
+    kConFab Investigators, ABCTB Investigators, EMBRACE Study, GEMO Study Collaborators, Haoyu Zhang, Thomas U. Ahearn, Julie Lecarpentier, et al. “Genome-Wide Association Study Identifies 32 Novel Breast Cancer Susceptibility Loci from Overall and Subtype-Specific Analyses.” Nature Genetics 52, no. 6 (June 2020): 572–81. https://doi.org/10.1038/s41588-020-0609-2
+</details>
+
+- [BREAST CANCER LANDSCAPE RESOURCE](http://www.breastcancerlandscape.org/) - A web portal to proteomics, transcriptomics, genomics and metabolomics of breast cancer.
+    - Consortia Oslo Breast Cancer Research Consortium (OSBREAC), Henrik J. Johansson, Fabio Socciarelli, Nathaniel M. Vacanti, Mads H. Haugen, Yafeng Zhu, Ioannis Siavelis, et al. “Breast Cancer Quantitative Proteome and Proteogenomic Landscape.” Nature Communications 10, no. 1 (December 2019): 1600. https://doi.org/10.1038/s41467-019-09018-y. - Proteogenomics of breast cancer subtypes. \~10K proteins by LS-MS/MS. 9 samples for each of the five PAM50 subtypes. Protein expression partially recapitulates PAM50 subtypes, their own consensus clustering. High correlation with mRNA, less so for CNV. Correlation of 290 proteins that are FDA-approved drug targets. [Online tool](http://www.breastcancerlandscape.org/), [supplementary Data 1](https://www.nature.com/articles/s41467-019-09018-y#Sec15) has the full protein expression matrix
+
+- BRCA GWAS in 122,977 European cases and 105,974 controls and 14,068 Asian cases and 13,104 controls. 65 new loci that are associated with overall breast cancer risk at p<5E-8. <details>
+    <summary>Paper</summary>
+    NBCS Collaborators, ABCTB Investigators, ConFab/AOCS Investigators, Kyriaki Michailidou, Sara Lindström, Joe Dennis, Jonathan Beesley, et al. “Association Analysis Identifies 65 New Breast Cancer Risk Loci.” Nature 551, no. 7678 (November 2017): 92–94. https://doi.org/10.1038/nature24284
+    </details> <details>
+    <summary>Supplementary material</summary>
+    https://www.nature.com/articles/nature24284#Sec23
+
+- **Supplementary information** - Supplementary Tables 1, 2 and 24, Supplementary Table Guide.
+    - **Supplementary Table 2** - Associations between previously reported breast cancer associated SNPs and breast cancer risk in the combined analysis of GWAS + iCOGS + OncoArray data for overall breast cancer. SNP rsIDs and genes
+    - **Supplementary Table 23** - BRCA SNPs, genes, categorized by pathways
+    - **Supplementary Table 24** - Pathway enrichment results and references
+
+- **Supplementary data** - Supplementary Tables 3–5, 7, 9–12, 14–17, 21–23 and 25–33
+    - **Supplementary Tables 4-6** - SNP associations with ER+, ER-, Asian BRCA
+    - **Supplementary Table 7** - List of 65 breast cancer loci, with the number of credible risk variants and browser links.
+
+- **Supplementary Table 6** - 65 newly identified susceptibility loci for overall breast cancer. rsID, hg19 coordinates, genes
+
+- **Supplementary Table 8** - Summary statistics for all variants for which the association with overall breast cancer in the combined dataset was significant at P<0.00001. SNPs, coordinates, p-values.
+
+- **Supplementary Table 13** - 2,221 credible variants at 65 novel loci, with genomic annotations, UCSC Genome Browser links.
+
+- **Supplementary Table 18** - gene-SNP eQTL associations significant at P<0.05 in the TCGA and METABRIC datasets.
+
+- **Supplementary Table 19/20** - Summary/Detailed INQUISIT gene prediction scores, separated to distal, promoter, coding, deteted with Oncoarray and published data.
+</details>
+
+- Pooled shRNA screen of 77 breast cancer cell lines. siMEM algorithm to improve identification of susceptibility/driver genes. Known and novel genes. [Processed gene expression and proteomics data](http://neellab.github.io/bfg/), [Supplementary data](https://www.cell.com/cell/fulltext/S0092-8674(15)01624-4#supplementaryMaterial) with BRCA genes
+    - Marcotte, Richard, Azin Sayad, Kevin R. Brown, Felix Sanchez-Garcia, Jüri Reimand, Maliha Haider, Carl Virtanen, et al. “[Functional Genomic Landscape of Human Breast Cancer Drivers, Vulnerabilities, and Resistance](https://doi.org/10.1016/j.cell.2015.11.062).” Cell 164, no. 1–2 (January 14, 2016)
+    - [Table S2](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc3.xls) - BRCA general essential and HER2+ specific genes.
+    - [Table S3](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc4.xls) - subtype-specific essential genes
+    - [Table S4](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc5.xls) - Genes Synthetic Lethal with Specific CNAs, MYCN-interacting genes
+    - [Table S5](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc6.xls) - Genes Associated with Functional Clusters and Drug Response
+    - [Table S6](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc7.xls) - Genes Associated with Expression or Copy Number Loss
+
+- LINCS, Breast Cancer Profiling Project, Gene Expression 1: Baseline mRNA sequencing on 35 breast cell lines, downloadable matrix of RPKM values. http://lincs.hms.harvard.edu/db/datasets/20348/main
+
+- [Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)](https://www.cbioportal.org/study/summary?id=brca_metabric) - Targeted sequencing of 2509 primary breast tumors with 548 matched normals. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27161491,30867590,22522925)
+
+
 
 ## Methylation
 
