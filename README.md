@@ -518,26 +518,19 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     NBCS Collaborators, ABCTB Investigators, ConFab/AOCS Investigators, Kyriaki Michailidou, Sara Lindström, Joe Dennis, Jonathan Beesley, et al. “Association Analysis Identifies 65 New Breast Cancer Risk Loci.” Nature 551, no. 7678 (November 2017): 92–94. https://doi.org/10.1038/nature24284
     </details> <details>
     <summary>Supplementary material</summary>
-    https://www.nature.com/articles/nature24284#Sec23
-
-- **Supplementary information** - Supplementary Tables 1, 2 and 24, Supplementary Table Guide.
-    - **Supplementary Table 2** - Associations between previously reported breast cancer associated SNPs and breast cancer risk in the combined analysis of GWAS + iCOGS + OncoArray data for overall breast cancer. SNP rsIDs and genes
-    - **Supplementary Table 23** - BRCA SNPs, genes, categorized by pathways
-    - **Supplementary Table 24** - Pathway enrichment results and references
-
-- **Supplementary data** - Supplementary Tables 3–5, 7, 9–12, 14–17, 21–23 and 25–33
-    - **Supplementary Tables 4-6** - SNP associations with ER+, ER-, Asian BRCA
-    - **Supplementary Table 7** - List of 65 breast cancer loci, with the number of credible risk variants and browser links.
-
-- **Supplementary Table 6** - 65 newly identified susceptibility loci for overall breast cancer. rsID, hg19 coordinates, genes
-
-- **Supplementary Table 8** - Summary statistics for all variants for which the association with overall breast cancer in the combined dataset was significant at P<0.00001. SNPs, coordinates, p-values.
-
-- **Supplementary Table 13** - 2,221 credible variants at 65 novel loci, with genomic annotations, UCSC Genome Browser links.
-
-- **Supplementary Table 18** - gene-SNP eQTL associations significant at P<0.05 in the TCGA and METABRIC datasets.
-
-- **Supplementary Table 19/20** - Summary/Detailed INQUISIT gene prediction scores, separated to distal, promoter, coding, deteted with Oncoarray and published data.
+    https://www.nature.com/articles/nature24284#Sec23  
+- **Supplementary information** - Supplementary Tables 1, 2 and 24, Supplementary Table Guide.  
+    - **Supplementary Table 2** - Associations between previously reported breast cancer associated SNPs and breast cancer risk in the combined analysis of GWAS + iCOGS + OncoArray data for overall breast cancer. SNP rsIDs and genes.  
+    - **Supplementary Table 23** - BRCA SNPs, genes, categorized by pathways.  
+    - **Supplementary Table 24** - Pathway enrichment results and references.  
+- **Supplementary data** - Supplementary Tables 3–5, 7, 9–12, 14–17, 21–23 and 25–33.  
+    - **Supplementary Tables 4-6** - SNP associations with ER+, ER-, Asian BRCA.  
+    - **Supplementary Table 7** - List of 65 breast cancer loci, with the number of credible risk variants and browser links.  
+- **Supplementary Table 6** - 65 newly identified susceptibility loci for overall breast cancer. rsID, hg19 coordinates, genes.  
+- **Supplementary Table 8** - Summary statistics for all variants for which the association with overall breast cancer in the combined dataset was significant at P<0.00001. SNPs, coordinates, p-values.  
+- **Supplementary Table 13** - 2,221 credible variants at 65 novel loci, with genomic annotations, UCSC Genome Browser links.  
+- **Supplementary Table 18** - gene-SNP eQTL associations significant at P<0.05 in the TCGA and METABRIC datasets.  
+- **Supplementary Table 19/20** - Summary/Detailed INQUISIT gene prediction scores, separated to distal, promoter, coding, deteted with Oncoarray and published data.  
 </details>
 
 - Pooled shRNA screen of 77 breast cancer cell lines. siMEM algorithm to improve identification of susceptibility/driver genes. Known and novel genes. [Processed gene expression and proteomics data](http://neellab.github.io/bfg/), [Supplementary data](https://www.cell.com/cell/fulltext/S0092-8674(15)01624-4#supplementaryMaterial) with BRCA genes
