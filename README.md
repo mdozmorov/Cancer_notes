@@ -40,7 +40,12 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Drugs
 
-- [Cancer Perturbed Proteomics data](https://bioinformatics.mdanderson.org/public-software/cppa/) - Protein responses to drug perturbations across cancer cell lines. Approx. 210 clinically relevant proteins. A systematic map of protein-drug connectivity. [Download](https://tcpaportal.org/cppa/#/download) <details>
+- Drug-target interaction (DTI) predictions using the Bidirectional Encoder Representations from Transformers (BERT) algorithm. 2.1M studies from PubMed (PubTator API). 512-token (word) sequences. Majority voting of five BERT modelts (BERT, SciBERT, BioBERT, BioMed-RoBERTa and BlueBERT). 99% accuracy using 10-fold CV. Other DTI resources: ChEMBL, BindingDB, PubChem, GtopDB, and DrugTargetCommons. [Predicted and integrated data download](https://dataset.drugtargetcommons.org/), text format. Main portal: [Drug Target Commons (DTC)](http://drugtargetcommons.fimm.fi/) - a crowd-sourcing platform to improve the consensus and use of drug-target interactions. <details>
+    <summary>Paper</summary>
+    Aldahdooh, Jehad, Markus Vähä-Koskela, Jing Tang, and Ziaurrehman Tanoli. “Using BERT to Identify Drug-Target Interactions from Whole PubMed.” Preprint. Bioinformatics, September 11, 2021. https://doi.org/10.1101/2021.09.10.459845.
+</details>
+
+- [Cancer Perturbed Proteomics data](https://bioinformatics.mdanderson.org/public-software/cppa/) - Protein responses to drug perturbations across cancer cell lines. Approx. 210 clinically relevant proteins. A systematic map of protein-drug connectivity. [Download](https://tcpaportal.org/cppa/#/download). <details>
     <summary>Paper</summary>
     Zhao, Wei, Jun Li, Mei-Ju M. Chen, Yikai Luo, Zhenlin Ju, Nicole K. Nesser, Katie Johnson-Camacho, et al. “[Large-Scale Characterization of Drug Responses of Clinically Relevant Proteins in Cancer Cell Lines](https://doi.org/10.1016/j.ccell.2020.10.008).” Cancer Cell, (December 2020)
 </details>
