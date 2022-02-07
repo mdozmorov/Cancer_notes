@@ -258,6 +258,10 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - `DeepPATH` - Lung cancer image classification using deep convolutional neural network. Classification by tumor type, mutation type. Refs to other image classification studies that use deep learning. GoogleNet inception v3 architecture. Training, validation, testing cohorts (70%, 15%, 15%). Details on image processing. https://github.com/ncoudray/DeepPATH
     - Coudray, Nicolas, Paolo Santiago Ocampo, Theodore Sakellaropoulos, Navneet Narula, Matija Snuderl, David Fenyö, Andre L. Moreira, Narges Razavian, and Aristotelis Tsirigos. “Classification and Mutation Prediction from Non–Small Cell Lung Cancer Histopathology Images Using Deep Learning.” Nature Medicine 24, no. 10 (October 2018): 1559–67. https://doi.org/10.1038/s41591-018-0177-5.
 
+- [Head-Neck-CT-Atlas](http://doi.org/10.7937/K9/TCIA.2017.umz8dv6s) - Data from Head and Neck Cancer CT Atlas, a part of TCIA. 433,384 DICOM files from 3,225 series and 765 studies collected from 215 patients, as well as a single XLSX file including all of the demographic, clinical, treatment, and body-composition data. DICOM format visualized in, e.g., [3D Slicer](https://www.slicer.org/). Processed with [Posda Tools](https://github.com/UAMS-DBMI/PosdaTools), scripts for receiving, parsing, dumping, and modifying DICOM files, import into the DICOM database. <details>
+    <summary>Paper</summary>
+    Grossberg, Aaron J., Abdallah S. R. Mohamed, Hesham El Halawani, William C. Bennett, Kirk E. Smith, Tracy S. Nolan, Bowman Williams, et al. “Imaging and Clinical Data Archive for Head and Neck Squamous Cell Carcinoma Patients Treated with Radiotherapy.” Scientific Data 5 (September 4, 2018): 180173. https://doi.org/10.1038/sdata.2018.173.
+</details>
 
 - `IHCount` - IHC-image analysis workflow, https://github.com/mui-icbi/IHCount
 
