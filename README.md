@@ -163,6 +163,13 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Immune cell deconvolution
 
+- [DeMixT](https://github.com/wwylab/DeMixTallmaterials) - tumor-stroma-immune transcriptome deconvolution using a three-component model. Requires reference profiles from the stromal component. [Methods](https://www.cell.com/iscience/fulltext/S2589-0042(18)30187-1#secsectitle0070), the iterated conditional modes (ICM) algorithm and a gene-set-based component merging (GSCM) approach for parameter estimation, adaptive integration. Estimates proportions and reconstructs patient-speciric gene expression matrices. More accurate than ISOpure, similar to CIBERSORT. R package, parallelization with OpenMP. <details>
+    <summary>Paper</summary>
+    Wang, Zeya, Shaolong Cao, Jeffrey S. Morris, Jaeil Ahn, Rongjie Liu, Svitlana Tyekucheva, Fan Gao, et al. “Transcriptome Deconvolution of Heterogeneous Tumor Samples with Immune Infiltration.” IScience 9 (November 2018): 451–60. https://doi.org/10.1016/j.isci.2018.10.028.
+
+    Cao, Shaolong, Zeya Wang, Fan Gao, Jingxiao Chen, Feng Zhang, Daniel E Frigo, Eleni Efstathiou, Scott Kopetz, and Wenyi Wang. “An R Implementation of Tumor-Stroma-Immune Transcriptome Deconvolution Pipeline Using DeMixT.” BioRxiv, January 1, 2019, 566075. https://doi.org/10.1101/566075.
+</details>
+
 - [Tumor Immune Single-cell Hub (TISCH)](http://tisch.comp-genomics.org/home/) is a scRNA-seq database focusing on tumor microenvironment (TME). TISCH provides detailed cell-type annotation at the single-cell level, enabling the exploration of TME across different cancer types. [Tweet](https://twitter.com/XShirleyLiu/status/1408472207152533506?s=20)
 
 - [quanTIseq](https://icbi.i-med.ac.at/software/quantiseq/doc/) - quantification of the Tumor Immune cell proportions from human RNA-seq data. Input - FASTQ files (Trimmomatic, Kallisto to TPM, normalization), or TPM matrix. Deconvolution into 10 cell types (B, macrophages M1 and M2, Monocytes, Neutrophils, NK, CD8 T, CD4 T, Dendritic cells), and uncharacterized fraction (TIL10 signature). Custom processing of 51 datasets to generate TIL10. Compared with CIBERSORT, TIMER, EPIC on simulated and real-life data. Command line, Docker/Singularity implementation, no GitHub.
