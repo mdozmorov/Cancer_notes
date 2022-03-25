@@ -40,6 +40,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Drugs
 
+- [Genomics of Drug Sensitivity in Cancer](https://gdsc-combinations.depmap.sanger.ac.uk/) - Drug Synergy in breast, colon, pancreatic cancers. Synergy is rare. In breast cancer, Navitoclax + Alisertib/Tozasertib/ZM447439 (all AURK inhibitors) is the most synergistic. [Cell Model Passports](https://cellmodelpassports.sanger.ac.uk/) - information about cancer cell lines. [Downloads from GDSC2](https://gdsc-combinations.depmap.sanger.ac.uk/downloads) and [Figshare 1](https://doi.org/10.6084/m9.figshare.16843597), [Figshare 2](https://figshare.com/articles/dataset/Anchored_screen_glossary_file/16895371). <details>
+    <summary>Paper</summary>
+    Jaaks, Patricia, Elizabeth A. Coker, Daniel J. Vis, Olivia Edwards, Emma F. Carpenter, Simonetta M. Leto, Lisa Dwane, et al. “Effective Drug Combinations in Breast, Colon and Pancreatic Cancer Cells.” Nature 603, no. 7899 (March 3, 2022): 166–73. https://doi.org/10.1038/s41586-022-04437-2.
+</details>
+
 - Drug-target interaction (DTI) predictions using the Bidirectional Encoder Representations from Transformers (BERT) algorithm. 2.1M studies from PubMed (PubTator API). 512-token (word) sequences. Majority voting of five BERT modelts (BERT, SciBERT, BioBERT, BioMed-RoBERTa and BlueBERT). 99% accuracy using 10-fold CV. Other DTI resources: ChEMBL, BindingDB, PubChem, GtopDB, and DrugTargetCommons. [Predicted and integrated data download](https://dataset.drugtargetcommons.org/), text format. Main portal: [Drug Target Commons (DTC)](http://drugtargetcommons.fimm.fi/) - a crowd-sourcing platform to improve the consensus and use of drug-target interactions. <details>
     <summary>Paper</summary>
     Aldahdooh, Jehad, Markus Vähä-Koskela, Jing Tang, and Ziaurrehman Tanoli. “Using BERT to Identify Drug-Target Interactions from Whole PubMed.” Preprint. Bioinformatics, September 11, 2021. https://doi.org/10.1101/2021.09.10.459845.
