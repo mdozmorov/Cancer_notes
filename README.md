@@ -318,6 +318,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Survival analysis
 
+- [cSurvival](https://tau.cmmt.ubc.ca/cSurvival/) - multi-omics survival analysis. Expression, mutation, CNV, miRNA, methylation, protein measures. Optimal cutoff selection by scanning for minimal p-value, grid search for multiple predictors, correction for multiple testing. Differential dependency and cell viability analysis. TCGA, TARGET, DepMap data. [eVITTA](https://tau.cmmt.ubc.ca/eVITTA/) gene signatures. Three additional features: (i) joint analysis with two genomic predictors to identify interacting biomarkers; (ii) gene set level analysis; and (iii) integration of clinical and experimental cell line studies to generate synergistic biological insights. <details>
+    <summary>Paper</summary>
+    Cheng, Xuanjin, Yongxing Liu, Jiahe Wang, Yujie Chen, Andrew Gordon Robertson, Xuekui Zhang, Steven J M Jones, and Stefan Taubert. “CSurvival: A Web Resource for Biomarker Interactions in Cancer Outcomes and in Cell Lines.” Briefings in Bioinformatics, April 2, 2022, bbac090. https://doi.org/10.1093/bib/bbac090.
+</details>
+
 - [www.tcgaportal.org](http://tcgaportal.org/index.html) - web server for survival analysis using TCGA data
 
 - `cBioPortal` - The cBioPortal for Cancer Genomics provides visualization, analysis and download of large-scale cancer genomics data sets. OncoPrint mutation plots, differential expression, coexpression, survival. Compare gene expression with copy number variation. http://www.cbioportal.org/
