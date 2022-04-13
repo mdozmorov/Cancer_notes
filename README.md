@@ -418,6 +418,10 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - `CancerGeneNet` - CancerGeneNet is a resource that aims at linking genes that are frequently mutated in cancers to cancer phenotypes. The resource takes advantage of a curation effort aimed at embedding a large fraction of the gene products that are found altered in cancers in the cell network of causal protein relationships. Graph algorithms, in turn, allow to infer likely paths of causal interactions linking cancer associated genes to cancer phenotypes thus offering a rational framework for the design of strategies to revert disease phenotypes. CancerGenNet bridges two interaction layers by connecting proteins whose activities are affected by cancer gene products to proteins that impact on cancer phenotypes. This is achieved by implementing graph algorithms that allow searching for graph path that link any gene of interest to the “hallmarks of cancer". https://signor.uniroma2.it/CancerGeneNet/
 
+- Breast cancer genes with actionable mutations according to ESMO Scale for Clinical Actionability of molecular Targets (ESCAT). Tiers I-V, X, plus A/B/C letters for level of evidence (Table 1). Tables 2-4 list actual genes and their description. <details>
+    <summary>Paper</summary>
+    Condorelli, R. “Genomic Alterations in Breast Cancer: Level of Evidence for Actionability According to ESMO Scale for Clinical Actionability of Molecular Targets (ESCAT).” Annals of Oncology 30, no. 3 (2019): 9.
+</details>
 
 - Cancer Gene Census (CGC), download [COSMIC](http://cancer.sanger.ac.uk/cosmic/download)
     - Hudson, T. J. et al. International network of cancer genome projects. Nature 464, 993–8 (2010).
