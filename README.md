@@ -606,6 +606,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Misc
 
+- [MSIseq](https://CRAN.R-project.org/package=MSIseq) - R package for microsatellite instability detection from exome mutation data (30X depth is OK). MSI is a form of hypermutation that occurs in some tumors due to defects in cellular DNA mismatch repair. MSI is characterized by frequent somatic mutations (i.e., cancer- specific mutations) that change the length of simple repeats (e.g., AAAAA...., GATAGATAGATA...) in tumor and matched normal DNA. Similar tools MSIsensor and mSINGS. Tested four classifiers (logistic regression, decision tree, random forest, naive Bayes from RWeka) on 10 variables (derived from number of mutations). <details>
+    <summary>Paper</summary>
+    Ni Huang, Mi, John R. McPherson, Ioana Cutcutache, Bin Tean Teh, Patrick Tan, and Steven G. Rozen. “MSIseq: Software for Assessing Microsatellite Instability from Catalogs of Somatic Mutations.” Scientific Reports 5, no. 1 (October 2015): 13321. https://doi.org/10.1038/srep13321.
+</details>
+
 - [CancerSubtypes](http://bioconductor.org/packages/release/bioc/html/CancerSubtypes.html) - an R package implementing four methods for clustering/subtype identification. Includes consensus nonnegative matrix factorization (CNMF), iCluster, SNF and its variations. Better distinguish survival groups, single file format
     - Xu, Taosheng, Thuc Duy Le, Lin Liu, Ning Su, Rujing Wang, Bingyu Sun, Antonio Colaprico, Gianluca Bontempi, and Jiuyong Li. “[CancerSubtypes: An R/Bioconductor Package for Molecular Cancer Subtype Identification, Validation and Visualization](https://doi.org/10.1093/bioinformatics/btx378).” Bioinformatics 33, no. 19 (October 1, 2017)
 
