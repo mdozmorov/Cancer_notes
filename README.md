@@ -437,6 +437,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     - Zhao, M., Sun, J. & Zhao, Z. TSGene: a web resource for tumor suppressor genes. Nucleic Acids Res, 41(Database issue), D970–6 (2013).
     - Download various lists of tumor suppressor genes, https://bioinfo.uth.edu/TSGene/download.cgi
 
+- [OncoScore](https://bioconductor.org/packages/OncoScore/) - an R package, text-mining tool that ranks genes according to their association with cancer, based on available biomedical literature. Outperforms GeneRanker. <details>
+    <summary>Paper</summary>
+    Piazza, Rocco, Daniele Ramazzotti, Roberta Spinelli, Alessandra Pirola, Luca De Sano, Pierangelo Ferrari, Vera Magistroni, Nicoletta Cordani, Nitesh Sharma, and Carlo Gambacorti-Passerini. “OncoScore: A Novel, Internet-Based Tool to Assess the Oncogenic Potential of Genes.” Scientific Reports 7, no. 1 (May 3, 2017): 46290. https://doi.org/10.1038/srep46290.
+</details>
+
 - `OncoScape` - Genes with oncogenic/tumor suppressor/combined scores as a sum contribution from gene expression, somatic mutations, DNA copy-number and methylation as well as data from shRNA knock-down screens. http://oncoscape.nki.nl/
     - Schlicker, Andreas, Magali Michaut, Rubayte Rahman, and Lodewyk F. A. Wessels. “OncoScape: Exploring the Cancer Aberration Landscape by Genomic Data Fusion.” Scientific Reports 6 (20 2016): 28103. https://doi.org/10.1038/srep28103.
 
