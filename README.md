@@ -616,6 +616,14 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Misc
 
+- [AmpliconArchitect](https://github.com/virajbdeshpande/AmpliconArchitect) - reconstructs and classifies amplicons as circular or linear from WGS (short-read, paired-end). Walidated on simulated and experimental datasets, over a range of coverage (10X most optimal). A model in which focal amplifications arise due to the formation and replication of extrachromosomal DNA. Additional tools: [AmpliconReconstructor](https://github.com/jluebeck/AmpliconReconstructor), [CycleViz](https://github.com/jluebeck/CycleViz). <details>
+    <summary>Paper</summary>
+    Deshpande, Viraj, Jens Luebeck, Nam-Phuong D. Nguyen, Mehrdad Bakhtiari, Kristen M. Turner, Richard Schwab, Hannah Carter, Paul S. Mischel, and Vineet Bafna. “Exploring the Landscape of Focal Amplifications in Cancer Using AmpliconArchitect.” Nature Communications 10, no. 1 (December 2019): 392. https://doi.org/10.1038/s41467-018-08200-y.
+</details> <details>
+    <summary>Paper</summary>
+    Wu, Sihan, Kristen M. Turner, Nam Nguyen, Ramya Raviram, Marcella Erb, Jennifer Santini, Jens Luebeck, et al. “Circular EcDNA Promotes Accessible Chromatin and High Oncogene Expression.” Nature, November 20, 2019. https://doi.org/10.1038/s41586-019-1763-5.
+</details>
+
 - [MSIseq](https://CRAN.R-project.org/package=MSIseq) - R package for microsatellite instability detection from exome mutation data (30X depth is OK). MSI is a form of hypermutation that occurs in some tumors due to defects in cellular DNA mismatch repair. MSI is characterized by frequent somatic mutations (i.e., cancer- specific mutations) that change the length of simple repeats (e.g., AAAAA...., GATAGATAGATA...) in tumor and matched normal DNA. Similar tools MSIsensor and mSINGS. Tested four classifiers (logistic regression, decision tree, random forest, naive Bayes from RWeka) on 10 variables (derived from number of mutations). <details>
     <summary>Paper</summary>
     Ni Huang, Mi, John R. McPherson, Ioana Cutcutache, Bin Tean Teh, Patrick Tan, and Steven G. Rozen. “MSIseq: Software for Assessing Microsatellite Instability from Catalogs of Somatic Mutations.” Scientific Reports 5, no. 1 (October 2015): 13321. https://doi.org/10.1038/srep13321.
