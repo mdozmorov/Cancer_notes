@@ -27,6 +27,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [Methods to find best cutoff for survival](#methods-to-find-best-cutoff-for-survival)
 - [Cancer driver genes](#cancer-driver-genes)
 - [Cancer driver mutations](#cancer-driver-mutations)
+- [Cancer mutational signatures](#cancer-mutational-signatures)
 - [Data](#data)
   - [cBioPortal](#cbioportal)
   - [TCGA PanCancer](#tcga-pancancer)
@@ -300,8 +301,6 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - `ape` - R package, Analyses of Phylogenetics and Evolution, https://cran.r-project.org/web/packages/ape/index.html
 
-- `DeconstructSig` - Contribution of known SNP cancer mutation signatures to tumor samples. Data from Alexandrov, COSMIC, others. https://github.com/raerose01/deconstructSigs 
-
 - `E-scape` - cancer evolution visualization. Timescape - time series analysis, http://bioconductor.org/packages/release/bioc/html/timescape.html, MapScape - spatial distribution,http://bioconductor.org/packages/release/bioc/html/mapscape.html, CellScape - single-cell phylogenetic, http://bioconductor.org/packages/release/bioc/html/cellscape.html
     - Smith, Maia A., Cydney B. Nielsen, Fong Chun Chan, Andrew McPherson, Andrew Roth, Hossein Farahani, Daniel Machev, Adi Steif, and Sohrab P. Shah. “E-Scape: Interactive Visualization of Single-Cell Phylogenetics and Cancer Evolution.” Nature Methods 14, no. 6 (30 2017): 549–50. https://doi.org/10.1038/nmeth.4303.
 
@@ -469,6 +468,15 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - `CANCERSIGN` - identifies 3-mer and 5-mer mutational signatures, cluster samples by signatures. Based on Alexandrov method, Non-negative matrix factorization, explanation. Other tools - SomaticSignatures, SigneR, deconstructSigs, compared in Table 1. https://github.com/ictic-bioinformatics/CANCERSIGN
     - Bayati, Masroor, Hamid Reza Rabiee, Mehrdad Mehrbod, Fatemeh Vafaee, Diako Ebrahimi, Alistair Forrest, and Hamid Alinejad-Rokny. “CANCERSIGN: A User-Friendly and Robust Tool for Identification and Classification of Mutational Signatures and Patterns in Cancer Genomes.” BioRxiv, January 1, 2019, 424960. https://doi.org/10.1101/424960.
+
+## Cancer mutational signatures
+
+- [MetaMutationalSigs](https://github.com/EESI/MetaMutationalSigs) - mutational signature analysis, aggregate and visualize results from different packages. Intro into mutational signatures, methods for signature analysis. Signature refitting packages, four packages (DeconstructSigs, MutationalPatterns, Sigfit, Sigminer). Input - VCF files. Output - heatmaps, csv tables. <details>
+    <summary>Paper</summary>
+    Pandey, Palash, Sanjeevani Arora, and Gail L. Rosen. “MetaMutationalSigs: Comparison of Mutational Signature Refitting Results Made Easy.” Bioinformatics (Oxford, England), February 14, 2022, btac091. https://doi.org/10.1093/bioinformatics/btac091.
+</details>
+
+- `DeconstructSig` - Contribution of known SNP cancer mutation signatures to tumor samples. Data from Alexandrov, COSMIC, others. https://github.com/raerose01/deconstructSigs 
 
 
 ## Data
