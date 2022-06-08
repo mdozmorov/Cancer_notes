@@ -606,6 +606,12 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     - [Table S5](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc6.xls) - Genes Associated with Functional Clusters and Drug Response
     - [Table S6](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc7.xls) - Genes Associated with Expression or Copy Number Loss
 
+- [METABRIC paper](https://www.nature.com/articles/nature10983). CNV/SNP and gene expression discovery and validation in 997 and 995 primary breast tumors, PAM50-classified. CNA segmentation using Circular Binary Segmentation (CBS). Integrative k-means clustering using 1000 genes cis-associated with CNVs, 10 clusters, characteristics of each. Affy/Illumina microarrays. Coordinates in hg18. [Supplementary tables](https://www.nature.com/articles/nature10983#Sec10): Tables S2, S3 - clinical annotations; Tables S5, S12 - gene-centric Minimal common regions of alteration for CNAs (derived from CBS), stratified by ER status and PAM50 subtype for regions with frequency > 0.05; Tables S22, S23 - region-centric amplifications, S24 - deletions. [Data on cBioPortal](https://www.cbioportal.org/study/summary?id=brca_metabric). <details>
+    <summary>Paper</summary>
+    METABRIC Group, Christina Curtis, Sohrab P. Shah, Suet-Feung Chin, Gulisa Turashvili, Oscar M. Rueda, Mark J. Dunning, et al. “The Genomic and Transcriptomic Architecture of 2,000 Breast Tumours Reveals Novel Subgroups.” Nature 486, no. 7403 (June 2012): 346–52. https://doi.org/10.1038/nature10983.
+</details>
+
+
 - LINCS, Breast Cancer Profiling Project, Gene Expression 1: Baseline mRNA sequencing on 35 breast cell lines, downloadable matrix of RPKM values. http://lincs.hms.harvard.edu/db/datasets/20348/main
 
 - [Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)](https://www.cbioportal.org/study/summary?id=brca_metabric) - Targeted sequencing of 2509 primary breast tumors with 548 matched normals. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27161491,30867590,22522925)
