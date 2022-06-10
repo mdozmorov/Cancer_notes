@@ -20,6 +20,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [SCLC](#sclc)
   - [TCGA](#tcga)
   - [Integrative](#integrative)
+  - [Reporting](#reporting)
 - [Deep Learning](#deep-learning)
   - [Image analysis](#image-analysis)
 - [Clonal analysis](#clonal-analysis)
@@ -251,6 +252,13 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [LinkedOmics](http://www.linkedomics.org/login.php) - clinical, gennomic (expression, SNPs, CNVs, methylation, miRNAs) and protein expression data from TCGA, CPTAC. Three analysis modules: LinkFinder finds associations between molecular and clinical attributes; LinkCompare compares the associations. LinkInterpreter maps associations to pathways and networks.
     - Vasaikar, Suhas V, Peter Straub, Jing Wang, and Bing Zhang. “[LinkedOmics: Analyzing Multi-Omics Data within and across 32 Cancer Types](https://doi.org/10.1093/nar/gkx1090).” Nucleic Acids Research 46, no. D1 (January 4, 2018)
+
+### Reporting
+
+- [PORI](https://bcgsc.github.io/pori/) (Platform for Oncogenomic Reporting and Interpretation) - analytical framework for reporting and interpreting somatic variants in cancer, prioritizes therapeutically informative alterations. Two components - GraphKB (a curated (resolving aliases, generalisms, etc., into controlled vocabulary) graph-based knowledge base integrating multiple [data sources](https://bcgsc.github.io/pori/graphkb/loading_data/#popular-resources), [API](https://github.com/bcgsc/pori_graphkb_api), [web](https://github.com/bcgsc/pori_graphkb_client), [Python](https://github.com/bcgsc/pori_graphkb_python)) and [IPR](https://github.com/bcgsc/pori_ipr_client) (Integrated Pipeline Reports, [API](https://github.com/bcgsc/pori_ipr_api), [web](https://github.com/bcgsc/pori_ipr_client), [Python](https://github.com/bcgsc/pori_ipr_python)). Flexible input variant call formats, patient data. [Demo](https://bcgsc.github.io/pori/demo/). <details>
+    <summary>Paper</summary>
+    Reisle, Caralyn, Laura M. Williamson, Erin Pleasance, Anna Davies, Brayden Pellegrini, Dustin W. Bleile, Karen L. Mungall, et al. “A Platform for Oncogenomic Reporting and Interpretation.” Nature Communications 13, no. 1 (December 2022): 756. https://doi.org/10.1038/s41467-022-28348-y.
+</details>
 
 
 ## Deep Learning
