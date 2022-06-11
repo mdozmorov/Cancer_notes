@@ -20,7 +20,6 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [SCLC](#sclc)
   - [TCGA](#tcga)
   - [Integrative](#integrative)
-  - [Reporting](#reporting)
 - [Deep Learning](#deep-learning)
   - [Image analysis](#image-analysis)
 - [Clonal analysis](#clonal-analysis)
@@ -253,14 +252,6 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - [LinkedOmics](http://www.linkedomics.org/login.php) - clinical, gennomic (expression, SNPs, CNVs, methylation, miRNAs) and protein expression data from TCGA, CPTAC. Three analysis modules: LinkFinder finds associations between molecular and clinical attributes; LinkCompare compares the associations. LinkInterpreter maps associations to pathways and networks.
     - Vasaikar, Suhas V, Peter Straub, Jing Wang, and Bing Zhang. “[LinkedOmics: Analyzing Multi-Omics Data within and across 32 Cancer Types](https://doi.org/10.1093/nar/gkx1090).” Nucleic Acids Research 46, no. D1 (January 4, 2018)
 
-### Reporting
-
-- [PORI](https://bcgsc.github.io/pori/) (Platform for Oncogenomic Reporting and Interpretation) - analytical framework for reporting and interpreting somatic variants in cancer, prioritizes therapeutically informative alterations. Two components - GraphKB (a curated (resolving aliases, generalisms, etc., into controlled vocabulary) graph-based knowledge base integrating multiple [data sources](https://bcgsc.github.io/pori/graphkb/loading_data/#popular-resources), [API](https://github.com/bcgsc/pori_graphkb_api), [web](https://github.com/bcgsc/pori_graphkb_client), [Python](https://github.com/bcgsc/pori_graphkb_python)) and [IPR](https://github.com/bcgsc/pori_ipr_client) (Integrated Pipeline Reports, [API](https://github.com/bcgsc/pori_ipr_api), [web](https://github.com/bcgsc/pori_ipr_client), [Python](https://github.com/bcgsc/pori_ipr_python)). Flexible input variant call formats, patient data. [Demo](https://bcgsc.github.io/pori/demo/). <details>
-    <summary>Paper</summary>
-    Reisle, Caralyn, Laura M. Williamson, Erin Pleasance, Anna Davies, Brayden Pellegrini, Dustin W. Bleile, Karen L. Mungall, et al. “A Platform for Oncogenomic Reporting and Interpretation.” Nature Communications 13, no. 1 (December 2022): 756. https://doi.org/10.1038/s41467-022-28348-y.
-</details>
-
-
 ## Deep Learning
 
 - [TDC](https://tdcommons.ai/overview/) (Therapeutic Data Commons) - Kaggle for therapeutics, discovery and development of safe and effective medicines. A framework to evaluate machine learning, contains 66 datasets, 22 learning tasks (single-instance, multi-instance, generative learning). [PyTDC](https://github.com/mims-harvard/TDC) - python interface. The paper describes details of each data, task, resource.
@@ -467,12 +458,12 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Cancer driver mutations
 
+For general variant interpretation databases, see [SNP_notes/SNP annotations](https://github.com/mdozmorov/SNP_notes#snp-annotations)
+
 - Resources / databases for clinical interpretation of cancer variants, by Malachi Griffith, https://www.biostars.org/p/403117/
 
 - [sigminer](https://github.com/ShixiangWang/sigminer) - an R package for SNP, CNV, DBS, InDel signature extraction from whole-exome data. NMF-based. Tested on tumor-notmal prostate cancer data. https://github.com/ShixiangWang/sigminer
     - Wang, Shixiang, Huimin Li, Minfang Song, Zaoke He, Tao Wu, Xuan Wang, Ziyu Tao, Kai Wu, and Xue-Song Liu. “Copy Number Signature Analyses in Prostate Cancer Reveal Distinct Etiologies and Clinical Outcomes.” Preprint. Genetic and Genomic Medicine, April 29, 2020. https://doi.org/10.1101/2020.04.27.20082404.
-
-- `clinvar` -  tools to convert ClinVar data into a tab-delimited flat file, and also provides that resulting tab-delimited flat file. https://github.com/macarthur-lab/clinvar
 
 - `CANCERSIGN` - identifies 3-mer and 5-mer mutational signatures, cluster samples by signatures. Based on Alexandrov method, Non-negative matrix factorization, explanation. Other tools - SomaticSignatures, SigneR, deconstructSigs, compared in Table 1. https://github.com/ictic-bioinformatics/CANCERSIGN
     - Bayati, Masroor, Hamid Reza Rabiee, Mehrdad Mehrbod, Fatemeh Vafaee, Diako Ebrahimi, Alistair Forrest, and Hamid Alinejad-Rokny. “CANCERSIGN: A User-Friendly and Robust Tool for Identification and Classification of Mutational Signatures and Patterns in Cancer Genomes.” BioRxiv, January 1, 2019, 424960. https://doi.org/10.1101/424960.
