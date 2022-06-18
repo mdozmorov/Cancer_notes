@@ -516,6 +516,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     PCAWG Transcriptome Core Group, PCAWG Transcriptome Working Group, PCAWG Consortium, Claudia Calabrese, Natalie R. Davidson, Deniz Demircioğlu, Nuno A. Fonseca, et al. “Genomic Basis for RNA Alterations in Cancer.” Nature 578, no. 7793 (February 2020): 129–36. https://doi.org/10.1038/s41586-020-1970-0.
 </details>
 
+- Whole genome analysis of 2,658 genomes and matching normal tissues across 38 tumor types. ICGC (PCAWG) & TCGA. Computational pipeline at [Dockstore](https://dockstore.org/organizations/PCAWG/collections/PCAWG), visualization at [UCSC Xena](https://xenabrowser.net/datapages/?hub=https://pcawg.xenahubs.net:443), in-depth data analysis at [PCAWG Scout](https://pcawgscout.bsc.es/), [Chromotripsis explorer](http://compbio.med.harvard.edu/chromothripsis/). [Data landing page](https://dcc.icgc.org/releases/PCAWG/). <details>
+    <summary>Paper</summary>
+    The ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium. “Pan-Cancer Analysis of Whole Genomes.” Nature 578, no. 7793 (February 2020): 82–93. https://doi.org/10.1038/s41586-020-1969-6.
+</details>
+
 - Pan-cancer analysis of somatic noncoding driver mutations. Raw data: https://docs.icgc.org/pcawg/data/, Processed data: https://dcc.icgc.org/releases/PCAWG/drivers, significantly recurring breakpoints and juxtapositions http://www.svscape.org/. Extended data figures and tables should be considered individually https://www.nature.com/articles/s41586-020-1965-x#additional-information
     - PCAWG Drivers and Functional Interpretation Working Group, PCAWG Structural Variation Working Group, PCAWG Consortium, Esther Rheinbay, Morten Muhlig Nielsen, Federico Abascal, Jeremiah A. Wala, et al. “Analyses of Non-Coding Somatic Drivers in 2,658 Cancer Whole Genomes.” Nature 578, no. 7793 (February 2020): 102–11. https://doi.org/10.1038/s41586-020-1965-x.
 
