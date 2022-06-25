@@ -33,6 +33,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [TCGA PanCancer](#tcga-pancancer)
   - [Pediatric](#pediatric)
   - [BRCA data](#brca-data)
+- [PDX](#pdx)
 - [Methylation](#methylation)
 - [Misc](#misc)
 
@@ -625,6 +626,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 - Genomic characterization (WES: mutation, copy number, RNA-seq: fusion, transcriptomic profiles, and NCI-MATCH arms) of 536 PDX models across 25 cancer types. Mutations may disappear in PDXs. Multi-tool genomic variants calling ([somaticwrapper](https://github.com/ding-lab/somaticwrapper), [somatic.Mutect2_tumorOnly](https://github.com/ding-lab/PDX-PanCanAtlas/tree/master/data_process/somatic.Mutect2_tumorOnly), [germlinewrapper](https://github.com/ding-lab/germlinewrapper), [CharGer](https://github.com/ding-lab/CharGer), [hatchet](https://github.com/raphael-group/hatchet), [msisensor2](https://github.com/niu-lab/msisensor2), all scripts on [GitHub](https://github.com/ding-lab/PDX-PanCanAtlas/tree/master/data_process)).  Somatic mutations, copy number segment-level and gene-level, copy number chromosome arm-level, fusion, and gene expression data in text format at [Figshare](https://doi.org/10.6084/m9.figshare.14390408). Interactive viewer at [PDX Variant Viewer at WUSTL](https://pdx.wustl.edu/pdx/). <details>
     <summary>Paper</summary>
     Sun, Hua, Song Cao, R. Jay Mashl, Chia-Kuei Mo, Simone Zaccaria, Michael C. Wendl, Sherri R. Davies, et al. “Comprehensive Characterization of 536 Patient-Derived Xenograft Models Prioritizes Candidates for Targeted Treatment.” Nature Communications 12, no. 1 (December 2021): 5086. https://doi.org/10.1038/s41467-021-25177-3.
+</details>
+
+- [Disambiguate](https://github.com/bcbio/bcbio-nextgen) - human-mouse read separation. Alignment to both genomes separately, selecting best matched genome. Supports multiple aligners, different strategies for STAR/BWA and TopHat/HiSat2. <details>
+    <summary>Paper</summary>
+    Ahdesmäki, Miika J., Simon R. Gray, Justin H. Johnson, and Zhongwu Lai. “Disambiguate: An Open-Source Application for Disambiguating Two Species in next Generation Sequencing Data from Grafted Samples.” F1000Research 5 (2016): 2741. https://doi.org/10.12688/f1000research.10082.2.
 </details>
 
 
