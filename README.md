@@ -485,6 +485,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - [nstd186 (NCBI Curated Common Structural Variants)](https://www.ncbi.nlm.nih.gov/dbvar/studies/nstd186/) - hg19 genomic coordinates of variant regions
 
+-  `Oncobox Atlas of Normal Tissue Expression (ANTE)` - age-annotated RNA-seq from 142 solid tissue samples representing 20 organs from post-mortal human healthy donors of different age. Blood samples from 17 healthy volunteers. Integration with normal data with age from other databases (TCGA, ENCODE). Processed data at [GSE120795](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120795) and [FigShare](https://doi.org/10.6084/m9.figshare.c.4270817). <details>
+    <summary>Paper</summary>
+    Suntsova, Maria, Nurshat Gaifullin, Daria Allina, Alexey Reshetun, Xinmin Li, Larisa Mendeleeva, Vadim Surin, et al. “Atlas of RNA Sequencing Profiles for Normal Human Tissues.” Scientific Data 6, no. 1 (December 2019): 36. https://doi.org/10.1038/s41597-019-0043-4.
+</details>
+
 - `MiOncoCirc` - cancer-oriented circRNA database. Exome-capture RNA-seq protocol achieves better enrichment for circRNAs than Ribo-Zero and Rnase R protocols. CIRCExplorer pipeline. Data: https://mioncocirc.github.io/download/
     - Vo, Josh N., Marcin Cieslik, Yajia Zhang, Sudhanshu Shukla, Lanbo Xiao, Yuping Zhang, Yi-Mi Wu, et al. “The Landscape of Circular RNA in Cancer.” Cell 176, no. 4 (February 2019): 869-881.e13. https://doi.org/10.1016/j.cell.2018.12.021.
 
