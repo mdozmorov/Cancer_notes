@@ -638,6 +638,10 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     Ahdesmäki, Miika J., Simon R. Gray, Justin H. Johnson, and Zhongwu Lai. “Disambiguate: An Open-Source Application for Disambiguating Two Species in next Generation Sequencing Data from Grafted Samples.” F1000Research 5 (2016): 2741. https://doi.org/10.12688/f1000research.10082.2.
 </details>
 
+- 1 x 1 x 1 experimental design (PDX clinical trial or PCT) in vivo compound screens to assess the population responses to 62 treatments across six indications. Multi-omics correlation support compensates for single sample experiments. mRECIST criteria to measure drug response. <details>
+    <summary>Paper</summary>
+    Gao, Hui, Joshua M. Korn, Stéphane Ferretti, John E. Monahan, Youzhen Wang, Mallika Singh, Chao Zhang, et al. “High-Throughput Screening Using Patient-Derived Tumor Xenografts to Predict Clinical Trial Drug Response.” Nature Medicine 21, no. 11 (November 2015): 1318–25. https://doi.org/10.1038/nm.3954.
+</details>
 
 ## Methylation
 
