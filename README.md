@@ -645,6 +645,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     Mer, Arvind S., Wail Ba-Alawi, Petr Smirnov, Yi X. Wang, Ben Brew, Janosch Ortmann, Ming-Sound Tsao, David W. Cescon, Anna Goldenberg, and Benjamin Haibe-Kains. “Integrative Pharmacogenomics Analysis of Patient-Derived Xenografts.” Cancer Research 79, no. 17 (September 1, 2019): 4539–50. https://doi.org/10.1158/0008-5472.CAN-19-0349.
 </details>
 
+- **PDX-MI** - minimal information standards about PDX models (clinical attributes, the process of implantation and passaging, quality assurance, etc., Table 1). <details>
+    <summary>Paper</summary>
+    Meehan, Terrence F., Nathalie Conte, Theodore Goldstein, Giorgio Inghirami, Mark A. Murakami, Sebastian Brabetz, Zhiping Gu, et al. “PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models.” Cancer Research 77, no. 21 (November 1, 2017): e62–66. https://doi.org/10.1158/0008-5472.CAN-17-0582.
+</details>
+
 - [Disambiguate](https://github.com/bcbio/bcbio-nextgen) - human-mouse read separation. Alignment to both genomes separately, selecting best matched genome. Supports multiple aligners, different strategies for STAR/BWA and TopHat/HiSat2. <details>
     <summary>Paper</summary>
     Ahdesmäki, Miika J., Simon R. Gray, Justin H. Johnson, and Zhongwu Lai. “Disambiguate: An Open-Source Application for Disambiguating Two Species in next Generation Sequencing Data from Grafted Samples.” F1000Research 5 (2016): 2741. https://doi.org/10.12688/f1000research.10082.2.
