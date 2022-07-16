@@ -294,6 +294,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - `Awesome-CancerEvolution` - list of papers and tools for studying cancer evolution. https://github.com/iron-lion/Awesome-CancerEvolution
 
+- [HATCHet](https://github.com/raphael-group/hatchet) (Holistic Allele-specific Tumor Copy- number Heterogeneity) -  a Python tool that infers allele- and clone-specific CNAs and WGDs jointly across multiple tumor samples from the same patient. Outperforms six methods (Battenberg, TITAN, THetA, cloneHD, Canopy, and ReMixT) on multi-sample DNA sequencing data. [MASCoTE](https://github.com/raphael-group/mascote) (Multiple Allele-specific Simulation of Copy-number Tumor Evolution) tool for data simulation. Input: Read-depth ratio (RDR) and B-allele frequency (BAF) for short genomic bins across samples from the same patient. Output: copy number states and clone proportions. [Code](https://github.com/raphael-group/hatchet-paper) to reproduce the paper. <details>
+    <summary>Paper</summary>
+    Zaccaria, Simone, and Benjamin J. Raphael. “Accurate Quantification of Copy-Number Aberrations and Whole-Genome Duplications in Multi-Sample Tumor Sequencing Data.” Nature Communications 11, no. 1 (December 2020): 4301. https://doi.org/10.1038/s41467-020-17967-y.
+</details>
+
 - [timescape](https://bioconductor.org/packages/timescape/) - an R package for visualizing temporal clonal evolution data. [Examples](https://bioconductor.org/packages/release/bioc/vignettes/timescape/inst/doc/timescape_vignette.html), [GitHub](https://github.com/shahcompbio/timescape)
 
 - `clonevol` R package, Inferring and visualizing clonal evolution in multi-sample cancer sequencing. https://github.com/hdng/clonevol
