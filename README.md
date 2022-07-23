@@ -490,6 +490,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - [nstd186 (NCBI Curated Common Structural Variants)](https://www.ncbi.nlm.nih.gov/dbvar/studies/nstd186/) - hg19 genomic coordinates of variant regions
 
+- [ENCODEC](http://encodec.encodeproject.org/) - integrative ENCODE resource for cancer genomics. Integrating multiple technologies (eCLIP, Hi-C, STARR-seq, other ENCODE data). Integrated annotation where genes are linked to concoding regulatory elements (Extended genes). Enables prioritization of key regulators, noncoding elements, variants associated with oncogenes. Downloadable annotation data, cell type-specific extended gene definition, annotated enhancer peaks, cell type-specific and merged networks. <details>
+    <summary>Paper</summary>
+    Zhang, Jing, Donghoon Lee, Vineet Dhiman, Peng Jiang, Jie Xu, Patrick McGillivray, Hongbo Yang, et al. “An Integrative ENCODE Resource for Cancer Genomics.” Nature Communications 11, no. 1 (December 2020): 3696. https://doi.org/10.1038/s41467-020-14743-w.
+</details>
+
 -  `Oncobox Atlas of Normal Tissue Expression (ANTE)` - age-annotated RNA-seq from 142 solid tissue samples representing 20 organs from post-mortal human healthy donors of different age. Blood samples from 17 healthy volunteers. Integration with normal data with age from other databases (TCGA, ENCODE). Processed data at [GSE120795](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE120795) and [FigShare](https://doi.org/10.6084/m9.figshare.c.4270817). <details>
     <summary>Paper</summary>
     Suntsova, Maria, Nurshat Gaifullin, Daria Allina, Alexey Reshetun, Xinmin Li, Larisa Mendeleeva, Vadim Surin, et al. “Atlas of RNA Sequencing Profiles for Normal Human Tissues.” Scientific Data 6, no. 1 (December 2019): 36. https://doi.org/10.1038/s41597-019-0043-4.
