@@ -270,6 +270,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Image analysis
 
+- [HISTOBREAST](https://osf.io/2c6ed/) - brightfield microscopy images of Haematoxylin - Eosin (H&E) stained breast tissue (moderately differentiated (G2) invasive breast cancer of no special type). Different acquisition conditions, two magnifications (5X, 50X). Neighbour image tiles (16) and ensemble of mosaics composed from different combinations of the available image tiles, exhibiting progressively degraded quality levels. Can serve for benchmarking and developing new image processing techniques. <details>
+    <summary>Paper</summary>
+    Buga, Roxana M., Tiberiu Totu, Adrian Dumitru, Mariana Costache, Iustin Floroiu, Nataša Sladoje, and Stefan G. Stanciu. “HISTOBREAST, a Collection of Brightfield Microscopy Images of Haematoxylin and Eosin Stained Breast Tissue.” Scientific Data 7, no. 1 (December 2020): 169. https://doi.org/10.1038/s41597-020-0500-0.
+</details>
+
 - [High content image analysis with CellProfiler (2D and 3D)](https://github.com/hmbotelho/SPAOM2020-ws1-high-content-screening) - detailed Python- and R-based workshop
 
 - Prediction of chromosomal instability (CIN, fraction of genome altered, binarized into high/low) in breast cancer using deep learning on histology images. Tested different convnet architectures, Densenet-121 worked best. TensorFlow2. [Code for CIN](https://github.com/eipm/CIN)
