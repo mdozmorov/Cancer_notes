@@ -141,6 +141,16 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Synergy
 
+- Review of drug response prediction methods in cancer. Overview of deep learning architectures, Table 1 - DL terminology, Table 2 - data resources (NCI-60, CCLE, GDSC1 etc.), Table 3 - drug combination screening studies. DREAM challenges addressing drug sensitivity. Approaches for building and evaluating drug response prediction models, single-drug (Table 4 - studies, models) and drug combination (Table 6) approaches. DeepSynergy, NCI-ALMANAC dataset, AstraZeneca-Sanger Drug Combination DREAM challenge paper. Evaluation of model ensembles. Deep learning for drug repurposing. Methods for model evaluation, improving performance, increase interpretability. Deep reading with lots of references. <details>
+    <summary>Paper</summary>
+    Baptista, Delora, Pedro G. Ferreira, and Miguel Rocha. "Deep learning for drug response prediction in cancer." Briefings in bioinformatics 22, no. 1 (January 2021): 360-379. https://doi.org/10.1093/bib/bbz171
+</details>
+
+- [BIGL](https://cran.r-project.org/web/packages/BIGL/) - extension of Loewe model for detecting synergistic effect of drug treatment. Heatmap of combinatorial synergy of main drugs. <details>
+    <summary>Paper</summary>
+    Van der Borght, Koen, Annelies Tourny, Rytis Bagdziunas, Olivier Thas, Maxim Nazarov, Heather Turner, Bie Verbist, and Hugo Ceulemans. “BIGL: Biochemically Intuitive Generalized Loewe Null Model for Prediction of the Expected Combined Effect Compatible with Partial Agonism and Antagonism.” Scientific Reports 7, no. 1 (December 2017). https://doi.org/10.1038/s41598-017-18068-5.
+</details>
+
 - [DrugCombDb](http://drugcombdb.denglab.org/) - Combinatorial drug database. Integration of three high-throughput screening studies, literature mining, other databases. Zero Interaction Potency (ZIP) model to quantify synergy/antagonism (SynergyFinder tool). Min-max normalized to 0-1 range. <details>
     <summary>Paper</summary>
     Deng, Lei, Bo Zou, Wenhao Zhang, and Hui Liu. “DrugCombDB: A Comprehensive Database of Drug Combinations toward Network Medicine and Combination Therapy,” November 27, 2018. https://doi.org/10.1101/477547.
