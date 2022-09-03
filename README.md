@@ -141,6 +141,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Synergy
 
+- [DrugCombDb](http://drugcombdb.denglab.org/) - Combinatorial drug database. Integration of three high-throughput screening studies, literature mining, other databases. Zero Interaction Potency (ZIP) model to quantify synergy/antagonism (SynergyFinder tool). Min-max normalized to 0-1 range. <details>
+    <summary>Paper</summary>
+    Deng, Lei, Bo Zou, Wenhao Zhang, and Hui Liu. “DrugCombDB: A Comprehensive Database of Drug Combinations toward Network Medicine and Combination Therapy,” November 27, 2018. https://doi.org/10.1101/477547.
+</details>
+
 - [SynergyFinder](https://synergyfinder.fimm.fi) - drug synergy analysis using four major reference models (HSA, Loewe, Bliss, ZIP). Web tool and [R/Bioconductor package](https://bioconductor.org/packages/synergyfinder/). <details>
     <summary>Paper</summary>
     Ianevski, Aleksandr, Liye He, Tero Aittokallio, and Jing Tang. “SynergyFinder: A Web Application for Analyzing Drug Combination Dose-Response Matrix Data.” Bioinformatics (Oxford, England) 33, no. 15 (August 1, 2017): 2413–15. https://doi.org/10.1093/bioinformatics/btx162.
