@@ -161,6 +161,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Ianevski, Aleksandr, Liye He, Tero Aittokallio, and Jing Tang. “SynergyFinder: A Web Application for Analyzing Drug Combination Dose-Response Matrix Data.” Bioinformatics (Oxford, England) 33, no. 15 (August 1, 2017): 2413–15. https://doi.org/10.1093/bioinformatics/btx162.
 </details>
 
+- [Synergy interactive heatmap](http://www.cmtlab.org:3000/combo_app.html) of a large drug combination screen (108 drugs, 40 cell lines, two concentrations). Bliss independence model description, statistics. Bliss-based linear model to evaluate viabilities for individual drugs. [GitHub](https://github.com/arnaudmgh/synergy-screen) - Code to reproduce the analysis. [CSV](https://raw.githubusercontent.com/arnaudmgh/synergy-screen/master/data/rawscreen.csv) - Raw data. <details>
+    <summary>Paper</summary>
+    Amzallag, Arnaud, Sridhar Ramaswamy, and Cyril H. Benes. “Statistical Assessment and Visualization of Synergies for Large-Scale Sparse Drug Combination Datasets.” BMC Bioinformatics 20, no. 1 (December 2019). https://doi.org/10.1186/s12859-019-2642-7.
+</details>
+
 ## Tools
 
 ### Preprocessing
