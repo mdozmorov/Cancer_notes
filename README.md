@@ -10,6 +10,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 
 - [Drugs](#drugs)
+  - [Synergy](#synergy)
 - [Tools](#tools)
   - [Preprocessing](#preprocessing)
   - [Purity](#purity)
@@ -136,6 +137,13 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - Multi-omics profiling of drug response (90 compounts) in 84 human breast cancer cell lines. RNA-seq is the most predictive, omics measures correlate. DNA copy number (Affymetrix SNP6 - EGA accessions [EGAS00000000059](https://ega-archive.org/studies/EGAS00000000059) and [EGAS00001000585](https://ega-archive.org/studies/EGAS00001000585)), mRNA expression (Affymetrix U133A and Exon 1.0 ST array - ArrayExpress accessions [E-TABM-157](https://www.ebi.ac.uk/arrayexpress/experiments/E-TABM-157/) and [E-MTAB-181](https://www.ebi.ac.uk/arrayexpress/experiments/E-MTAB-181/)), transcriptome sequence (RNAseq - Gene Expression Omnibus (GEO) accession [GSE48216](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48216)), promoter methylation (Illumina Methylation27 BeadChip - GEO accession [GSE42944](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE42944)), protein abundance (Reverse Protein Lysate Array - Additional file 2), and mutation status (Exome-Seq - GEO accession [GSE48216](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE48216)). [Supplementary material](https://genomebiology.biomedcentral.com/articles/10.1186/gb-2013-14-10-r110#Sec16): Supplementary Table 1: Overview of 84 cell lines with subtype information and available data. -log10 (GI50) values for 90 therapeutic compounds are provided for 70/84 cell lines included in all analyses. Supplementary Table 2: Processed Reverse Protein Lysate Array (RPPA) intensity data for 70 (phospho)proteins with fully validated antibodies in 49 cell lines. See Supplementary Methods for data processing details. Supplementary Table 11: Omics signatures for the 22 compounds (ranked genes). <details>
     <summary>Paper</summary>
     Daemen, Anneleen, Obi L Griffith, Laura M Heiser, Nicholas J Wang, Oana M Enache, Zachary Sanborn, Francois Pepin, et al. “Modeling Precision Treatment of Breast Cancer.” Genome Biology 14, no. 10 (2013): R110. https://doi.org/10.1186/gb-2013-14-10-r110.
+</details>
+
+### Synergy
+
+- [SynergyFinder](https://synergyfinder.fimm.fi) - drug synergy analysis using four major reference models (HSA, Loewe, Bliss, ZIP). Web tool and [R/Bioconductor package](https://bioconductor.org/packages/synergyfinder/). <details>
+    <summary>Paper</summary>
+    Ianevski, Aleksandr, Liye He, Tero Aittokallio, and Jing Tang. “SynergyFinder: A Web Application for Analyzing Drug Combination Dose-Response Matrix Data.” Bioinformatics (Oxford, England) 33, no. 15 (August 1, 2017): 2413–15. https://doi.org/10.1093/bioinformatics/btx162.
 </details>
 
 ## Tools
