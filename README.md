@@ -146,6 +146,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Baptista, Delora, Pedro G. Ferreira, and Miguel Rocha. "Deep learning for drug response prediction in cancer." Briefings in bioinformatics 22, no. 1 (January 2021): 360-379. https://doi.org/10.1093/bib/bbz171
 </details>
 
+- Review of drug synergy methods. Loewe additive model (Dose Equivalence Principle, DEP), Bliss independence model (Multiplicative Survival Principle, MSP), Highest Single Agent (HSA) model. Extensions by Chou and Talalay. Figure 1 - development timeline, the majority of synergy studies do not mention methods. Table 1 - comparison of drug synergy models, references, tools. Minimalistic/optimized sampling schemes. Comparison of SynergyFinder and Combenefit (both use Bliss model), various metrics, DREAM challenge results - results are different, models also diverge for higher-order interactions. [GitHub](https://github.com/QuLab-VU/TIPS_Review_2020) - Code to reproduce analyses. <details>
+    <summary>Paper</summary>
+    Meyer, Christian T., David J. Wooten, Carlos F. Lopez, and Vito Quaranta. “Charting the Fragmented Landscape of Drug Synergy.” Trends in Pharmacological Sciences 41, no. 4 (April 2020): 266–80. https://doi.org/10.1016/j.tips.2020.01.011.
+</details>
+
 - [BIGL](https://cran.r-project.org/web/packages/BIGL/) - extension of Loewe model for detecting synergistic effect of drug treatment. Heatmap of combinatorial synergy of main drugs. <details>
     <summary>Paper</summary>
     Van der Borght, Koen, Annelies Tourny, Rytis Bagdziunas, Olivier Thas, Maxim Nazarov, Heather Turner, Bie Verbist, and Hugo Ceulemans. “BIGL: Biochemically Intuitive Generalized Loewe Null Model for Prediction of the Expected Combined Effect Compatible with Partial Agonism and Antagonism.” Scientific Reports 7, no. 1 (December 2017). https://doi.org/10.1038/s41598-017-18068-5.
