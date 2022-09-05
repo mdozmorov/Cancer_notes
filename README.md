@@ -156,6 +156,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Van der Borght, Koen, Annelies Tourny, Rytis Bagdziunas, Olivier Thas, Maxim Nazarov, Heather Turner, Bie Verbist, and Hugo Ceulemans. “BIGL: Biochemically Intuitive Generalized Loewe Null Model for Prediction of the Expected Combined Effect Compatible with Partial Agonism and Antagonism.” Scientific Reports 7, no. 1 (December 2017). https://doi.org/10.1038/s41598-017-18068-5.
 </details>
 
+- [DeepSynergy](http://www.bioinf.jku.at/software/DeepSynergy/) - predicting drug synergy in cancer using neural networks. Uses chemical (three types) and genomic (gene expression, Affy arrays) information as input (concatenated). Uses [Merck dataset](https://doi.org/10.1158/1535-7163.mct-15-0843), 23,062 samples, 583 combinations, 39 human cancer cell lines derived from 7 tiddue types, 38 drugs. a normalization strategy (tanh), and conical layers architecture (two layers, 8192 and 4096 neurons, RELU between layers, linear activation for the output layer, relatively small training rate). Trained on Loewe additive values calculated using Combenefit. Outperforms GBM, RF, SVM, and Elastic Nets as measured by MSE and other metrics (cross-validation). [GitHub](https://github.com/KristinaPreuer/DeepSynergy) - Jupyter notebook for data normalization and cross validation. [Web interface](http://shiny.bioinf.jku.at/DeepSynergy/). <details>
+    <summary>Paper</summary>
+    Preuer, Kristina, Richard PI Lewis, Sepp Hochreiter, Andreas Bender, Krishna C. Bulusu, and Günter Klambauer. "DeepSynergy: predicting anti-cancer drug synergy with Deep Learning." Bioinformatics 34, no. 9 (01 May 2018): 1538-1546. https://doi.org/10.1093/bioinformatics/btx806
+</details>
+
 - [DrugCombDb](http://drugcombdb.denglab.org/) - Combinatorial drug database. Integration of three high-throughput screening studies, literature mining, other databases. Zero Interaction Potency (ZIP) model to quantify synergy/antagonism (SynergyFinder tool). Min-max normalized to 0-1 range. <details>
     <summary>Paper</summary>
     Deng, Lei, Bo Zou, Wenhao Zhang, and Hui Liu. “DrugCombDB: A Comprehensive Database of Drug Combinations toward Network Medicine and Combination Therapy,” November 27, 2018. https://doi.org/10.1101/477547.
@@ -166,7 +171,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Ianevski, Aleksandr, Liye He, Tero Aittokallio, and Jing Tang. “SynergyFinder: A Web Application for Analyzing Drug Combination Dose-Response Matrix Data.” Bioinformatics (Oxford, England) 33, no. 15 (August 1, 2017): 2413–15. https://doi.org/10.1093/bioinformatics/btx162.
 </details>
 
-- [Synergy interactive heatmap](http://www.cmtlab.org:3000/combo_app.html) of a large drug combination screen (108 drugs, 40 cell lines, two concentrations). Bliss independence model description, statistics. Bliss-based linear model to evaluate viabilities for individual drugs. [GitHub](https://github.com/arnaudmgh/synergy-screen) - Code to reproduce the analysis. [CSV](https://raw.githubusercontent.com/arnaudmgh/synergy-screen/master/data/rawscreen.csv) - Raw data. <details>
+- [Synergy interactive heatmap](http://www.cmtlab.org:3000/combo_app.html) of a large drug combination screen (108 drugs, 40 cell lines, two concentrations). Bliss independence model description, statistics. Bliss-based linear model (log of the Bliss model) to evaluate viabilities for individual drugs. [GitHub](https://github.com/arnaudmgh/synergy-screen) - Code to reproduce the analysis. [CSV](https://raw.githubusercontent.com/arnaudmgh/synergy-screen/master/data/rawscreen.csv) - Raw data. <details>
     <summary>Paper</summary>
     Amzallag, Arnaud, Sridhar Ramaswamy, and Cyril H. Benes. “Statistical Assessment and Visualization of Synergies for Large-Scale Sparse Drug Combination Datasets.” BMC Bioinformatics 20, no. 1 (December 2019). https://doi.org/10.1186/s12859-019-2642-7.
 </details>
