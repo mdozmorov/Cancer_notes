@@ -151,6 +151,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Meyer, Christian T., David J. Wooten, Carlos F. Lopez, and Vito Quaranta. “Charting the Fragmented Landscape of Drug Synergy.” Trends in Pharmacological Sciences 41, no. 4 (April 2020): 266–80. https://doi.org/10.1016/j.tips.2020.01.011.
 </details>
 
+- Review of drug synergy prediction methods. Description of main models, Loewe additivity, Bliss independence, Combinatorial Index, others. [Table 1](https://www.sciencedirect.com/science/article/pii/S1359644615003438#tbl0005) - drug synergy studies, techniques. [Table 2](https://www.sciencedirect.com/science/article/pii/S1359644615003438#tbl0010) - data sources of drug combination screens, public, e.g., [NCATS matrix](https://tripod.nih.gov/matrix-client/). [Table 4](https://www.sciencedirect.com/science/article/pii/S1359644615003438#tbl0020) - software, commercial and free. <details>
+    <summary>Paper</summary>
+    Bulusu, Krishna C., Rajarshi Guha, Daniel J. Mason, Richard P.I. Lewis, Eugene Muratov, Yasaman Kalantar Motamedi, Murat Cokol, and Andreas Bender. “Modelling of Compound Combination Effects and Applications to Efficacy and Toxicity: State-of-the-Art, Challenges and Perspectives.” Drug Discovery Today 21, no. 2 (February 2016): 225–38. https://doi.org/10.1016/j.drudis.2015.09.003.
+</details>
+
 - [BIGL](https://cran.r-project.org/web/packages/BIGL/) - extension of Loewe model for detecting synergistic effect of drug treatment. Heatmap of combinatorial synergy of main drugs. <details>
     <summary>Paper</summary>
     Van der Borght, Koen, Annelies Tourny, Rytis Bagdziunas, Olivier Thas, Maxim Nazarov, Heather Turner, Bie Verbist, and Hugo Ceulemans. “BIGL: Biochemically Intuitive Generalized Loewe Null Model for Prediction of the Expected Combined Effect Compatible with Partial Agonism and Antagonism.” Scientific Reports 7, no. 1 (December 2017). https://doi.org/10.1038/s41598-017-18068-5.
