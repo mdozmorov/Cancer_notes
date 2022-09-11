@@ -166,6 +166,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Preuer, Kristina, Richard PI Lewis, Sepp Hochreiter, Andreas Bender, Krishna C. Bulusu, and Günter Klambauer. "DeepSynergy: predicting anti-cancer drug synergy with Deep Learning." Bioinformatics 34, no. 9 (01 May 2018): 1538-1546. https://doi.org/10.1093/bioinformatics/btx806
 </details>
 
+- [DCDB](http://public.synergylab.cn/dcdb/index.jsf) - Drug combination database, drugs, combinations, targets. Drug interactions are divided into pharmacodynamic and pharmacokinetic interactions, further subdivided into four types each. 1363 drug combinations, 806 small compounds and 98 biotech drugs, 814 drug targets. Not updated from 2014. [Download](http://public.synergylab.cn/dcdb/download.jsf) as plain text. <details>
+    <summary>Paper</summary>
+    Liu, Yanbin, Qiang Wei, Guisheng Yu, Wanxia Gai, Yongquan Li, and Xin Chen. “DCDB 2.0: A Major Update of the Drug Combination Database”  2014 Dec 23, https://doi.org/10.1093%2Fdatabase%2Fbau124
+</details>
+
 - [DrugCombDb](http://drugcombdb.denglab.org/) - Combinatorial drug database. Integration of three high-throughput screening studies, literature mining, other databases. Zero Interaction Potency (ZIP) model to quantify synergy/antagonism (SynergyFinder tool). Min-max normalized to 0-1 range. <details>
     <summary>Paper</summary>
     Deng, Lei, Bo Zou, Wenhao Zhang, and Hui Liu. “DrugCombDB: A Comprehensive Database of Drug Combinations toward Network Medicine and Combination Therapy,” November 27, 2018. https://doi.org/10.1101/477547.
