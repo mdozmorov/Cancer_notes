@@ -454,6 +454,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Cancer driver genes
 
+- [geneOncoX](https://github.com/sigven/geneOncoX) - Human gene annotations for the oncology domain, by [Sigve Nakken](https://github.com/sigven). Integration of multiple cancer gene annotation resources. [Tutorial](https://sigven.github.io/geneOncoX/articles/geneOncoX.html)
+
 - Many cancer genes switch between one-hit and two-hit drivers. Mutations of genes in the same biological pathway is a contributing factor. Higher-order interactions are abundant. [GitHub](https://github.com/SolipParkLab/CancerFitness), [Supplsmentary Information](https://www.nature.com/articles/s41467-021-27242-3#Sec19). [Park_2021_cancer_genes.xlsx](data/Park_2021_cancer_genes.xlsx) - Supplementary Dataset 1, 201 genes include 117 tumor-suppressor genes (TSGs), 77 oncogenes (OGs) and 7 dual-function genes (DFGs) <details>
     <summary>Paper</summary>
     Park, Solip, Fran Supek, and Ben Lehner. “[Higher Order Genetic Interactions Switch Cancer Genes from Two-Hit to One-Hit Drivers](https://doi.org/10.1038/s41467-021-27242-3).” Nature Communications, (December 2021)
