@@ -560,6 +560,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - [nstd186 (NCBI Curated Common Structural Variants)](https://www.ncbi.nlm.nih.gov/dbvar/studies/nstd186/) - hg19 genomic coordinates of variant regions
 
+- [Single-cell RNA-seq pan-cancer analysis of tumor microenvironment](https://gist-fgl.github.io/sc-caf-atlas/#). Public and in-house scRNA-seq data across 10 solid cancer types, 10X Genomics. Cancer-associated fibroblasts (CAFs), three types distinctly interacting with tumor endothelial cells (TECs), tumor-associated macrophages (TAMs). Batch correction (the RunFastMNN function in SeuratWrappers package), Scrublet, CellphoneDB, Monocle, GSVA. [GitHub](https://github.com/Xiaxy-XuLab/PanCAF). <details>
+    <summary>Paper</summary>
+    Luo, Han, Xuyang Xia, Li-Bin Huang, Hyunsu An, Minyuan Cao, Gyeong Dae Kim, Hai-Ning Chen, et al. “Pan-Cancer Single-Cell Analysis Reveals the Heterogeneity and Plasticity of Cancer-Associated Fibroblasts in the Tumor Microenvironment.” Nature Communications 13, no. 1 (November 4, 2022): 6619. https://doi.org/10.1038/s41467-022-34395-2.
+</details>
+
 - [ENCODEC](http://encodec.encodeproject.org/) - integrative ENCODE resource for cancer genomics. Integrating multiple technologies (eCLIP, Hi-C, STARR-seq, other ENCODE data). Integrated annotation where genes are linked to concoding regulatory elements (Extended genes). Enables prioritization of key regulators, noncoding elements, variants associated with oncogenes. Downloadable annotation data, cell type-specific extended gene definition, annotated enhancer peaks, cell type-specific and merged networks. <details>
     <summary>Paper</summary>
     Zhang, Jing, Donghoon Lee, Vineet Dhiman, Peng Jiang, Jie Xu, Patrick McGillivray, Hongbo Yang, et al. “An Integrative ENCODE Resource for Cancer Genomics.” Nature Communications 11, no. 1 (December 2020): 3696. https://doi.org/10.1038/s41467-020-14743-w.
