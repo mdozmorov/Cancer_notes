@@ -29,7 +29,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - [Cancer driver genes](#cancer-driver-genes)
 - [Cancer driver mutations](#cancer-driver-mutations)
 - [Cancer mutational signatures](#cancer-mutational-signatures)
-- [Data](#data)
+- [Databases](#databases)
   - [cBioPortal](#cbioportal)
   - [TCGA PanCancer](#tcga-pancancer)
   - [Pediatric](#pediatric)
@@ -554,7 +554,9 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 - `DeconstructSig` - Contribution of known SNP cancer mutation signatures to tumor samples. Data from Alexandrov, COSMIC, others. https://github.com/raerose01/deconstructSigs 
 
 
-## Data
+## Databases
+
+- [Activity-by-Contact (ABC) Model](https://www.engreitzlab.org/resources/) predicting SNP-enhancer regularoty pairs. [Predictions](ftp://ftp.broadinstitute.org/outgoing/lincRNA/ABC/AllPredictions.AvgHiC.ABC0.015.minus150.ForABCPaperV3.txt.gz) in 131 cell types and tissues (all element-gene connections with ABC scores >= 0.015. [GitHub](https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction)ю
 
 - [TUMOR FUSION GENE DATA PORTAL](https://tumorfusions.org/) by the Jackson Lab, obtained using PRADA pipeline. Online only
 
