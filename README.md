@@ -27,6 +27,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - [Survival analysis](#survival-analysis)
   - [Methods to find best cutoff for survival](#methods-to-find-best-cutoff-for-survival)
 - [Cancer driver genes](#cancer-driver-genes)
+  - [Cancer gene signatures](#Cancer-gene-signatures)
 - [Cancer driver mutations](#cancer-driver-mutations)
 - [Cancer mutational signatures](#cancer-mutational-signatures)
 - [Databases](#databases)
@@ -531,6 +532,13 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [data/Tokheim_2016_cancer_driver_genes.xlsx](data/Tokheim_2016_cancer_driver_genes.xlsx) - Dataset S2: Predicted driver genes by various number of methods
     - Tokheim, Collin J., Nickolas Papadopoulos, Kenneth W. Kinzler, Bert Vogelstein, and Rachel Karchin. “Evaluating the Evaluation of Cancer Driver Genes.” Proceedings of the National Academy of Sciences 113, no. 50 (December 13, 2016): 14330–35. https://doi.org/10.1073/pnas.1616440113. - 20/20+ machine learning method, ratiometric approach to predict cancer driver genes. Performance comparison of other methods, 20/20+, TUSON, OncodriveFML and MutsigCV are the top performers. https://github.com/KarchinLab/2020plus
+
+### Cancer gene signatures
+
+- Short-term TGFBR inhibition (mimicking decrease in TGFB pathway activity after pregnancy, p27+ progenitors) of prepubertal ACI inbred and Sprague Dawley outbred rats prevents estrogen- and carcinogen-induced breast cancer by likely increasing and depleting the pool of epithelial subpopulation of secretory basal cells (SBCs) with progenitor features. Bulk, scRNA-seq (10X Genomics, CellRanger, Seurat, monocle3, liana, more methods), SBC signature (336 genes, [Supplementary Data 7](https://www.nature.com/articles/s41467-022-35043-5#Sec27)), reanalysis of [GSE106273](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106273) and [GSE161529](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161529). [GitHub](https://github.com/csimona/tumor-prevention-rat-scRNAseq), scRNA-seq data at [GSE184095](https://0-www-ncbi-nlm-nih-gov.brum.beds.ac.uk/geo/query/acc.cgi?acc=GSE184095), R data object at [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.7293642.svg)](https://doi.org/10.5281/zenodo.7293642). Great [Tweetorial](https://twitter.com/simocristea/status/1600578512578035733?s=20&t=CgDFM9JAFhVjliIps8QucQ) by [Simona Cristea](https://twitter.com/simocristea). [Polyak_2022_SBC_genes.xlsx](data/Polyak_2022_SBC_genes.xlsx) <details>
+    <summary>Paper</summary>
+    Alečković, Maša, Simona Cristea, Carlos R. Gil Del Alcazar, Pengze Yan, Lina Ding, Ethan D. Krop, Nicholas W. Harper, et al. “Breast Cancer Prevention by Short-Term Inhibition of TGFβ Signaling.” Nature Communications 13, no. 1 (December 7, 2022): 7558. https://doi.org/10.1038/s41467-022-35043-5.
+    </details>
 
 ## Cancer driver mutations
 
