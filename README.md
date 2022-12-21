@@ -679,7 +679,7 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 ### BRCA data
 
-- [BCLncRDB](http://sls.uohyd.ac.in/new/bclncrdb/) - database of breast cancer-associated lncRNAs. 5,279 entries, including (I) Differentially expressed and methylated lncRNAs, (II) Stage and subtype-specific lncRNAs, and (III) Drugs, Subcellular localization, Sequence, and Chromosome information. Compared with non-BRCA-specific Lnc2cancer, LncRNADisease, LnCaNet, Lnc2catlas. Reprocessed data from GEO (GSE60689, GSE64790, GSE113851, and GSE119233), LncLocator, TCGA, literature. <details>
+- [BCLncRDB](http://sls.uohyd.ac.in/new/bclncrdb/) - database of breast cancer-associated lncRNAs. 5,279 entries, including (I) Differentially expressed and methylated lncRNAs, (II) Stage and subtype-specific lncRNAs, and (III) Drugs, Subcellular localization, Sequence, and Chromosome information. Compared with non-BRCA-specific Lnc2cancer, LncRNADisease, LnCaNet, Lnc2catlas. Reprocessed data from GEO (GSE60689, GSE64790, GSE113851, and GSE119233), LncLocator, TCGA, literature. [Download](http://sls.uohyd.ac.in/new/bclncrdb/Downloads.php) Excel files. <details>
     <summary>Paper</summary>
     Kumar, Swapnil, Avantika Agarwal, and Vaibhav Vindal. “BCLncRDB: A Comprehensive Database of LncRNAs Associated with Breast Cancer.” Preprint. Bioinformatics, December 8, 2022. https://doi.org/10.1101/2022.12.05.519223.
 </details>
