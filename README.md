@@ -462,6 +462,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Park, Solip, Fran Supek, and Ben Lehner. “[Higher Order Genetic Interactions Switch Cancer Genes from Two-Hit to One-Hit Drivers](https://doi.org/10.1038/s41467-021-27242-3).” Nature Communications, (December 2021)
 </details>
 
+- [CR2Cancer](http://cis.hku.hk/CR2Cancer/index.php) - chromatin regulator (CR) and cancer association database. Genomic, transcriptomic, proteomic, clinical, and functional information for over 400 CRs. Seven categories of knowledge, six view panels ‘Cancer Type’, ‘Function’, ‘Mutation Rate’, ‘Differential Expres- sion’, ‘ChIP-Seq Data’ and ‘Targeted Drug’. [Download](http://cis.hku.hk/CR2Cancer/download.php) various CR data. <details>
+    <summary>Paper</summary>
+    Ru, Beibei, Jianlong Sun, Yin Tong, Ching Ngar Wong, Aditi Chandra, Acacia Tsz So Tang, Larry Ka Yue Chow, Wai Lam Wun, Zarina Levitskaya, and Jiangwen Zhang. “CR2Cancer: A Database for Chromatin Regulators in Human Cancer.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D918–24. https://doi.org/10.1093/nar/gkx877.
+</details>
+
 - Nucleotide context of mutations is associated with driver/passenger status. Pan-cancer analysis (data from 87 studies, including TCGA), seven methods for driver-gene detection, 460 driver genes clustered into 21 cancer-related pathways. Apoptosis regulation and chromatin modification are recurrent pathways. MutPanning software (Mac, Windows, Java) for analyzing nucleotide content.
     - Dietlein, Felix, Donate Weghorn, Amaro Taylor-Weiner, André Richters, Brendan Reardon, David Liu, Eric S. Lander, Eliezer M. Van Allen, and Shamil R. Sunyaev. “[Identification of Cancer Driver Genes Based on Nucleotide Context](https://doi.org/10.1038/s41588-019-0572-y).” Nature Genetics, February 3, 2020.
     - [Dietlein_2020_Drivers.xlsx](data/Dietlein_2020_Drivers.xlsx) - [Supplementary Tables 1–5](https://www.nature.com/articles/s41588-019-0572-y#Sec32)
