@@ -168,6 +168,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Van der Borght, Koen, Annelies Tourny, Rytis Bagdziunas, Olivier Thas, Maxim Nazarov, Heather Turner, Bie Verbist, and Hugo Ceulemans. “BIGL: Biochemically Intuitive Generalized Loewe Null Model for Prediction of the Expected Combined Effect Compatible with Partial Agonism and Antagonism.” Scientific Reports 7, no. 1 (December 2017). https://doi.org/10.1038/s41598-017-18068-5.
 </details>
 
+- [Combenefit](https://sourceforge.net/projects/combenefit/) - Matlab tool for synergy analysis. Includes Loewe, Bliss, Highest Single Agent (HSA) models. <details>
+    <summary>Paper</summary>
+    Di Veroli, Giovanni Y., Chiara Fornari, Dennis Wang, Séverine Mollard, Jo L. Bramhall, Frances M. Richards, and Duncan I. Jodrell. “Combenefit: An Interactive Platform for the Analysis and Visualization of Drug Combinations.” Bioinformatics 32, no. 18 (September 15, 2016): 2866–68. https://doi.org/10.1093/bioinformatics/btw230.
+</details>
+
 - [DeepSynergy](http://www.bioinf.jku.at/software/DeepSynergy/) - predicting drug synergy in cancer using neural networks. Uses chemical (three types) and genomic (gene expression, Affy arrays) information as input (concatenated). Uses [Merck dataset](https://doi.org/10.1158/1535-7163.mct-15-0843), 23,062 samples, 583 combinations, 39 human cancer cell lines derived from 7 tiddue types, 38 drugs. a normalization strategy (tanh), and conical layers architecture (two layers, 8192 and 4096 neurons, RELU between layers, linear activation for the output layer, relatively small training rate). Trained on Loewe additive values calculated using Combenefit. Outperforms GBM, RF, SVM, and Elastic Nets as measured by MSE and other metrics (cross-validation). [GitHub](https://github.com/KristinaPreuer/DeepSynergy) - Jupyter notebook for data normalization and cross validation. [Web interface](http://shiny.bioinf.jku.at/DeepSynergy/). <details>
     <summary>Paper</summary>
     Preuer, Kristina, Richard PI Lewis, Sepp Hochreiter, Andreas Bender, Krishna C. Bulusu, and Günter Klambauer. "DeepSynergy: predicting anti-cancer drug synergy with Deep Learning." Bioinformatics 34, no. 9 (01 May 2018): 1538-1546. https://doi.org/10.1093/bioinformatics/btx806
