@@ -705,6 +705,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     Wu, Sunny Z., Ghamdan Al-Eryani, Daniel Lee Roden, Simon Junankar, Kate Harvey, Alma Andersson, Aatish Thennavan, et al. “A Single-Cell and Spatially Resolved Atlas of Human Breast Cancers.” Nature Genetics 53, no. 9 (September 2021): 1334–47. https://doi.org/10.1038/s41588-021-00911-1.
 </details>
 
+- Super-enhancer characterization in TNBC, integrative analysis of transcriptomics and ChIP-seq (H2K27ac, H3K4me1, H3K4me3). Super-enhancers are defined by size (ChromHMM-detected using H3K27ac, inflection point on the size distribution curve), can be used to define cell types. Defining TNBC-specific and non-specific SEs. Target genes using ARACNE. Experimentally validated FOXC1, MET, ANLN genes. [GitHub](https://github.com/CityUHK-CompBio/TNBCSE_code). [Supplementary Data 2](https://www.nature.com/articles/s41467-021-22445-0#Sec34) - TNBC-specific super-enhancers and predicted target genes, [hg19 BED](data/TNBC_superenhancers_Huang_2021_hg19.bed), [hg38 BED](data/TNBC_superenhancers_Huang_2021_hg38.bed)  <details>
+    <summary>Paper</summary>
+    Huang, Hao, Jianyang Hu, Alishba Maryam, Qinghua Huang, Yuchen Zhang, Saravanan Ramakrishnan, Jingyu Li, et al. “Defining Super-Enhancer Landscape in Triple-Negative Breast Cancer by Multiomic Profiling.” Nature Communications 12, no. 1 (April 14, 2021): 2242. https://doi.org/10.1038/s41467-021-22445-0.
+</details>
+
 - 37 PDX models from difficult to treat breast cancers. Whole-genome, RNA-seq, RPPA. PDXs conserve the molecular landscape and chemosensitivity of their corresponding patient tumors. Correlation of variant allele frequencies with primary tumors was highly variable but overall coding mutations are preserved. [GSE142767](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142767) - RNA-seq data. <details>
     <summary>Paper</summary>
     Savage, Paul, Alain Pacis, Hellen Kuasne, Leah Liu, Daniel Lai, Adrian Wan, Matthew Dankner, et al. “Chemogenomic Profiling of Breast Cancer Patient-Derived Xenografts Reveals Targetable Vulnerabilities for Difficult-to-Treat Tumors.” Communications Biology 3, no. 1 (December 2020): 310. https://doi.org/10.1038/s42003-020-1042-x.
