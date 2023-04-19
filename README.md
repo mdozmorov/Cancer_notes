@@ -15,7 +15,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [Preprocessing](#preprocessing)
   - [Purity](#purity)
   - [Ploidy](#ploidy)
-  - [Immune cell deconvolution](#immune-cell-deconvolution)
+  - [Deconvolution](#deconvolution)
   - [BRCA](#brca)
   - [OvCa](#ovca)
   - [SCLC](#sclc)
@@ -243,7 +243,12 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Favero, F., T. Joshi, A. M. Marquard, N. J. Birkbak, M. Krzystanek, Q. Li, Z. Szallasi, and A. C. Eklund. “Sequenza: Allele-Specific Copy Number and Mutation Profiles from Tumor Sequencing Data.” Annals of Oncology 26, no. 1 (January 2015): 64–70. https://doi.org/10.1093/annonc/mdu479.
 </details>
 
-### Immune cell deconvolution
+### Deconvolution
+
+- [TmS](https://github.com/wwylab/TmS) - tumor-specific total mRNA expression measure, from bulk RNA-seq data. Captures the ratio of total mRNA expression per haploid genome in tumor cells vs. surrounding non-tumor cells (formula, parameters need to be estimated). Takes into account transcript proportion, purity and ploity, which are estimated through transcriptomic/genomic deconvolution. High TmS is associated with increased risk of disease progression and death. But high TmS is associated with improved disease-free survival (DFS) in patients with early-stage triple-negative breast carcinoma (TNBC) treated with chemotherapy. Evaluated on TCGA, ICGC-EOPC, METABRIC and TRACERx datasets. Based on [DeMixT](https://github.com/wwylab/DeMixT) R package. <details>
+    <summary>Paper</summary>
+    Cao, Shaolong, Jennifer R. Wang, Shuangxi Ji, Peng Yang, Yaoyi Dai, Shuai Guo, Matthew D. Montierth, et al. “Estimation of Tumor Cell Total MRNA Expression in 15 Cancer Types Predicts Disease Progression.” Nature Biotechnology 40, no. 11 (November 2022): 1624–33. https://doi.org/10.1038/s41587-022-01342-x.
+</details>
 
 - [DeMixT](https://github.com/wwylab/DeMixTallmaterials) - tumor-stroma-immune transcriptome deconvolution using a three-component model. Requires reference profiles from the stromal component. [Methods](https://www.cell.com/iscience/fulltext/S2589-0042(18)30187-1#secsectitle0070), the iterated conditional modes (ICM) algorithm and a gene-set-based component merging (GSCM) approach for parameter estimation, adaptive integration. Estimates proportions and reconstructs patient-speciric gene expression matrices. More accurate than ISOpure, similar to CIBERSORT. R package, parallelization with OpenMP. <details>
     <summary>Paper</summary>
