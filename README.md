@@ -766,6 +766,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - [Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)](https://www.cbioportal.org/study/summary?id=brca_metabric) - Targeted sequencing of 2509 primary breast tumors with 548 matched normals. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27161491,30867590,22522925)
 
+- CTCF ChIP-seq data (Supplementary Table S5 from https://doi.org/10.1101/2023.04.17.537031)
+  - Normal, MCF10A ([GSE98551](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98551), [GSM4158368](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4158368), [GSM4158370](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4158370)), HMEC ([GSM1022631](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1022631), [GSM749753](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM749753))
+  - Cancer, MCF-7 ([GSE130852](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130852), [GSM2257816](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2257816), [GSM2067524](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2067524), [GSM2067525](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2067525), [GSM822305](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM822305)), T47D ([GSM3045107](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3045107), [GSM3045110](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3045110), [GSM3415545](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3415545), [GSM5098085](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5098085))
+
+
 ## PDX
 
 - Catalogs of PDX models: [PDXfinder](https://www.pdxfinder.org/), [EurOPDX](https://www.europdx.eu/), [PRoXe](https://www.proxe.org/), [PDRM](https://pdmr.cancer.gov/) - Patient-derived Models Repository, [BCM PDX portal](https://pdxportal.research.bcm.edu/pdxportal/), [Jackson Laboratory PDX models](https://www.jax.org/jax-mice-and-services/in-vivo-pharmacology/oncology-services/pdx-tumors).
