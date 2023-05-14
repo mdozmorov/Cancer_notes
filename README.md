@@ -770,6 +770,7 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
   - Normal, MCF10A ([GSE98551](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98551), [GSM4158368](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4158368), [GSM4158370](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4158370)), HMEC ([GSM1022631](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1022631), [GSM749753](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM749753))
   - Cancer, MCF-7 ([GSE130852](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130852), [GSM2257816](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2257816), [GSM2067524](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2067524), [GSM2067525](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2067525), [GSM822305](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM822305)), T47D ([GSM3045107](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3045107), [GSM3045110](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3045110), [GSM3415545](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3415545), [GSM5098085](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5098085))
 
+- ERalpha ChIP-seq data from six female BRCA patients, [GSE104399](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104399)
 
 ## PDX
 
