@@ -816,6 +816,12 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     Meehan, Terrence F., Nathalie Conte, Theodore Goldstein, Giorgio Inghirami, Mark A. Murakami, Sebastian Brabetz, Zhiping Gu, et al. “PDX-MI: Minimal Information for Patient-Derived Tumor Xenograft Models.” Cancer Research 77, no. 21 (November 1, 2017): e62–66. https://doi.org/10.1158/0008-5472.CAN-17-0582.
 </details>
 
+- [BCAPE](https://caldaslab.cruk.cam.ac.uk/bcape/) - a biobank of breast cancer patient-derived tumor xenografts (PDTXs). Diverse molecular subtypes retain intra-tumor heterogeneity. PDTX-derived tumor cells suitable for high-throughput drug screening. 84 models, 20 of which with drug sensitivity data. Model-centric or drug-centric views, gene-centric CNVs, mutations, expression, methylation. All data downloadable on [FigShare]
+(https://figshare.com/articles/dataset/Bruna_et_al_A_biobank_of_breast_cancer_explants_with_preserved_intra-tumor_heterogeneity_to_screen_anticancer_compounds_Cell_2016/2069274). [GitHub](https://github.com/crukci-bioinformatics/BCaPE). <details>
+    <summary>Paper</summary>
+    Bruna, Alejandra, Oscar M. Rueda, Wendy Greenwood, Ankita Sati Batra, Maurizio Callari, Rajbir Nath Batra, Katherine Pogrebniak, et al. “A Biobank of Breast Cancer Explants with Preserved Intra-Tumor Heterogeneity to Screen Anticancer Compounds.” Cell 167, no. 1 (September 2016): 260-274.e22. https://doi.org/10.1016/j.cell.2016.08.041.
+</details>
+
 - [Disambiguate](https://github.com/bcbio/bcbio-nextgen) - human-mouse read separation. Alignment to both genomes separately, selecting best matched genome. Supports multiple aligners, different strategies for STAR/BWA and TopHat/HiSat2. <details>
     <summary>Paper</summary>
     Ahdesmäki, Miika J., Simon R. Gray, Justin H. Johnson, and Zhongwu Lai. “Disambiguate: An Open-Source Application for Disambiguating Two Species in next Generation Sequencing Data from Grafted Samples.” F1000Research 5 (2016): 2741. https://doi.org/10.12688/f1000research.10082.2.
