@@ -245,9 +245,16 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Deconvolution
 
+See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_notes#deconvolution)
+
 - [TmS](https://github.com/wwylab/TmS) - tumor-specific total mRNA expression measure, from bulk RNA-seq data. Captures the ratio of total mRNA expression per haploid genome in tumor cells vs. surrounding non-tumor cells (formula, parameters need to be estimated). Takes into account transcript proportion, purity and ploity, which are estimated through transcriptomic/genomic deconvolution. High TmS is associated with increased risk of disease progression and death. But high TmS is associated with improved disease-free survival (DFS) in patients with early-stage triple-negative breast carcinoma (TNBC) treated with chemotherapy. Evaluated on TCGA, ICGC-EOPC, METABRIC and TRACERx datasets. Based on [DeMixT](https://github.com/wwylab/DeMixT) R package. <details>
     <summary>Paper</summary>
     Cao, Shaolong, Jennifer R. Wang, Shuangxi Ji, Peng Yang, Yaoyi Dai, Shuai Guo, Matthew D. Montierth, et al. “Estimation of Tumor Cell Total MRNA Expression in 15 Cancer Types Predicts Disease Progression.” Nature Biotechnology 40, no. 11 (November 2022): 1624–33. https://doi.org/10.1038/s41587-022-01342-x.
+</details>
+
+- [IOBR](https://github.com/IOBR/IOBR) - R package for multi-omics Immuno-Oncology Biological Research, to decode tumor microenvironment and signatures. Four modules: scRNA-seq cell signature and tumor microenvironment deconvolution module (enrichment in scRNA-seq signatures, KEGG. MSigDb, eight deconvolution methods (CIBERSORT, ESTIMATE, quanTIseq, TIMER, IPS, MCPCounter, xCell, EPIC)), phenotype module (immunophenotype, tumor metabolism, hypoxia, EMT), mutation module (mutation signatures, MAF format or mutation matrices), model construction module (biomarker, feature selection). Input: count or TPM matrix. [Shiny app](https://yi-xiong.shinyapps.io/IOBRshiny/). <details>
+    <summary>Paper</summary>
+    Zeng, Dongqiang, Zilan Ye, Rongfang Shen, Guangchuang Yu, Jiani Wu, Yi Xiong, Rui Zhou, et al. “IOBR: Multi-Omics Immuno-Oncology Biological Research to Decode Tumor Microenvironment and Signatures.” Frontiers in Immunology 12 (July 2, 2021): 687975. https://doi.org/10.3389/fimmu.2021.687975.
 </details>
 
 - [DeMixT](https://github.com/wwylab/DeMixTallmaterials) - tumor-stroma-immune transcriptome deconvolution using a three-component model. Requires reference profiles from the stromal component. [Methods](https://www.cell.com/iscience/fulltext/S2589-0042(18)30187-1#secsectitle0070), the iterated conditional modes (ICM) algorithm and a gene-set-based component merging (GSCM) approach for parameter estimation, adaptive integration. Estimates proportions and reconstructs patient-speciric gene expression matrices. More accurate than ISOpure, similar to CIBERSORT. R package, parallelization with OpenMP. <details>
