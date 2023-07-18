@@ -612,6 +612,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     Hu, Zhongyi, Jiao Yuan, Meixiao Long, Junjie Jiang, Youyou Zhang, Tianli Zhang, Mu Xu, et al. “The Cancer Surfaceome Atlas Integrates Genomic, Functional and Drug Response Data to Identify Actionable Targets.” Nature Cancer 2, no. 12 (December 13, 2021): 1406–22. https://doi.org/10.1038/s43018-021-00282-w.
 </details>
 
+- [The Project Score](https://score.depmap.sanger.ac.uk/) database, genes required for cancer cell fitness, from genome-wide CRISPR-Cas9 dropout screening data in annotated cancer cell lines. The fitness effect of 18,009 genes across 323 cancer cell models. Data exploration for gene, cancer, tissue, identify and rank candidate drug targets. Links to other resources. Download, API access. [Documentation](https://depmap.sanger.ac.uk/documentation/). <details>
+    <summary>Paper</summary>
+    Dwane, Lisa, Fiona M Behan, Emanuel Gonçalves, Howard Lightfoot, Wanjuan Yang, Dieudonne van der Meer, Rebecca Shepherd, Miguel Pignatelli, Francesco Iorio, and Mathew J Garnett. “Project Score Database: A Resource for Investigating Cancer Cell Dependencies and Prioritizing Therapeutic Targets.” Nucleic Acids Research 49, no. D1 (January 8, 2021): D1365–72. https://doi.org/10.1093/nar/gkaa882.
+</details>
+
 - [ENCODEC](http://encodec.encodeproject.org/) - integrative ENCODE resource for cancer genomics. Integrating multiple technologies (eCLIP, Hi-C, STARR-seq, other ENCODE data). Integrated annotation where genes are linked to concoding regulatory elements (Extended genes). Enables prioritization of key regulators, noncoding elements, variants associated with oncogenes. Downloadable annotation data, cell type-specific extended gene definition, annotated enhancer peaks, cell type-specific and merged networks. <details>
     <summary>Paper</summary>
     Zhang, Jing, Donghoon Lee, Vineet Dhiman, Peng Jiang, Jie Xu, Patrick McGillivray, Hongbo Yang, et al. “An Integrative ENCODE Resource for Cancer Genomics.” Nature Communications 11, no. 1 (December 2020): 3696. https://doi.org/10.1038/s41467-020-14743-w.
