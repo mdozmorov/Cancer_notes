@@ -91,6 +91,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Shimada, Kenichi, John A Bachman, Jeremy L Muhlich, and Timothy J Mitchison. “ShinyDepMap, a Tool to Identify Targetable Cancer Genes and Their Functional Connections from Cancer Dependency Map Data.” ELife 10 (February 8, 2021): e57116. https://doi.org/10.7554/eLife.57116.
 </details>
 
+- [The Open Target Platform](https://platform.opentargets.org/) - a database of ranked target-disease associations for drug target identification. Integrates genetics, genomics, transcriptomics, drugs, animal models, literature. Download, API access. SLAPenrich, PROGENy pathway enrichments based on mutation signatures. Integration of many cancer biomarker datasets, protein-protein interactions, RNA and protein expression. <details>
+    <summary>Paper</summary>
+    Carvalho-Silva, Denise, Andrea Pierleoni, Miguel Pignatelli, ChuangKee Ong, Luca Fumis, Nikiforos Karamanis, Miguel Carmona, et al. “Open Targets Platform: New Developments and Updates Two Years On.” Nucleic Acids Research 47, no. D1 (January 8, 2019): D1056–65. https://doi.org/10.1093/nar/gky1133.
+</details>
+
 - [DGB](http://amp.pharm.mssm.edu/DGB/) - Drug Gene Budger, small molecule prioritization using LINCS L1000, CMap, GEO, CREEDS. Output - drugs that up- or downregulated the selected gene, stratified per database. <details>
     <summary>Paper</summary>
     Wang, Zichen, Edward He, Kevin Sani, Kathleen M Jagodnik, Moshe C Silverstein, and Avi Ma’ayan. “[Drug Gene Budger (DGB): An Application for Ranking Drugs to Modulate a Specific Gene Based on Transcriptomic Signatures](https://doi.org/10.1093/bioinformatics/bty763).” Edited by Jonathan Wren. Bioinformatics 35, no. 7 (April 1, 2019): 1247–48. 
