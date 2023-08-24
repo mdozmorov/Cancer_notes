@@ -599,6 +599,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - [Activity-by-Contact (ABC) Model](https://www.engreitzlab.org/resources/) predicting SNP-enhancer regularoty pairs. [Predictions](ftp://ftp.broadinstitute.org/outgoing/lincRNA/ABC/AllPredictions.AvgHiC.ABC0.015.minus150.ForABCPaperV3.txt.gz) in 131 cell types and tissues (all element-gene connections with ABC scores >= 0.015. [GitHub](https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction).
 
+- [Estrogene.org](https://estrogene.org/) - database of estrogen receptor regulome (gene expression, ChIP-seq) in breast cancer (246 experiments), uniformly processed, batch effect regressed. Early and late estrogen activations programs differ. Early response includes ER cofactors and chromatin-associated factors (CTCF, RAD21, STAG1). Discovery of bidirectionally regulated genes. Supplementary Table S8 - High confident E2-regulated genes and BETA score; Table S10, S11 - gene signatures for early/mid/late ER response, genes specific to MCF7 or T47D, monodirectional and bidirectional genes. <details>
+    <summary>Paper</summary>
+    Li, Zheqi, Tianqin Li, Megan E. Yates, Yang Wu, Amanda Ferber, Lyuqin Chen, Daniel D. Brown, et al. “The EstroGene Database Reveals Diverse Temporal, Context-Dependent, and Bidirectional Estrogen Receptor Regulomes in Breast Cancer.” Cancer Research 83, no. 16 (August 15, 2023): 2656–74. https://doi.org/10.1158/0008-5472.CAN-23-0539.
+</details>
+
 - [DriverDBv3](http://driverdb.tms.cmu.edu.tw/) - A database for human cancer driver gene research. Search cancers, genes, downloads.
 
 - [Mitelman Database Chromosome Aberrations and Gene Fusions in Cancer](https://mitelmandatabase.isb-cgc.org/)
