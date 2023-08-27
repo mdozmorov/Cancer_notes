@@ -298,6 +298,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 - [HRDetect](https://github.com/eyzhao/hrdetect-pipeline) (homologous recombination-repair deficiency) classification of TNBC patients. Whole-genome sequencing-based. HRDetect-high have higher chemosensitivity, better survival profiles
     - Staaf, Johan, Dominik Glodzik, Ana Bosch, Johan Vallon-Christersson, Christel Reuterswärd, Jari Häkkinen, Andrea Degasperi, et al. “[Whole-Genome Sequencing of Triple-Negative Breast Cancers in a Population-Based Clinical Study](https://doi.org/10.1038/s41591-019-0582-4).” Nature Medicine, September 30, 2019
 
+- Gene expression normalization method for improved PAM50 subtyping. Subgroup-specific gene centering algorithm. Subsampling the training cohort (UNC dataset) to match the study dataset by clinicopathological distribution. Defining median from the training subsample, defining its percentile in the study cohort, subtracting that percentile. Improves classification accuracy from 17-33% using global median centering. Figure 2 illustrates the method, [supplementary methods](https://static-content.springer.com/esm/art%3A10.1186%2Fs13058-015-0520-4/MediaObjects/13058_2015_520_MOESM3_ESM.doc) describe the algorithm. Basic R code, [ssBC](https://ccsb.stanford.edu/research/core.html). <details>
+    <summary>Paper</summary>
+    Zhao, Xi, Einar Andreas Rødland, Robert Tibshirani, and Sylvia Plevritis. “Molecular Subtyping for Clinically Defined Breast Cancer Subgroups.” Breast Cancer Research 17, no. 1 (December 2015): 29. https://doi.org/10.1186/s13058-015-0520-4.
+</details>
+
 - `TNBCtype` tool to classify triple negative breast cancer samples (microarray gene expression) into six subtypes, http://cbc.mc.vanderbilt.edu/tnbc/index.php
 
 - `genefu` R package for PAM50 classification and survival analysis. https://www.bioconductor.org/packages/release/bioc/html/genefu.html
