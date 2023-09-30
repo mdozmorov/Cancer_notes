@@ -490,6 +490,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 - [geneOncoX](https://github.com/sigven/geneOncoX) - Human gene annotations for the oncology domain, by [Sigve Nakken](https://github.com/sigven). Integration of multiple cancer gene annotation resources. [Tutorial](https://sigven.github.io/geneOncoX/articles/geneOncoX.html)
 
+- [SCancerRNA](http://www.scancerrna.com/BioMarker/index.html) - database of cancer-specific non-coding RNA biomarkers (lncRNA, miRNA, piRNA, snoRNA). 13,381 entries, 7,813 published studies, 219 human cancer subtypes. Also, 1,897 genes corresponding to 2,018 ncRNA biomarkers for 19 cancer types, 28 scRNA-seq datasets. Other resources - BBCancer, Lnc2Cancer, miRandola, HMDD. Search and browse by type, function, tissue, clinical parameters. <details>
+    <summary>Paper</summary>
+    SCancerRNA: Expression at the Single Cell Level and Interaction Resource of Non-coding RNA Biomarkers for Cancers. Hongzhe Guo, Liyuan Zhang, Xinran Cui, Liang Cheng, Tianyi Zhao, Yadong Wang. bioRxiv 2023.09.26.559661; doi: https://doi.org/10.1101/2023.09.26.559661
+</details>
+
 - Many cancer genes switch between one-hit and two-hit drivers. Mutations of genes in the same biological pathway is a contributing factor. Higher-order interactions are abundant. [GitHub](https://github.com/SolipParkLab/CancerFitness), [Supplsmentary Information](https://www.nature.com/articles/s41467-021-27242-3#Sec19). [Park_2021_cancer_genes.xlsx](data/Park_2021_cancer_genes.xlsx) - Supplementary Dataset 1, 201 genes include 117 tumor-suppressor genes (TSGs), 77 oncogenes (OGs) and 7 dual-function genes (DFGs) <details>
     <summary>Paper</summary>
     Park, Solip, Fran Supek, and Ben Lehner. “[Higher Order Genetic Interactions Switch Cancer Genes from Two-Hit to One-Hit Drivers](https://doi.org/10.1038/s41467-021-27242-3).” Nature Communications, (December 2021)
