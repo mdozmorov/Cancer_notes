@@ -737,6 +737,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 ### BRCA data
 
+- [Annotated Compendium of 102 Breast Cancer Gene-Expression Datasets](https://osf.io/eky3p/) - Uniformly processed microarray and bulk RNA-seq breast cancer data from GEO, ArrayExpress, METABRIC, selected datasets from MetaGxData, curatedBreastData, ICGC, TCGA. Manually curated metadata, mapped to NCIT standardized terms. 17,151 patients. Dockerized scripts to recreate the data. <details>
+    <summary>Paper</summary>
+    Nwosu, Ifeanyichukwu O., Daniel D. Tabler, Greg Chipman, and Stephen R. Piccolo. “Annotated Compendium of 102 Breast Cancer Gene-Expression Datasets.” Preprint. Genomics, September 24, 2023. https://doi.org/10.1101/2023.09.22.559045.
+</details>
+
 - ERα-associated translocations underlie oncogene amplifications in breast cancer. Oncogene amplifications in breast cancer are formed by translocation-bridge (TB) amplification, facilitated by estrogen, but associated with reduced ER transcriptome activity). Intro in the mechanisms of oncogene amplifications (focal in nature, double-stranded breaks through the breakage-fusion-bridge cycle, chromotripsis). Analysis of 780 WGS data from 5 published studies. Inter-chromosomal translocations frequently precede focal amplifications. Pan-cancer analysis, four groups of translocation types. [PCAWG data](https://docs.icgc.org/pcawg/data/) - multi-omics data for multiple cancers. [Supplementary Table 2](https://www.nature.com/articles/s41586-023-06057-w#Sec29) - Focally amplified segments and their boundary structural variations in 780 breast cancers (integrated CNV and SV), hg19 coordinates. [Hartwig Medical Foundation tools](https://github.com/hartwigmedical/hmftools) - WGS processing pipeline. Somatic variant calls, including SNVs, indels, SVs and allelic copy-number information for 780 breast cancer cases at [the Park Laboratory](http://compbio.med.harvard.edu/TBAmplification/), [GitHub](https://github.com/parklab/focal-amplification). <details>
     <summary>Paper</summary>
     Lee, Jake June-Koo, Youngsook Lucy Jung, Taek-Chin Cheong, Jose Espejo Valle-Inclan, Chong Chu, Doga C. Gulhan, Viktor Ljungström, et al. “ERα-Associated Translocations Underlie Oncogene Amplifications in Breast Cancer.” Nature, May 17, 2023. https://doi.org/10.1038/s41586-023-06057-w.
