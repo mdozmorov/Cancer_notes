@@ -44,6 +44,12 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Drugs
 
+- [DRMref](https://ccsm.uth.edu/DRMref/) - database of drug resistance using single-cell data. Drug-resistant databases from bulk data: [DRESIS](http://dresis.idrblab.net/about), [CTR-DB]
+(http://ctrdb.cloudna.cn/home), [CeDR Atlas](https://ngdc.cncb.ac.cn/cedr/home), [CREAMMIST](https://creammist.mtms.dev/), [CancerDR](http://crdd.osdd.net/raghava/cancerdr/). 42 single-cell datasets from 30 studies, 382 samples, 13 major cancer types, 26 cancer subtypes, 35 treatment regimens and 42 drugs. Resistance mechanisms, resistance-related differentially expressed genes (R-DEGs), enrichment analysis in hallmark / KEGG (Kyoto Encyclopedia of Genesand Genomes) / GO (Gene Ontology) pathways, the identification of microRNA, motif and transcription factors involved in resistant cells. The differences in cell composition, intra-tumor heterogeneity (ITH) and epithelial-mesenchymal transition (EMT) scores, cell-cell interactions, and differentially expressed genes between the resistant and sensitive groups. Browsing various categories and analysis types. [Downloads](https://ccsm.uth.edu/DRMref/download.html). <details>
+    <summary>Paper</summary>
+    Liu, Xiaona, Jiahao Yi, Tina Li, Jianguo Wen, Kexin Huang, Jiajia Liu, Grant Wang, Pora Kim, Qianqian Song, and Xiaobo Zhou. “DRMref: Comprehensive Reference Map of Drug Resistance Mechanisms in Human Cancer.” Nucleic Acids Research, November 20, 2023, gkad1087. https://doi.org/10.1093/nar/gkad1087.
+</details>
+
 - [Genomics of Drug Sensitivity in Cancer](https://gdsc-combinations.depmap.sanger.ac.uk/) - Drug Synergy in breast, colon, pancreatic cancers. Synergy is rare. In breast cancer, Navitoclax + Alisertib/Tozasertib/ZM447439 (all AURK inhibitors) is the most synergistic. [Cell Model Passports](https://cellmodelpassports.sanger.ac.uk/) - information about cancer cell lines. [Downloads from GDSC2](https://gdsc-combinations.depmap.sanger.ac.uk/downloads) and [Figshare 1](https://doi.org/10.6084/m9.figshare.16843597), [Figshare 2](https://figshare.com/articles/dataset/Anchored_screen_glossary_file/16895371). <details>
     <summary>Paper</summary>
     Jaaks, Patricia, Elizabeth A. Coker, Daniel J. Vis, Olivia Edwards, Emma F. Carpenter, Simonetta M. Leto, Lisa Dwane, et al. “Effective Drug Combinations in Breast, Colon and Pancreatic Cancer Cells.” Nature 603, no. 7899 (March 3, 2022): 166–73. https://doi.org/10.1038/s41586-022-04437-2.
