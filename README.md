@@ -622,6 +622,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - [DriverDBv3](http://driverdb.tms.cmu.edu.tw/) - A database for human cancer driver gene research. Search cancers, genes, downloads.
 
+- [Human Tumor Atlas](https://humantumoratlas.org/) - a data and visualziation resource for neuroblastoma research, bulk and single cell RNA-seq data, whole exome sequencing, DNA methylation profiling, spatial transcriptomics and proteomics. From transcriptomics - three malignant cell states that resembled sympathoblasts and more differentiated adrenerggic cells. From methylation - four patient groups differing in the degree of malignant cell heterogeneity and clinical outcomes. <details>
+    <summary>Paper</summary>
+    Patel, Anand G., Orr Ashenberg, Natalie B. Collins, Åsa Segerstolpe, Sizun Jiang, Michal Slyper, Xin Huang, et al. “A Spatial Cell Atlas of Neuroblastoma Reveals Developmental, Epigenetic and Spatial Axis of Tumor Heterogeneity.” Preprint. Cancer Biology, January 7, 2024. https://doi.org/10.1101/2024.01.07.574538.
+</details>
+
 - [Mitelman Database Chromosome Aberrations and Gene Fusions in Cancer](https://mitelmandatabase.isb-cgc.org/)
 
 - [TUMOR FUSION GENE DATA PORTAL](https://tumorfusions.org/) by the Jackson Lab, obtained using PRADA pipeline. Online only
