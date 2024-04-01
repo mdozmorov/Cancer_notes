@@ -671,6 +671,9 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 - `MiOncoCirc` - cancer-oriented circRNA database. Exome-capture RNA-seq protocol achieves better enrichment for circRNAs than Ribo-Zero and Rnase R protocols. CIRCExplorer pipeline. Data: https://mioncocirc.github.io/download/
     - Vo, Josh N., Marcin Cieslik, Yajia Zhang, Sudhanshu Shukla, Lanbo Xiao, Yuping Zhang, Yi-Mi Wu, et al. “The Landscape of Circular RNA in Cancer.” Cell 176, no. 4 (February 2019): 869-881.e13. https://doi.org/10.1016/j.cell.2018.12.021.
 
+- [Xena](http://xena.ucsc.edu/) platform visualization capabilities ([Xena Browser](https://xenabrowser.net/)). Data description, public and private (for user data analysis) [Xena Hubs](https://xenabrowser.net/hub/). Survival analysis, tumor-normal expression comparison, gene expression-clinical associations, data download. <details>
+    <summary>Paper</summary>
+
 - [UCSCXenaTools](https://cran.r-project.org/web/packages/UCSCXenaTools/) - An R package downloading and exploring data from UCSC Xena data hubs. [GitHub](https://github.com/ShixiangWang/UCSCXenaTools)
     - Wang, Shixiang, and Xuesong Liu. “[The UCSCXenaTools R Package: A Toolkit for Accessing Genomics Data from UCSC Xena Platform, from Cancer Multi-Omics to Single-Cell RNA-Seq](https://doi.org/10.21105/joss.01627).” Journal of Open Source Software 4, no. 40 (August 5, 2019)
 - [UCSCXenaShiny](https://CRAN.R-project.org/package=UCSCXenaShiny) - Shiny interface to cancer omics data (TCGA, CCLE, PCAWG) and analysis (comparison/association of molecular profiles, association with tumor/immune features or drug response, survival analysis, drug response differences. [GitHub](https://github.com/openbiox/UCSCXenaShiny), [Docker](https://hub.docker.com/r/shixiangwang/ucscxenashiny)
