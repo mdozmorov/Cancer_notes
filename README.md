@@ -850,6 +850,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 ## PDX
 
+- [Xengsort](https://gitlab.com/genomeinformatics/xengsort) - alignment-free human-mouse read separation tool. Three-way bucketed quotiented Cuckoo hashing. Critique of XenofilteR, Xenosplit, Bamcmp and Disambiguate, BBsplit, xenome. Outperforms all, 3-4x faster. Python. <details>
+    <summary>Paper</summary>
+    Zentgraf, Jens, and Sven Rahmann. “Fast Lightweight Accurate Xenograft Sorting.” Algorithms for Molecular Biology 16, no. 1 (December 2021): 2. https://doi.org/10.1186/s13015-021-00181-w.
+</details>
+
 - Catalogs of PDX models: [PDXfinder](https://www.pdxfinder.org/), [EurOPDX](https://www.europdx.eu/), [PRoXe](https://www.proxe.org/), [PDRM](https://pdmr.cancer.gov/) - Patient-derived Models Repository, [BCM PDX portal](https://pdxportal.research.bcm.edu/pdxportal/), [Jackson Laboratory PDX models](https://www.jax.org/jax-mice-and-services/in-vivo-pharmacology/oncology-services/pdx-tumors).
 
 - **PDXNet Image Repository**, hosted on the Seven Bridges Cancer Genomics Cloud [CGC](https://www.cancergenomicscloud.org/) - pan-cancer repository of nearly 1000 PDX and paired human progenitor H&E images, associated with genomic and transcriptomic data, clinical metadata, pathological annotations. <details>
