@@ -214,6 +214,9 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Amzallag, Arnaud, Sridhar Ramaswamy, and Cyril H. Benes. “Statistical Assessment and Visualization of Synergies for Large-Scale Sparse Drug Combination Datasets.” BMC Bioinformatics 20, no. 1 (December 2019). https://doi.org/10.1186/s12859-019-2642-7.
 </details>
 
+- [drugcomb.org](https://drugcomb.org/) - the results of drug combination screening studies for a large variety of cancer cell lines
+
+
 ## Tools
 
 ### Preprocessing
