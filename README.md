@@ -616,6 +616,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 ## Cancer mutational signatures
 
+- Epithelial-Mesenchymal consensus signature from 266 scRNA-seq datasets, 8 cancer types. Includes 11 EMT gene sets. [Supplementary tables](https://www.science.org/doi/10.1126/sciadv.abi7640), 1 - 328 Conserved EMP Signature; 2 - 128 Malignant-specific EMP genes. <details>
+    <summary>Paper</summary>
+    Cook, David P., and Barbara C. Vanderhyden. “Transcriptional Census of Epithelial-Mesenchymal Plasticity in Cancer.” Preprint. Cancer Biology, March 7, 2021. https://doi.org/10.1101/2021.03.05.434142.
+</details>
+
 - [MetaMutationalSigs](https://github.com/EESI/MetaMutationalSigs) - mutational signature analysis, aggregate and visualize results from different packages. Intro into mutational signatures, methods for signature analysis. Signature refitting packages, four packages (DeconstructSigs, MutationalPatterns, Sigfit, Sigminer). Input - VCF files. Output - heatmaps, csv tables. <details>
     <summary>Paper</summary>
     Pandey, Palash, Sanjeevani Arora, and Gail L. Rosen. “MetaMutationalSigs: Comparison of Mutational Signature Refitting Results Made Easy.” Bioinformatics (Oxford, England), February 14, 2022, btac091. https://doi.org/10.1093/bioinformatics/btac091.
