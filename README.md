@@ -704,6 +704,8 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 - `CCLE2 data` - CCLE characterization using sequencing technologies. Data described: RNA splicing, DNA methylation, Histone modification, miRNA expression, RPPA for 1072 cells. Data availability: https://portals.broadinstitute.org/ccle/data, https://depmap.org/portal/download/
     - Ghandi, Mahmoud, Franklin W. Huang, Judit Jané-Valbuena, Gregory V. Kryukov, Christopher C. Lo, E. Robert McDonald, Jordi Barretina, et al. “Next-Generation Characterization of the Cancer Cell Line Encyclopedia.” Nature, May 8, 2019. https://doi.org/10.1038/s41586-019-1186-3.
 
+- [RNA-seq of 675 commonly used human cancer cell lines](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-2706)
+
 ### TCGA PanCancer
 
 - Catalog of cancer-associated gene alterations. PCAWG, ICGC and TCGA data analysis. Somatic alterations change gene expression, associated with splicing. Massive analysis results, figures, tables. [All data links](https://www.nature.com/articles/s41586-020-1970-0#data-availability), [All supplementary tables](https://www.nature.com/articles/s41586-020-1970-0#Sec54) - S1 - characteristics of all samples, covariates. S5 - somatic eGenes, 649 eQTLs, coordinates, genes, p-values, effect sizes. <details>
