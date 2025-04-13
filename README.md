@@ -371,6 +371,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ### Image analysis
 
+- **MouseGPT** - vision-language model for mouse behavior analysis. Analysis of multi-view video data (42M frames for training), pose estimation, and kinematic embeddings, characterizing description of mouse pose (Open-vocabulary Behavior Annotation) and analyzing behavior over time (overall, head, limb, torso, keywords), then LLM-guided (LangChain-based) novel behavior analysis and prediction. Prompt examples to characterize each aspect of the mouse's pose, output in JSON. Tested on behavioral patterns of various psychoactive drugs. MouseGPT-Large (>70B parameters) and Lite (7.84B parameters). PyTorch, no product yet. [Import AI summary](https://importai.substack.com/p/import-ai-407-deepmind-sees-agi-by?selection=8091fd55-611b-4180-8f19-fa59134b4292&utm_campaign=post-share-selection&utm_medium=web&triedRedirect=true#:~:text=Automating%20science%20research%20with%20MouseGPT%3A) <details>
+    <summary>Paper</summary>
+    Xu, Teng, Taotao Zhou, Youjia Wang, Peng Yang, Simin Tang, Kuixiang Shao, Zifeng Tang et al. "MouseGPT: A Large-scale Vision-Language Model for Mouse Behavior Analysis." bioRxiv (2025): 2025-03. https://doi.org/10.48550/arXiv.2503.10212
+</details>
+
 - [HISTOBREAST](https://osf.io/2c6ed/) - brightfield microscopy images of Haematoxylin - Eosin (H&E) stained breast tissue (moderately differentiated (G2) invasive breast cancer of no special type). Different acquisition conditions, two magnifications (5X, 50X). Neighbour image tiles (16) and ensemble of mosaics composed from different combinations of the available image tiles, exhibiting progressively degraded quality levels. Can serve for benchmarking and developing new image processing techniques. <details>
     <summary>Paper</summary>
     Buga, Roxana M., Tiberiu Totu, Adrian Dumitru, Mariana Costache, Iustin Floroiu, Nataša Sladoje, and Stefan G. Stanciu. “HISTOBREAST, a Collection of Brightfield Microscopy Images of Haematoxylin and Eosin Stained Breast Tissue.” Scientific Data 7, no. 1 (December 2020): 169. https://doi.org/10.1038/s41597-020-0500-0.
