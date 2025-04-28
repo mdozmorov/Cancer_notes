@@ -356,6 +356,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ## Deep Learning
 
+- [ScreenDL](https://github.com/csederman/screendl) - drug response prediction prediction model (neural network, fully connected layers) using tumor omics (uncurated mutations, gene expression) and functional screening data (on patient's organoids) to predict the most efficacious treatment (ScreenAhead module, drug selection using principal feature analysis PFA). Targetable mutations are insufficient to predict response. ScreenDL_PT - PreTrained on drug's chemical structures (Morgan fingerprints), Hallmark gene signatures from MSigDb, pharmaco-omics screen data (cell line Genomics of Drug Sensitivity in Cancer (GDSC) data and matched transcriptomics profiles from Cell Molecular Passports). Targets - drug response (Z-score transformed natural log of IC50). Outperforms DeepCDR, DualGCN, HiDRA, any single-gene predictor. Performance is worse in cell lines, better in organoids. [Singularity image](https://github.com/JDACS4C-IMPROVE/Singularity). <details>
+    <summary>Paper</summary>
+    Sederman, Casey, Chieh-Hsiang Yang, Emilio Cortes-Sanchez, Tony Di Sera, Xiaomeng Huang, Sandra D. Scherer, Ling Zhao et al. "A precision oncology-focused deep learning framework for personalized selection of cancer therapy." bioRxiv (2024): 2024-12. https://doi.org/10.1101/2024.12.12.628190
+</details>
+
 - [TDC](https://tdcommons.ai/overview/) (Therapeutic Data Commons) - Kaggle for therapeutics, discovery and development of safe and effective medicines. A framework to evaluate machine learning, contains 66 datasets, 22 learning tasks (single-instance, multi-instance, generative learning). [PyTDC](https://github.com/mims-harvard/TDC) - python interface. The paper describes details of each data, task, resource.
     - Huang, Kexin, Tianfan Fu, Wenhao Gao, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun, and Marinka Zitnik. “[Therapeutics Data Commons: Machine Learning Datasets and Tasks for Therapeutics](http://arxiv.org/abs/2102.09548).” ArXiv:2102.09548, February 18, 2021.
 
