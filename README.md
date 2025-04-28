@@ -232,18 +232,24 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Ranallo-Benavidez, T Rhyker, Kamil S Jaron, and Michael C Schatz. “GenomeScope 2.0 and Smudgeplot for Reference-Free Profiling of Polyploid Genomes,” Nature Communications volume 11, Article number: 1432 (2020) https://doi.org/10.1038/s41467-020-14998-3
 </details>
 
-- `ABSOLUTE` - infers tumor purity, ploidy from SNPs, CNVs. Also detects subclonal heterogeneity.
+- `ABSOLUTE` - infers tumor purity, ploidy from SNPs, CNVs. Also detects subclonal heterogeneity.  <details>
+    <summary>Paper</summary>
     - Carter, Scott L., Kristian Cibulskis, Elena Helman, Aaron McKenna, Hui Shen, Travis Zack, Peter W. Laird, et al. “Absolute Quantification of Somatic DNA Alterations in Human Cancer.” Nature Biotechnology 30, no. 5 (May 2012): 413–21. https://doi.org/10.1038/nbt.2203.
     - Aran, Dvir, Marina Sirota, and Atul J. Butte. “Systematic Pan-Cancer Analysis of Tumour Purity.” Nature Communications 6, no. 1 (December 2015). https://doi.org/10.1038/ncomms9971. - TCGA tumor purity estimation using four methods: ESTIMATE, ABSOLUTE, LUMP, IHC, and a median consensus purity estimation. Gene expression correlates with purity and may affect correlation and differential expression detection analyses - big confounding effect.
         - [data/ABSOLUTE_scores.xlsx](data/ABSOLUTE_scores.xlsx) - Supplementary Data 1: Tumor purity estimates according to four methods and the consensus method for all TCGA samples with available data. [Source](https://media.nature.com/original/nature-assets/ncomms/2015/151204/ncomms9971/extref/ncomms9971-s2.xlsx)
+</details>
 
-- `ESTIMATE` (Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data) is a tool for predicting tumor purity, and the presence of infiltrating stromal/immune cells in tumor tissues using gene expression data. ESTIMATE algorithm is based on single sample Gene Set Enrichment Analysis and generates three scores: stromal score (that captures the presence of stroma in tumor tissue), immune score (that represents the infiltration of immune cells in tumor tissue), and estimate score (that infers tumor purity). http://bioinformatics.mdanderson.org/main/ESTIMATE:Overview. R package http://bioinformatics.mdanderson.org/estimate/rpackage.html
+- `ESTIMATE` (Estimation of STromal and Immune cells in MAlignant Tumor tissues using Expression data) is a tool for predicting tumor purity, and the presence of infiltrating stromal/immune cells in tumor tissues using gene expression data. ESTIMATE algorithm is based on single sample Gene Set Enrichment Analysis and generates three scores: stromal score (that captures the presence of stroma in tumor tissue), immune score (that represents the infiltration of immune cells in tumor tissue), and estimate score (that infers tumor purity). http://bioinformatics.mdanderson.org/main/ESTIMATE:Overview. R package http://bioinformatics.mdanderson.org/estimate/rpackage.html.  <details>
+    <summary>Paper</summary>
     - Yoshihara, Kosuke, Maria Shahmoradgoli, Emmanuel Martínez, Rahulsimham Vegesna, Hoon Kim, Wandaliz Torres-Garcia, Victor Treviño, et al. “Inferring Tumour Purity and Stromal and Immune Cell Admixture from Expression Data.” Nature Communications 4 (2013): 2612. https://doi.org/10.1038/ncomms3612. - ESTIMATE - tumor-stroma purity detection. 141 immune and stromal genes. single-sample GSEA analysis. ESTIMATE score as a combination of immune and stromal scores. [Supplementary data](https://www.nature.com/articles/ncomms3612#supplementary-information).
 - `data/ESTIMATE_signatures.xlsx` - A gene list of stromal and immune signatures. [Source](https://media.nature.com/original/nature-assets/ncomms/2013/131011/ncomms3612/extref/ncomms3612-s2.xlsx)
 - `data/ESTIMATE_scores.xlsx` - A list of stromal, immune, and ESTIMATE scores in TCGA data sets. All cancers, all gene expression plaforms. [Source](https://media.nature.com/original/nature-assets/ncomms/2013/131011/ncomms3612/extref/ncomms3612-s3.xlsx)
+</details>
 
-- [ISOpureR](https://CRAN.R-project.org/package=ISOpureR) - Deconvolution of Tumour Profiles to purify tumor samples. Regression-based, uses purified tumor profile to estimate the proportion of tumor samples. Discussion of overfitting due to overparametrization
+- [ISOpureR](https://CRAN.R-project.org/package=ISOpureR) - Deconvolution of Tumour Profiles to purify tumor samples. Regression-based, uses purified tumor profile to estimate the proportion of tumor samples. Discussion of overfitting due to overparametrization.  <details>
+    <summary>Paper</summary>
     - Quon, Gerald, Syed Haider, Amit G Deshwar, Ang Cui, Paul C Boutros, and Quaid Morris. “[Computational Purification of Individual Tumor Gene Expression Profiles Leads to Significant Improvements in Prognostic Prediction](https://doi.org/10.1186/gm433).” Genome Medicine 5, no. 3 (2013)
+</details>
 
 ### Ploidy
 
@@ -280,23 +286,35 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 - [Tumor Immune Single-cell Hub (TISCH)](http://tisch.comp-genomics.org/home/) is a scRNA-seq database focusing on tumor microenvironment (TME). TISCH provides detailed cell-type annotation at the single-cell level, enabling the exploration of TME across different cancer types. [Tweet](https://twitter.com/XShirleyLiu/status/1408472207152533506?s=20)
 
-- [quanTIseq](https://icbi.i-med.ac.at/software/quantiseq/doc/) - quantification of the Tumor Immune cell proportions from human RNA-seq data. Input - FASTQ files (Trimmomatic, Kallisto to TPM, normalization), or TPM matrix. Deconvolution into 10 cell types (B, macrophages M1 and M2, Monocytes, Neutrophils, NK, CD8 T, CD4 T, Dendritic cells), and uncharacterized fraction (TIL10 signature). Custom processing of 51 datasets to generate TIL10. Compared with CIBERSORT, TIMER, EPIC on simulated and real-life data. Command line, Docker/Singularity implementation, no GitHub.
+- [quanTIseq](https://icbi.i-med.ac.at/software/quantiseq/doc/) - quantification of the Tumor Immune cell proportions from human RNA-seq data. Input - FASTQ files (Trimmomatic, Kallisto to TPM, normalization), or TPM matrix. Deconvolution into 10 cell types (B, macrophages M1 and M2, Monocytes, Neutrophils, NK, CD8 T, CD4 T, Dendritic cells), and uncharacterized fraction (TIL10 signature). Custom processing of 51 datasets to generate TIL10. Compared with CIBERSORT, TIMER, EPIC on simulated and real-life data. Command line, Docker/Singularity implementation, no GitHub.  <details>
+    <summary>Paper</summary>
     - Finotello, Francesca, Clemens Mayer, Christina Plattner, Gerhard Laschober, Dietmar Rieder, Hubert Hackl, Anne Krogsdam, et al. “[Molecular and Pharmacological Modulators of the Tumor Immune Contexture Revealed by Deconvolution of RNA-Seq Data](https://doi.org/10.1186/s13073-019-0638-6).” Genome Medicine 11, no. 1 (May 24, 2019)
+</details>
 
-- [CIBERSORT](https://cibersort.stanford.edu/) - cell type identification using Support Vector Regression. p-value for the overall goodness of deconvolution (H0 - no cell types are present in a given gene expression profile), also Pearson and RMSE for estimating goodness of fit. References to six GEP deconvolution methods: linear least-squares regression (LLSR), quadratic programming (QP), perturbation model for gene expression deconvolution (PERT), robust linear regression (RLR), microarray microdissection with analysis of differences (MMAD) and digital sorting algorithm (DSA). References to datasets for benchmarking.
+- [CIBERSORT](https://cibersort.stanford.edu/) - cell type identification using Support Vector Regression. p-value for the overall goodness of deconvolution (H0 - no cell types are present in a given gene expression profile), also Pearson and RMSE for estimating goodness of fit. References to six GEP deconvolution methods: linear least-squares regression (LLSR), quadratic programming (QP), perturbation model for gene expression deconvolution (PERT), robust linear regression (RLR), microarray microdissection with analysis of differences (MMAD) and digital sorting algorithm (DSA). References to datasets for benchmarking.  <details>
+    <summary>Paper</summary>
     - Newman, Aaron M., Chih Long Liu, Michael R. Green, Andrew J. Gentles, Weiguo Feng, Yue Xu, Chuong D. Hoang, Maximilian Diehn, and Ash A. Alizadeh. “[Robust Enumeration of Cell Subsets from Tissue Expression Profiles](https://doi.org/10.1038/nmeth.3337).” Nature Methods 12, no. 5 (May 2015)
+</details>
 
-- [DeconRNAseq](http://bioconductor.org/packages/DeconRNASeq/) - deconvolution of RNA-seq datasets into cell proportions using cell signatures. Non-negative decomposition algorithm (X = AS) solved using quadratic programming
+- [DeconRNAseq](http://bioconductor.org/packages/DeconRNASeq/) - deconvolution of RNA-seq datasets into cell proportions using cell signatures. Non-negative decomposition algorithm (X = AS) solved using quadratic programming.  <details>
+    <summary>Paper</summary>
     - Gong, Ting, and Joseph D. Szustakowski. “[DeconRNASeq: A Statistical Framework for Deconvolution of Heterogeneous Tissue Samples Based on MRNA-Seq Data](https://doi.org/10.1093/bioinformatics/btt090).” Bioinformatics (Oxford, England) 29, no. 8 (April 15, 2013)
+</details>
 
-- `Immunophenogram` - partitioning immune cell types in cancer. https://github.com/mui-icbi/Immunophenogram, https://tcia.at/home
+- `Immunophenogram` - partitioning immune cell types in cancer. https://github.com/mui-icbi/Immunophenogram, https://tcia.at/home.  <details>
+    <summary>Paper</summary>
     - Charoentong, Pornpimol, Francesca Finotello, Mihaela Angelova, Clemens Mayer, Mirjana Efremova, Dietmar Rieder, Hubert Hackl, and Zlatko Trajanoski. “Pan-Cancer Immunogenomic Analyses Reveal Genotype-Immunophenotype Relationships and Predictors of Response to Checkpoint Blockade.” BioRxiv, 2016, 056101. - https://tcia.at/ - immune cells in cancers. Estimated using functional GSEA enrichment, and CIBERSORT. Immunophenogram generation: https://github.com/MayerC-imed/Immunophenogram
+</details>
 
-- `ImmQuant` - Deconvolution of immune cell lineages. http://csgi.tau.ac.il/ImmQuant/downloads.html
+- `ImmQuant` - Deconvolution of immune cell lineages. http://csgi.tau.ac.il/ImmQuant/downloads.html.  <details>
+    <summary>Paper</summary>
     - Frishberg, Amit, Avital Brodt, Yael Steuerman, and Irit Gat-Viks. “ImmQuant: A User-Friendly Tool for Inferring Immune Cell-Type Composition from Gene-Expression Data.” Bioinformatics 32, no. 24 (December 15, 2016): 3842–43. https://doi.org/10.1093/bioinformatics/btw535.
+</details>
 
-- `TIMER` - a resource to estimate the abundance of immune infiltration of six cell types, the effect on survival. Accounting for tumor purity using CHAT R package. Linear regression to estimate immune cell abundance. Macrophage infiltration predicts worse outcome, including BRCA. Signature genes from microarray, merged with RNA-seq using ComBat for batch removal, filtered. All TCGA processed. All data at http://cistrome.org/TIMER/download.html, tool at https://cistrome.shinyapps.io/timer/
+- `TIMER` - a resource to estimate the abundance of immune infiltration of six cell types, the effect on survival. Accounting for tumor purity using CHAT R package. Linear regression to estimate immune cell abundance. Macrophage infiltration predicts worse outcome, including BRCA. Signature genes from microarray, merged with RNA-seq using ComBat for batch removal, filtered. All TCGA processed. All data at http://cistrome.org/TIMER/download.html, tool at https://cistrome.shinyapps.io/timer/.  <details>
+    <summary>Paper</summary>
     - Li, Bo, Eric Severson, Jean-Christophe Pignon, Haoquan Zhao, Taiwen Li, Jesse Novak, Peng Jiang, et al. “Comprehensive Analyses of Tumor Immunity: Implications for Cancer Immunotherapy.” Genome Biology 17, no. 1 (22 2016): 174. https://doi.org/10.1186/s13059-016-1028-7.
+</details>
 
 - [TIDE](http://tide.dfci.harvard.edu/) - Tumor Immune Dysfunction and Exclusion, a gene expression biomarker to predict the clinical response to immune checkpoint blockade using patient-specific gene expression. http://tide.dfci.harvard.edu/
 
@@ -304,8 +322,10 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ### BRCA
 
-- [HRDetect](https://github.com/eyzhao/hrdetect-pipeline) (homologous recombination-repair deficiency) classification of TNBC patients. Whole-genome sequencing-based. HRDetect-high have higher chemosensitivity, better survival profiles
+- [HRDetect](https://github.com/eyzhao/hrdetect-pipeline) (homologous recombination-repair deficiency) classification of TNBC patients. Whole-genome sequencing-based. HRDetect-high have higher chemosensitivity, better survival profiles.  <details>
+    <summary>Paper</summary>
     - Staaf, Johan, Dominik Glodzik, Ana Bosch, Johan Vallon-Christersson, Christel Reuterswärd, Jari Häkkinen, Andrea Degasperi, et al. “[Whole-Genome Sequencing of Triple-Negative Breast Cancers in a Population-Based Clinical Study](https://doi.org/10.1038/s41591-019-0582-4).” Nature Medicine, September 30, 2019
+</details>
 
 - Gene expression normalization method for improved PAM50 subtyping. Subgroup-specific gene centering algorithm. Subsampling the training cohort (UNC dataset) to match the study dataset by clinicopathological distribution. Defining median from the training subsample, defining its percentile in the study cohort, subtracting that percentile. Improves classification accuracy from 17-33% using global median centering. Figure 2 illustrates the method, [supplementary methods](https://static-content.springer.com/esm/art%3A10.1186%2Fs13058-015-0520-4/MediaObjects/13058_2015_520_MOESM3_ESM.doc) describe the algorithm. Basic R code, [ssBC](https://ccsb.stanford.edu/research/core.html). <details>
     <summary>Paper</summary>
@@ -318,14 +338,17 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ### OvCa
 
-- [PrOTYPE](https://ovcare.shinyapps.io/PrOType/) - Ovarian Cancer subtype prediction. Model trained on gene expression from 1650 tumors (specimens from the Ovarian Tumor Tissue Analysis consortium), validated on NanoString data on 3829 tumors. 55 genes, predict with >95% accuracy, also associated with age, stage, residual disease, TILs, outcome. Review of previous studies classifying into 5 outcomes. Random Forest, cross-validation. [Supplemental Table SC7](https://clincancerres.aacrjournals.org/content/early/2020/06/17/1078-0432.CCR-20-0103.figures-only) lists all predictor genes. PrOTYPE web tool to classify NanoString OvCa samples, https://ovcare.shinyapps.io/PrOType/
+- [PrOTYPE](https://ovcare.shinyapps.io/PrOType/) - Ovarian Cancer subtype prediction. Model trained on gene expression from 1650 tumors (specimens from the Ovarian Tumor Tissue Analysis consortium), validated on NanoString data on 3829 tumors. 55 genes, predict with >95% accuracy, also associated with age, stage, residual disease, TILs, outcome. Review of previous studies classifying into 5 outcomes. Random Forest, cross-validation. [Supplemental Table SC7](https://clincancerres.aacrjournals.org/content/early/2020/06/17/1078-0432.CCR-20-0103.figures-only) lists all predictor genes. PrOTYPE web tool to classify NanoString OvCa samples, https://ovcare.shinyapps.io/PrOType/.  <details>
+    <summary>Paper</summary>
     - Talhouk, Aline, Joshy George, Chen Wang, Timothy Budden, Tuan Zea Tan, Derek S Chiu, Stefan Kommoss, et al. “Development and Validation of the Gene-Expression Predictor of High-Grade-Serous Ovarian Carcinoma Molecular SubTYPE (PrOTYPE).” Clinical Cancer Research, June 17, 2020, clincanres.0103.2020. https://doi.org/10.1158/1078-0432.CCR-20-0103.
+</details>
 
 ### SCLC
 
-- [SCLC-CellMiner](https://discover.nci.nih.gov/SclcCellMinerCDB/) - an analysis portal for Small Cell Lung Cancer. Integrating drug sensitivity and methylome (Illumina 80K), CNV (ChAMP, from methylation), and transcriptome data from 118 SCLC cell lines. Integrated data from multiple resources, uniformly processed. Confirms NEUROD1, ASCL1, POU2F3, and YAP1 (NAPY) classification. Table 1 - types of analyses. [Shiny web interface](https://discover.nci.nih.gov/SclcCellMinerCDB/) and [data download](https://zenodo.org/record/3959142#.X9-lf2RKgoI)
+- [SCLC-CellMiner](https://discover.nci.nih.gov/SclcCellMinerCDB/) - an analysis portal for Small Cell Lung Cancer. Integrating drug sensitivity and methylome (Illumina 80K), CNV (ChAMP, from methylation), and transcriptome data from 118 SCLC cell lines. Integrated data from multiple resources, uniformly processed. Confirms NEUROD1, ASCL1, POU2F3, and YAP1 (NAPY) classification. Table 1 - types of analyses. [Shiny web interface](https://discover.nci.nih.gov/SclcCellMinerCDB/) and [data download](https://zenodo.org/record/3959142#.X9-lf2RKgoI). <details>
+    <summary>Paper</summary>
     - Tlemsani, Camille, Lorinc Pongor, Fathi Elloumi, Luc Girard, Kenneth E. Huffman, Nitin Roper, Sudhir Varma, et al. “[SCLC-CellMiner: A Resource for Small Cell Lung Cancer Cell Line Genomics and Pharmacology Based on Genomic Signatures](https://doi.org/10.1016/j.celrep.2020.108296).” Cell Reports 33, no. 3 (October 2020)
-
+</details>
 
 
 ### TCGA
@@ -338,21 +361,27 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 - Zhang, Zhuo, Hao Li, Shuai Jiang, Ruijiang Li, Wanying Li, Hebing Chen, and Xiaochen Bo. “[A Survey and Evaluation of Web-Based Tools/Databases for Variant Analysis of TCGA Data](https://doi.org/10.1093/bib/bby023).” Briefings in Bioinformatics, March 29, 2018 - The most comprehensive review of TCGA-related tools. Table 3 - List of Web servers and databases. 
 
-- NCI Genomics Data Commons API. https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/ - docs. https://github.com/Bioconductor/GenomicDataCommons - R package. [BAM Slicing API](https://docs.gdc.cancer.gov/API/Users_Guide/BAM_Slicing/)
+- NCI Genomics Data Commons API. https://docs.gdc.cancer.gov/API/Users_Guide/Getting_Started/ - docs. https://github.com/Bioconductor/GenomicDataCommons - R package. [BAM Slicing API](https://docs.gdc.cancer.gov/API/Users_Guide/BAM_Slicing/). <details>
+    <summary>Paper</summary>
     - Shane Wilson, Michael Fitzsimons, Martin Ferguson, Allison Heath, Mark Jensen, Josh Miller, Mark W. Murphy, James Porter, Himanso Sahni, Louis Staudt, Yajing Tang, Zhining Wang, Christine Yu, Junjun Zhang, Vincent Ferretti and Robert L. Grossman. "[Developing Cancer Informatics Applications and Tools Using the NCI Genomic Data Commons API](http://cancerres.aacrjournals.org/content/77/21/e15)." DOI: 10.1158/0008-5472.CAN-17-0598 Published November 2017 
+</details>
 
 ### Integrative
 
-- Review of tools and methods for the integrative analysis of multiple omics data, cancer-oriented. [Table 1](https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/bbia/2020/bbia_14/1177932219899051/20200130/images/large/10.1177_1177932219899051-table1.jpeg) - multi-omics data repositories (TCGA, CPTAC, ICGC, CCLE, METABRIC, TARGET, Omics Discovery Index). Three broad areas of multi-omics analysis: 1. Disease subtyping and classification based on multi-omics profiles; 2. Prediction of biomarkers for various applications including diagnostics and driver genes for diseases; 3. Deriving insights into disease biology. [Table 2](https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/bbia/2020/bbia_14/1177932219899051/20200130/images/large/10.1177_1177932219899051-table2.jpeg) - software categorized by use case (PARADIGM, iClusterPlus, PSDF, BCC, MDI, SNF, PFA, PINSPlus, NEMO, mixOmics, moCluster, MCIA, JIVE, MFA, sMBPLS, T-SVD, Joint NMF). Brief description of each tool, links, exemplary publications. [Table 3](https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/bbia/2020/bbia_14/1177932219899051/20200130/images/large/10.1177_1177932219899051-table3.jpeg) - visualization portals (cBioPortal, Firebrowse, UCSC Xena, LinkedOmics, 3Omics, NetGestalt, OASIS, Paintomics, MethHC). Description of each, data types, analysis examples.
+- Review of tools and methods for the integrative analysis of multiple omics data, cancer-oriented. [Table 1](https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/bbia/2020/bbia_14/1177932219899051/20200130/images/large/10.1177_1177932219899051-table1.jpeg) - multi-omics data repositories (TCGA, CPTAC, ICGC, CCLE, METABRIC, TARGET, Omics Discovery Index). Three broad areas of multi-omics analysis: 1. Disease subtyping and classification based on multi-omics profiles; 2. Prediction of biomarkers for various applications including diagnostics and driver genes for diseases; 3. Deriving insights into disease biology. [Table 2](https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/bbia/2020/bbia_14/1177932219899051/20200130/images/large/10.1177_1177932219899051-table2.jpeg) - software categorized by use case (PARADIGM, iClusterPlus, PSDF, BCC, MDI, SNF, PFA, PINSPlus, NEMO, mixOmics, moCluster, MCIA, JIVE, MFA, sMBPLS, T-SVD, Joint NMF). Brief description of each tool, links, exemplary publications. [Table 3](https://journals.sagepub.com/na101/home/literatum/publisher/sage/journals/content/bbia/2020/bbia_14/1177932219899051/20200130/images/large/10.1177_1177932219899051-table3.jpeg) - visualization portals (cBioPortal, Firebrowse, UCSC Xena, LinkedOmics, 3Omics, NetGestalt, OASIS, Paintomics, MethHC). Description of each, data types, analysis examples. <details>
+    <summary>Paper</summary>
     - Subramanian, Indhupriya, Srikant Verma, Shiva Kumar, Abhay Jere, and Krishanpal Anamika. “[Multi-Omics Data Integration, Interpretation, and Its Application](https://doi.org/10.1177/1177932219899051).” Bioinformatics and Biology Insights, January 31, 2020 
+</details>
 
 - [CTGS](http://ctgs.biohackers.net/) - web portal for Cancer Target Gene Screening. Visualization, survival. Gene expression, methylation, CNAs, SNPs, clinical info. METABRIC, TCGA, other published data. Similar services: cBioPortal, Breast Cancer Integrated Platform (BCIP), MOBCdb, Oncomine, Kaplan–Meier (KM) plotter and TCGA4U. <details>
     <summary>Paper</summary>
     Kim, Hyung-Yong, Hee-Joo Choi, Jeong-Yeon Lee, and Gu Kong. “Cancer Target Gene Screening: A Web Application for Breast Cancer Target Gene Screening Using Multi-Omics Data Analysis.” Briefings in Bioinformatics 21, no. 2 (March 23, 2020): 663–75. https://doi.org/10.1093/bib/bbz003.
 </details>
 
-- [LinkedOmics](http://www.linkedomics.org/login.php) - clinical, gennomic (expression, SNPs, CNVs, methylation, miRNAs) and protein expression data from TCGA, CPTAC. Three analysis modules: LinkFinder finds associations between molecular and clinical attributes; LinkCompare compares the associations. LinkInterpreter maps associations to pathways and networks.
+- [LinkedOmics](http://www.linkedomics.org/login.php) - clinical, gennomic (expression, SNPs, CNVs, methylation, miRNAs) and protein expression data from TCGA, CPTAC. Three analysis modules: LinkFinder finds associations between molecular and clinical attributes; LinkCompare compares the associations. LinkInterpreter maps associations to pathways and networks. <details>
+    <summary>Paper</summary>
     - Vasaikar, Suhas V, Peter Straub, Jing Wang, and Bing Zhang. “[LinkedOmics: Analyzing Multi-Omics Data within and across 32 Cancer Types](https://doi.org/10.1093/nar/gkx1090).” Nucleic Acids Research 46, no. D1 (January 4, 2018)
+</details>
 
 ## Deep Learning
 
@@ -361,18 +390,25 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
     Sederman, Casey, Chieh-Hsiang Yang, Emilio Cortes-Sanchez, Tony Di Sera, Xiaomeng Huang, Sandra D. Scherer, Ling Zhao et al. "A precision oncology-focused deep learning framework for personalized selection of cancer therapy." bioRxiv (2024): 2024-12. https://doi.org/10.1101/2024.12.12.628190
 </details>
 
-- [TDC](https://tdcommons.ai/overview/) (Therapeutic Data Commons) - Kaggle for therapeutics, discovery and development of safe and effective medicines. A framework to evaluate machine learning, contains 66 datasets, 22 learning tasks (single-instance, multi-instance, generative learning). [PyTDC](https://github.com/mims-harvard/TDC) - python interface. The paper describes details of each data, task, resource.
+- [TDC](https://tdcommons.ai/overview/) (Therapeutic Data Commons) - Kaggle for therapeutics, discovery and development of safe and effective medicines. A framework to evaluate machine learning, contains 66 datasets, 22 learning tasks (single-instance, multi-instance, generative learning). [PyTDC](https://github.com/mims-harvard/TDC) - python interface. The paper describes details of each data, task, resource. <details>
+    <summary>Paper</summary>
     - Huang, Kexin, Tianfan Fu, Wenhao Gao, Yue Zhao, Yusuf Roohani, Jure Leskovec, Connor W. Coley, Cao Xiao, Jimeng Sun, and Marinka Zitnik. “[Therapeutics Data Commons: Machine Learning Datasets and Tasks for Therapeutics](http://arxiv.org/abs/2102.09548).” ArXiv:2102.09548, February 18, 2021.
+</details>
 
-- Review of drug response prediction methods in cancer. Overview of deep learning architectures, Table 1 - DL terminology, Table 2 - data resources (NCI-60, CCLE, GDSC1 etc.), Table 3 - drug combination screening studies. DREAM challenges addressing drug sensitivity. Approaches for building and evaluating drug response prediction models, single-drug (Table 4 - studies, models) and drug combination (Table 6) approaches. DeepSynergy, NCI-ALMANAC dataset, AstraZeneca-Sanger Drug Combination DREAM challenge paper. Evaluation of model ensembles. Deep learning for drug repurposing. Methods for model evaluation, improving performance, increase interpretability. Deep reading with lots of references.
+- Review of drug response prediction methods in cancer. Overview of deep learning architectures, Table 1 - DL terminology, Table 2 - data resources (NCI-60, CCLE, GDSC1 etc.), Table 3 - drug combination screening studies. DREAM challenges addressing drug sensitivity. Approaches for building and evaluating drug response prediction models, single-drug (Table 4 - studies, models) and drug combination (Table 6) approaches. DeepSynergy, NCI-ALMANAC dataset, AstraZeneca-Sanger Drug Combination DREAM challenge paper. Evaluation of model ensembles. Deep learning for drug repurposing. Methods for model evaluation, improving performance, increase interpretability. Deep reading with lots of references. <details>
+    <summary>Paper</summary>
     - Baptista, Delora, Pedro G Ferreira, and Miguel Rocha. “[Deep Learning for Drug Response Prediction in Cancer](https://doi.org/10.1093/bib/bbz171),” Briefings in Bioinformatics, 17 January 2020
+</details>
 
-- [DrugCell](https://github.com/idekerlab/DrugCell) - interpretable neural network, directly mapping neurons of a deep neural network to Gene Ontology hierarchy. Input - genotype (binary gene indicator) and drugs, output - response of cell to drug. Performance is the same as unconstrained network. Trained on 1235 tumor cell lines and 684 drugs. Allows for the detection of synergistic combinations. [Perspective](https://www.sciencedirect.com/science/article/pii/S1535610820305456)
+- [DrugCell](https://github.com/idekerlab/DrugCell) - interpretable neural network, directly mapping neurons of a deep neural network to Gene Ontology hierarchy. Input - genotype (binary gene indicator) and drugs, output - response of cell to drug. Performance is the same as unconstrained network. Trained on 1235 tumor cell lines and 684 drugs. Allows for the detection of synergistic combinations. [Perspective](https://www.sciencedirect.com/science/article/pii/S1535610820305456).  <details>
+    <summary>Paper</summary>
     - Kuenzi, Brent M., Jisoo Park, Samson H. Fong, Kyle S. Sanchez, John Lee, Jason F. Kreisberg, Jianzhu Ma, and Trey Ideker. “[Predicting Drug Response and Synergy Using a Deep Learning Model of Human Cancer Cells](https://doi.org/10.1016/j.ccell.2020.09.014).” Cancer Cell 38, no. 5 (November 2020)
+</details>
 
-- Drug response prediction from gene expression data. Deep Neural Network (DNN, H2O.ai framework) compared with Elastic Net, Random Forest. Trained on highly variable (by MAD) gene expression in 1001 cell lines and 251 drugs pharmacogenomic dataset (GDSC. CCLP) to predict IC50. Hyper-parameter optimization using 5-fold cross-validation and minimizing Mean Square Error. Batch correction between the datasets Tested on unseen patient cohorts (OCCAMS, MD Anderson, TCGA, Multiple Myeloma Consortium) to predict IC50 and test low, medium, high IC50 groups for survival differences. [RDS files data](https://genome.med.nyu.edu/public/tsirigoslab/deep-drug-response/), [R code](https://genome.med.nyu.edu/public/tsirigoslab/deep-drug-response/)
+- Drug response prediction from gene expression data. Deep Neural Network (DNN, H2O.ai framework) compared with Elastic Net, Random Forest. Trained on highly variable (by MAD) gene expression in 1001 cell lines and 251 drugs pharmacogenomic dataset (GDSC. CCLP) to predict IC50. Hyper-parameter optimization using 5-fold cross-validation and minimizing Mean Square Error. Batch correction between the datasets Tested on unseen patient cohorts (OCCAMS, MD Anderson, TCGA, Multiple Myeloma Consortium) to predict IC50 and test low, medium, high IC50 groups for survival differences. [RDS files data](https://genome.med.nyu.edu/public/tsirigoslab/deep-drug-response/), [R code](https://genome.med.nyu.edu/public/tsirigoslab/deep-drug-response/).  <details>
+    <summary>Paper</summary>
     - Sakellaropoulos, Theodore, Konstantinos Vougas, Sonali Narang, Filippos Koinis, Athanassios Kotsinas, Alexander Polyzos, Tyler J. Moss, et al. “[A Deep Learning Framework for Predicting Response to Therapy in Cancer](https://doi.org/10.1016/j.celrep.2019.11.017).” Cell Reports 29, no. 11 (December 2019)
-
+</details>
 
 ### Image analysis
 
@@ -388,14 +424,20 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 - [High content image analysis with CellProfiler (2D and 3D)](https://github.com/hmbotelho/SPAOM2020-ws1-high-content-screening) - detailed Python- and R-based workshop
 
-- Prediction of chromosomal instability (CIN, fraction of genome altered, binarized into high/low) in breast cancer using deep learning on histology images. Tested different convnet architectures, Densenet-121 worked best. TensorFlow2. [Code for CIN](https://github.com/eipm/CIN)
+- Prediction of chromosomal instability (CIN, fraction of genome altered, binarized into high/low) in breast cancer using deep learning on histology images. Tested different convnet architectures, Densenet-121 worked best. TensorFlow2. [Code for CIN](https://github.com/eipm/CIN).  <details>
+    <summary>Paper</summary>
     - Xu, Zhuoran, Akanksha Verma, Uska Naveed, Samuel Bakhoum, Pegah Khosravi, and Olivier Elemento. “[Using Histopathology Images to Predict Chromosomal Instability in Breast Cancer: A Deep Learning Approach](https://doi.org/10.1101/2020.09.23.20200139).” Preprint. Genetic and Genomic Medicine, September 24, 2020. 
+</details>
 
-- Three CNNs (34-layer ResNet, 16-layer VGG, and Inception v4) for identification of the structural patterns and spatial distribution of Tumor-Infiltrating Lymphocytes from IHC whole slide images of invasive breast cancer samples (SEER, TCGA). Methods, techical details. Outperform previous methods on several performance metrics. Built using PyTorch, with [QuIP](https://sbu-bmi.github.io/quip_distro/) (Quantitative Imaging in Pathology). [GitHub](https://github.com/SBU-BMI/quip_cancer_segmentation)
+- Three CNNs (34-layer ResNet, 16-layer VGG, and Inception v4) for identification of the structural patterns and spatial distribution of Tumor-Infiltrating Lymphocytes from IHC whole slide images of invasive breast cancer samples (SEER, TCGA). Methods, techical details. Outperform previous methods on several performance metrics. Built using PyTorch, with [QuIP](https://sbu-bmi.github.io/quip_distro/) (Quantitative Imaging in Pathology). [GitHub](https://github.com/SBU-BMI/quip_cancer_segmentation)/  <details>
+    <summary>Paper</summary>
     - Le, Han, Rajarsi Gupta, Le Hou, Shahira Abousamra, Danielle Fassler, Luke Torre-Healy, Richard A. Moffitt, et al. “[Utilizing Automated Breast Cancer Detection to Identify Spatial Distributions of Tumor-Infiltrating Lymphocytes in Invasive Breast Cancer](https://doi.org/10.1016/j.ajpath.2020.03.012).” The American Journal of Pathology, July 2020
+</details>
 
-- `DeepPATH` - Lung cancer image classification using deep convolutional neural network. Classification by tumor type, mutation type. Refs to other image classification studies that use deep learning. GoogleNet inception v3 architecture. Training, validation, testing cohorts (70%, 15%, 15%). Details on image processing. https://github.com/ncoudray/DeepPATH
+- `DeepPATH` - Lung cancer image classification using deep convolutional neural network. Classification by tumor type, mutation type. Refs to other image classification studies that use deep learning. GoogleNet inception v3 architecture. Training, validation, testing cohorts (70%, 15%, 15%). Details on image processing. https://github.com/ncoudray/DeepPATH.  <details>
+    <summary>Paper</summary>
     - Coudray, Nicolas, Paolo Santiago Ocampo, Theodore Sakellaropoulos, Navneet Narula, Matija Snuderl, David Fenyö, Andre L. Moreira, Narges Razavian, and Aristotelis Tsirigos. “Classification and Mutation Prediction from Non–Small Cell Lung Cancer Histopathology Images Using Deep Learning.” Nature Medicine 24, no. 10 (October 2018): 1559–67. https://doi.org/10.1038/s41591-018-0177-5.
+</details>
 
 - [Head-Neck-CT-Atlas](http://doi.org/10.7937/K9/TCIA.2017.umz8dv6s) - Data from Head and Neck Cancer CT Atlas, a part of TCIA. 433,384 DICOM files from 3,225 series and 765 studies collected from 215 patients, as well as a single XLSX file including all of the demographic, clinical, treatment, and body-composition data. DICOM format visualized in, e.g., [3D Slicer](https://www.slicer.org/). Processed with [Posda Tools](https://github.com/UAMS-DBMI/PosdaTools), scripts for receiving, parsing, dumping, and modifying DICOM files, import into the DICOM database. <details>
     <summary>Paper</summary>
@@ -422,13 +464,17 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 - [timescape](https://bioconductor.org/packages/timescape/) - an R package for visualizing temporal clonal evolution data. [Examples](https://bioconductor.org/packages/release/bioc/vignettes/timescape/inst/doc/timescape_vignette.html), [GitHub](https://github.com/shahcompbio/timescape)
 
-- `clonevol` R package, Inferring and visualizing clonal evolution in multi-sample cancer sequencing. https://github.com/hdng/clonevol
+- `clonevol` R package, Inferring and visualizing clonal evolution in multi-sample cancer sequencing. https://github.com/hdng/clonevol.  <details>
+    <summary>Paper</summary>
     - Dang, H. X., B. S. White, S. M. Foltz, C. A. Miller, J. Luo, R. C. Fields, and C. A. Maher. “ClonEvol: Clonal Ordering and Visualization in Cancer Sequencing.” Annals of Oncology: Official Journal of the European Society for Medical Oncology 28, no. 12 (December 1, 2017): 3076–82. https://doi.org/10.1093/annonc/mdx517.
+</details>
 
 - `ape` - R package, Analyses of Phylogenetics and Evolution, https://cran.r-project.org/web/packages/ape/index.html
 
-- `E-scape` - cancer evolution visualization. Timescape - time series analysis, http://bioconductor.org/packages/release/bioc/html/timescape.html, MapScape - spatial distribution,http://bioconductor.org/packages/release/bioc/html/mapscape.html, CellScape - single-cell phylogenetic, http://bioconductor.org/packages/release/bioc/html/cellscape.html
+- `E-scape` - cancer evolution visualization. Timescape - time series analysis, http://bioconductor.org/packages/release/bioc/html/timescape.html, MapScape - spatial distribution,http://bioconductor.org/packages/release/bioc/html/mapscape.html, CellScape - single-cell phylogenetic, http://bioconductor.org/packages/release/bioc/html/cellscape.html.  <details>
+    <summary>Paper</summary>
     - Smith, Maia A., Cydney B. Nielsen, Fong Chun Chan, Andrew McPherson, Andrew Roth, Hossein Farahani, Daniel Machev, Adi Steif, and Sohrab P. Shah. “E-Scape: Interactive Visualization of Single-Cell Phylogenetics and Cancer Evolution.” Nature Methods 14, no. 6 (30 2017): 549–50. https://doi.org/10.1038/nmeth.4303.
+</details>
 
 - `fishplot` - Create timecourse "fish plots" that show changes in the clonal architecture of tumors. https://github.com/chrisamiller/fishplot
 
@@ -438,8 +484,10 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 - `oncoNEM` - A package for inferring clonal lineage trees from single-cell somatic single nucleotide variants. https://bitbucket.org/edith_ross/onconem
 
-- [PyClone](https://github.com/Roth-Lab/pyclone) - a statistical model (Bayesian clustering method) for inferring the clonal populations  from deeply (over 100X) sequenced data in a single patient.
+- [PyClone](https://github.com/Roth-Lab/pyclone) - a statistical model (Bayesian clustering method) for inferring the clonal populations  from deeply (over 100X) sequenced data in a single patient.  <details>
+    <summary>Paper</summary>
     - Roth, Andrew, Jaswinder Khattra, Damian Yap, Adrian Wan, Emma Laks, Justina Biele, Gavin Ha, Samuel Aparicio, Alexandre Bouchard-Côté, and Sohrab P Shah. “[PyClone: Statistical Inference of Clonal Population Structure in Cancer](https://doi.org/10.1038/nmeth.2883).” Nature Methods, (April 2014)
+</details>
 
 - `SciClone` - number and genetic composition of tumor subclones by analyzing the variant allele frequencies of somatic mutations. Excludes CNV regions. https://github.com/genome/sciclone
 
@@ -464,35 +512,44 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 - `R2` - Genomics Analysis and Visualization Platform. Gene-centric, survival analysis, collection of preprocessed microarray studies. http://hgserver1.amc.nl/
 
-- `KM plotter` - Gene-centric, customizable survival analysis for breast, ovarian, lung, gastric cancers. http://kmplot.com/
+- `KM plotter` - Gene-centric, customizable survival analysis for breast, ovarian, lung, gastric cancers. http://kmplot.com/.  <details>
+    <summary>Paper</summary>
     - Györffy, Balazs, Andras Lanczky, Aron C. Eklund, Carsten Denkert, Jan Budczies, Qiyuan Li, and Zoltan Szallasi. “An Online Survival Analysis Tool to Rapidly Assess the Effect of 22,277 Genes on Breast Cancer Prognosis Using Microarray Data of 1,809 Patients.” Breast Cancer Research and Treatment 123, no. 3 (October 2010): 725–31. https://doi.org/10.1007/s10549-009-0674-9.
+</details>
 
-- `The Human Protein Atlas: Pathology atlas` - Gene- and protein expression data in multiple cancer tissues, cell lines. Easy one-gene search, summary of tissue-specific expression, survival significance. http://www.proteinatlas.org/
+- `The Human Protein Atlas: Pathology atlas` - Gene- and protein expression data in multiple cancer tissues, cell lines. Easy one-gene search, summary of tissue-specific expression, survival significance. http://www.proteinatlas.org/.  <details>
+    <summary>Paper</summary>
     - Uhlen, Mathias, Cheng Zhang, Sunjae Lee, Evelina Sjöstedt, Linn Fagerberg, Gholamreza Bidkhori, Rui Benfeitas, et al. “[A Pathology Atlas of the Human Cancer Transcriptome](http://science.sciencemag.org/content/357/6352/eaan2507).” Science (August 18, 2017). [Data download](http://www.proteinatlas.org/about/download) - tissue-specific gene expression in cancer and normal, isoform expression, protein expression. [Supplementary material](http://science.sciencemag.org/content/suppl/2017/08/16/357.6352.eaan2507.DC1)  
         - [Table S2](https://science.sciencemag.org/highwire/filestream/698233/field_highwire_adjunct_files/0/Supplementary-Tables.zip) - summary of tissue specific expression for each gene, in normal and cancer tissues.
         - [Table S6](https://science.sciencemag.org/highwire/filestream/698233/field_highwire_adjunct_files/0/Supplementary-Tables.zip) - summary of survival prognostic value, with a simple "favorable/unfavorable" label for each gene. Each worksheet corresponds to a different cancer.  
         - [Table S8](https://science.sciencemag.org/highwire/filestream/698233/field_highwire_adjunct_files/0/Supplementary-Tables.zip) - per-gene summary, in which cancers it is prognostic of survival.  
+</details>
 
 - [Breast Cancer Gene-Expression Miner v4.4](http://bcgenex.centregauducheau.fr/BC-GEM/GEM-Accueil.php?js=1) - gene expression, correlation, and survival analysis in different microarray (e.g., METABRIC) and RNA-seq (e.g., TCGA) datasets
 
 - [G-2-O, Genotype to Outcome](http://www.g-2-o.com/) -  web-server linking mutation (or CNV) of a gene to clinical outcome (survival) by utilizing next generation sequencing and gene chip data. For Breast and Lung cancer
 
-- `PRECOG` - PREdiction of Clinical Outcomes from Genomic Profiles. Gene-centric, quick overview of survival effect of a gene across all cancers, KM plots. https://precog.stanford.edu
+- `PRECOG` - PREdiction of Clinical Outcomes from Genomic Profiles. Gene-centric, quick overview of survival effect of a gene across all cancers, KM plots. https://precog.stanford.edu.  <details>
+    <summary>Paper</summary>
     - Gentles, Andrew J., Aaron M. Newman, Chih Long Liu, Scott V. Bratman, Weiguo Feng, Dongkyoon Kim, Viswam S. Nair, et al. “The Prognostic Landscape of Genes and Infiltrating Immune Cells across Human Cancers.” Nature Medicine 21, no. 8 (August 2015): 938–45. https://doi.org/10.1038/nm.3909. - TCGA pan-cancer survival analysis PRECOG, CIBERSORT. 39 cancers. Intro into heterogeneity. Z-score description. Batch effect does not significantly affect z-scores. 2/3 prognostic genes shared across cancers. AutoSOME clustering method
+</details>
 
-- `GEPIA` - single- and multiple-gene analyses of TCGA data. Gene expression in different tumor-normal comparisons, differentially expressed genes, correlation analysis, similar genes, survival analysis. http://gepia.cancer-pku.cn/
+- `GEPIA` - single- and multiple-gene analyses of TCGA data. Gene expression in different tumor-normal comparisons, differentially expressed genes, correlation analysis, similar genes, survival analysis. http://gepia.cancer-pku.cn/.  <details>
+    <summary>Paper</summary>
     - Zefang Tang et al., “GEPIA: A Web Server for Cancer and Normal Gene Expression Profiling and Interactive Analyses,” Nucleic Acids Research 45, no. W1 (July 3, 2017): W98–102, https://doi.org/10.1093/nar/gkx247. - TCGA and GTEX web interface. Classical analyses - differential expression analysis, profiling plotting, correlation analysis, patient survival analysis, similar gene detection and dimensionality reduction analysis. http://gepia.cancer-pku.cn/
 - `GEPIA2` - isoform-level TCGA analysis. Cancer subtype-specific analyses. Eight types of expression analyses, and additional Cancer Subtype Classifier and Expression Comparison. Python package for API access. http://gepia2.cancer-pku.cn
     - Tang, Zefang, Boxi Kang, Chenwei Li, Tianxiang Chen, and Zemin Zhang. “GEPIA2: An Enhanced Web Server for Large-Scale Expression Profiling and Interactive Analysis.” Nucleic Acids Research, May 22, 2019. https://doi.org/10.1093/nar/gkz430.
-
+</details>
 
 
 <!--
 - `PrognoScan`, Gene-centric, survival effect of a gene in cancer studies from GEO. http://dna00.bio.kyutech.ac.jp/PrognoScan/
 -->
 
-- `UALCAN` - Gene-centric, tumor-normal expression, survival analusis, TCGA cancers. http://ualcan.path.uab.edu/
+- `UALCAN` - Gene-centric, tumor-normal expression, survival analusis, TCGA cancers. http://ualcan.path.uab.edu/.  <details>
+    <summary>Paper</summary>
     - Chandrashekar DS, Bashel B, Balasubramanya SAH, Creighton CJ, Rodriguez IP, Chakravarthi BVSK and Varambally S. UALCAN: A portal for facilitating tumor subgroup gene expression and survival analyses. Neoplasia. 2017 Aug;19(8):649-658. doi: 10.1016/j.neo.2017.05.002 [PMID:28732212]
+</details>
 
 - `Project Betastasis` - Gene-centric, survival analysis, gene expression, select cancer studies. http://www.betastasis.com/
 
@@ -500,15 +557,20 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ### Methods to find best cutoff for survival
 
-- `KMplotter` - the Kaplan Meier plotter is capable to assess the effect of 54,675 genes on survival using 18,674 cancer samples. These include 5,143 breast, 1,816 ovarian, 2,437 lung, 364 liver, 1,065 gastric cancer patients with relapse-free and overall survival data. The miRNA subsystems include additional 11,456 samples from 20 different cancer types. Primary purpose of the tool is a meta-analysis based biomarker assessment.
+- `KMplotter` - the Kaplan Meier plotter is capable to assess the effect of 54,675 genes on survival using 18,674 cancer samples. These include 5,143 breast, 1,816 ovarian, 2,437 lung, 364 liver, 1,065 gastric cancer patients with relapse-free and overall survival data. The miRNA subsystems include additional 11,456 samples from 20 different cancer types. Primary purpose of the tool is a meta-analysis based biomarker assessment.  <details>
+    <summary>Paper</summary>
     - Györffy, Balazs, Andras Lanczky, Aron C. Eklund, Carsten Denkert, Jan Budczies, Qiyuan Li, and Zoltan Szallasi. “An Online Survival Analysis Tool to Rapidly Assess the Effect of 22,277 Genes on Breast Cancer Prognosis Using Microarray Data of 1,809 Patients.” Breast Cancer Research and Treatment 123, no. 3 (October 2010): 725–31. https://doi.org/10.1007/s10549-009-0674-9. - cutoff selection for survival by scanning gene expression range.
+</details>
 
-- `ctree` function for automatic cutoff finding and building a regression tree out of multiple covariates. `partykit::ctree()`. 
+- `ctree` function for automatic cutoff finding and building a regression tree out of multiple covariates. `partykit::ctree()`.  <details>
+    <summary>Paper</summary>
     - Hothorn, Torsten, Kurt Hornik, and Achim Zeileis. “Ctree: Conditional Inference Trees.” The Comprehensive R Archive Network, 2015, 1–34.
+</details>
 
-- `Cutoff Finder` - web tool for finding optimal dichotomization with respect to an outcome or survival variable. Five methods. http://molpath.charite.de/cutoff/
+- `Cutoff Finder` - web tool for finding optimal dichotomization with respect to an outcome or survival variable. Five methods. http://molpath.charite.de/cutoff/.  <details>
+    <summary>Paper</summary>
     - Budczies, Jan, Frederick Klauschen, Bruno V. Sinn, Balázs Győrffy, Wolfgang D. Schmitt, Silvia Darb-Esfahani, and Carsten Denkert. “Cutoff Finder: A Comprehensive and Straightforward Web Application Enabling Rapid Biomarker Cutoff Optimization.” PloS One 7, no. 12 (2012): e51862. https://doi.org/10.1371/journal.pone.0051862.
-
+</details>
 
 ## Cancer driver genes
 
@@ -529,14 +591,17 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
     Ru, Beibei, Jianlong Sun, Yin Tong, Ching Ngar Wong, Aditi Chandra, Acacia Tsz So Tang, Larry Ka Yue Chow, Wai Lam Wun, Zarina Levitskaya, and Jiangwen Zhang. “CR2Cancer: A Database for Chromatin Regulators in Human Cancer.” Nucleic Acids Research 46, no. D1 (January 4, 2018): D918–24. https://doi.org/10.1093/nar/gkx877.
 </details>
 
-- Nucleotide context of mutations is associated with driver/passenger status. Pan-cancer analysis (data from 87 studies, including TCGA), seven methods for driver-gene detection, 460 driver genes clustered into 21 cancer-related pathways. Apoptosis regulation and chromatin modification are recurrent pathways. MutPanning software (Mac, Windows, Java) for analyzing nucleotide content.
+- Nucleotide context of mutations is associated with driver/passenger status. Pan-cancer analysis (data from 87 studies, including TCGA), seven methods for driver-gene detection, 460 driver genes clustered into 21 cancer-related pathways. Apoptosis regulation and chromatin modification are recurrent pathways. MutPanning software (Mac, Windows, Java) for analyzing nucleotide content. <details>
+    <summary>Paper</summary>
     - Dietlein, Felix, Donate Weghorn, Amaro Taylor-Weiner, André Richters, Brendan Reardon, David Liu, Eric S. Lander, Eliezer M. Van Allen, and Shamil R. Sunyaev. “[Identification of Cancer Driver Genes Based on Nucleotide Context](https://doi.org/10.1038/s41588-019-0572-y).” Nature Genetics, February 3, 2020.
     - [Dietlein_2020_Drivers.xlsx](data/Dietlein_2020_Drivers.xlsx) - [Supplementary Tables 1–5](https://www.nature.com/articles/s41588-019-0572-y#Sec32)
         - Supplementary Table 3 - Stratification of gene-tumor pairs based on their literature support (460 genes aggregated by cancer type).
         - Supplementary Table 4 - Stratification of driver genes based on their literature support (460 genes aggregated by gene).
         - Supplementary Table 5 - Literature references for additional cancer genes (30 genes).
+</details>
 
-- [MOMA Oncogenic Architecture](http://www.mr-graph.org/) - A network-based integrative genomic analysis of 20 The Cancer Genome Atlas cohorts characterizes conserved master regulator blocks underlying cancer hallmarks across different tumor types, providing insights into the connection between genetic alterations and tumor transcriptional identity. [Tumor Subtypes Explorer](http://www.mr-graph.org/)
+- [MOMA Oncogenic Architecture](http://www.mr-graph.org/) - A network-based integrative genomic analysis of 20 The Cancer Genome Atlas cohorts characterizes conserved master regulator blocks underlying cancer hallmarks across different tumor types, providing insights into the connection between genetic alterations and tumor transcriptional identity. [Tumor Subtypes Explorer](http://www.mr-graph.org/). <details>
+    <summary>Paper</summary>
     - Integrative genomic analysis of 20 TCGA cohorts identifies 112 distinct tumor subtypes
     - 407 master regulators (MRs) canalize the effects of mutations to implement cancer states
     - 24 conserved master regulator blocks regulate cancer hallmarks across tumors
@@ -545,6 +610,7 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
         - Table S2 - master regulators, tumor checkpoints (hyperconnected modules)
         - Table S4 - 24 MR modules (genes in them), their association with survival, enrichment in hallmarks of cancer, upstream genomics
         - Table S6 - Cluster maps of each cancer cohort into subtypes by master regulators
+</details>
 
 - [The Network of Cancer Genes]() - NCG contains information on duplicability, evolution, protein-protein and microRNA-gene interaction, function, expression and essentiality of 2,372 cancer genes from 273 manually curated publications. [Downloads](http://ncg.kcl.ac.uk/download.php)
 
@@ -552,18 +618,21 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 - [The list of cancer-related genes from the Bushman Lab](http://www.bushmanlab.org/assets/doc/allOnco_May2018.tsv). [allOnco_May2018.tsv](data/allOnco_May2018.tsv)
 
-- Integrative pathway and network analysis of 2583 cancers (27 tumor types) identified 87 driver Pathway Implicated Driver (PID) genes with coding variants (PID-C) and 93 drivers with noncoding variants (PID-N). These gene classes are associated with different biological processes. Six pathway databases, seven pathway and network methods, data references in Methods. Non-Coding Added Value (NCVA) score to identify genes with noncoding variants increasing the overall significance.
+- Integrative pathway and network analysis of 2583 cancers (27 tumor types) identified 87 driver Pathway Implicated Driver (PID) genes with coding variants (PID-C) and 93 drivers with noncoding variants (PID-N). These gene classes are associated with different biological processes. Six pathway databases, seven pathway and network methods, data references in Methods. Non-Coding Added Value (NCVA) score to identify genes with noncoding variants increasing the overall significance. <details>
+    <summary>Paper</summary>
     - PCAWG Drivers and Functional Interpretation Working Group, PCAWG Consortium, Matthew A. Reyna, David Haan, Marta Paczkowska, Lieven P. C. Verbeke, Miguel Vazquez, et al. “[Pathway and Network Analysis of More than 2500 Whole Cancer Genomes](https://doi.org/10.1038/s41467-020-14367-0).” Nature Communications 11, no. 1 (December 2020)
     - [Supplementary Data 2: PID-C genes. List of 87 genes](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-14367-0/MediaObjects/41467_2020_14367_MOESM4_ESM.txt), [PCAWG_2020_PID_C_87_genes.txt](data/PCAWG_2020_PID_C_87_genes.txt)
     - [Supplementary Data 3: PID-N genes. List of 93  genes](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-14367-0/MediaObjects/41467_2020_14367_MOESM5_ESM.txt), [PCAWG_2020_PID_N_93_genes.txt](data/PCAWG_2020_PID_N_93_genes.txt)
     - More lists in [Supplementary data](https://www.nature.com/articles/s41467-020-14367-0#Sec23), [description](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-020-14367-0/MediaObjects/41467_2020_14367_MOESM2_ESM.pdf). 
+</details>
 
-- `MoonlightR` - integrative analysis of TCGA data to predict cancer driver genes. http://bioconductor.org/packages/release/bioc/vignettes/MoonlightR/inst/doc/Moonlight.html, https://github.com/ibsquare/MoonlightR
+- `MoonlightR` - integrative analysis of TCGA data to predict cancer driver genes. http://bioconductor.org/packages/release/bioc/vignettes/MoonlightR/inst/doc/Moonlight.html, https://github.com/ibsquare/MoonlightR. <details>
+    <summary>Paper</summary>
     - [Supplementary Data 5](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-13803-0/MediaObjects/41467_2019_13803_MOESM8_ESM.xlsx) - Cancer Driver Genes for TCGA BRCA molecular subtypes
     - [Supplementary Data 6](https://static-content.springer.com/esm/art%3A10.1038%2Fs41467-019-13803-0/MediaObjects/41467_2019_13803_MOESM9_ESM.xlsx) - Moonlight’s oncogenic mediators in 18 cancer types
     - Other supplementary data - oncogenic mediators overlapping with methylation, chromatin accessibility, copy number changes, mutations, survival.
     - Colaprico, Antonio, Catharina Olsen, Matthew H. Bailey, Gabriel J. Odom, Thilde Terkelsen, Tiago C. Silva, André V. Olsen, et al. “Interpreting Pathways to Discover Cancer Driver Genes with Moonlight.” Nature Communications 11, no. 1 (December 2020): 69. https://doi.org/10.1038/s41467-019-13803-0.
-
+</details>
 
 - `CancerGeneNet` - CancerGeneNet is a resource that aims at linking genes that are frequently mutated in cancers to cancer phenotypes. The resource takes advantage of a curation effort aimed at embedding a large fraction of the gene products that are found altered in cancers in the cell network of causal protein relationships. Graph algorithms, in turn, allow to infer likely paths of causal interactions linking cancer associated genes to cancer phenotypes thus offering a rational framework for the design of strategies to revert disease phenotypes. CancerGenNet bridges two interaction layers by connecting proteins whose activities are affected by cancer gene products to proteins that impact on cancer phenotypes. This is achieved by implementing graph algorithms that allow searching for graph path that link any gene of interest to the “hallmarks of cancer". https://signor.uniroma2.it/CancerGeneNet/
 
@@ -572,33 +641,43 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
     Condorelli, R. “Genomic Alterations in Breast Cancer: Level of Evidence for Actionability According to ESMO Scale for Clinical Actionability of Molecular Targets (ESCAT).” Annals of Oncology 30, no. 3 (2019): 9.
 </details>
 
-- Cancer Gene Census (CGC), download [COSMIC](http://cancer.sanger.ac.uk/cosmic/download)
+- Cancer Gene Census (CGC), download [COSMIC](http://cancer.sanger.ac.uk/cosmic/download). <details>
+    <summary>Paper</summary>
     - Hudson, T. J. et al. International network of cancer genome projects. Nature 464, 993–8 (2010).
     - [data/Census_all.csv](data/Census_allThu_Dec_3_19_52_03_2020.csv) - [The cancer Gene Census](http://cancer.sanger.ac.uk/census). Updated 2020-12-03
     - [data/COSMIC_genes.txt](data/COSMIC_genes.txt) - Genes sorted by the number of records associated with them. Obtained using `cat Census_allThu_Dec_3_19_52_03_2020.csv  | sed '1d' | cut -f1 -d, | sort | uniq  > COSMIC_genes.txt`. Updated 2020-12-03
     - `data/CosmicCodingMuts.vcf.gz` - VCF file of all coding mutations in the current release (release v83, 7th November 2017).
+</details>
 
 - Oncology Model Fidelity Score based on the Hallmarks of Cancer, an R/Shiny app to check cancer samples from preprocessed or user-supplied gene expression data for the presence of these hallmarks. https://github.com/tedgoldstein/hallmarks
 
-- Tumor suppressor gene database (TSGene), https://bioinfo.uth.edu/TSGene/
+- Tumor suppressor gene database (TSGene), https://bioinfo.uth.edu/TSGene/. <details>
+    <summary>Paper</summary>
     - Zhao, M., Sun, J. & Zhao, Z. TSGene: a web resource for tumor suppressor genes. Nucleic Acids Res, 41(Database issue), D970–6 (2013).
     - Download various lists of tumor suppressor genes, https://bioinfo.uth.edu/TSGene/download.cgi
+</details>
 
 - [OncoScore](https://bioconductor.org/packages/OncoScore/) - an R package, text-mining tool that ranks genes according to their association with cancer, based on available biomedical literature. Outperforms GeneRanker. <details>
     <summary>Paper</summary>
     Piazza, Rocco, Daniele Ramazzotti, Roberta Spinelli, Alessandra Pirola, Luca De Sano, Pierangelo Ferrari, Vera Magistroni, Nicoletta Cordani, Nitesh Sharma, and Carlo Gambacorti-Passerini. “OncoScore: A Novel, Internet-Based Tool to Assess the Oncogenic Potential of Genes.” Scientific Reports 7, no. 1 (May 3, 2017): 46290. https://doi.org/10.1038/srep46290.
 </details>
 
-- `OncoScape` - Genes with oncogenic/tumor suppressor/combined scores as a sum contribution from gene expression, somatic mutations, DNA copy-number and methylation as well as data from shRNA knock-down screens. http://oncoscape.nki.nl/
+- `OncoScape` - Genes with oncogenic/tumor suppressor/combined scores as a sum contribution from gene expression, somatic mutations, DNA copy-number and methylation as well as data from shRNA knock-down screens. http://oncoscape.nki.nl/. <details>
+    <summary>Paper</summary>
     - Schlicker, Andreas, Magali Michaut, Rubayte Rahman, and Lodewyk F. A. Wessels. “OncoScape: Exploring the Cancer Aberration Landscape by Genomic Data Fusion.” Scientific Reports 6 (20 2016): 28103. https://doi.org/10.1038/srep28103.
+</details>
 
-- [data/Bailey_2018_cancer_genes.xlsx](Bailey_2018_cancer_genes.xlsx) - Table S1, consensus list of cancer driver genes.
+- [data/Bailey_2018_cancer_genes.xlsx](Bailey_2018_cancer_genes.xlsx) - Table S1, consensus list of cancer driver genes. <details>
+    <summary>Paper</summary>
 	- Bailey, Matthew H., Collin Tokheim, Eduard Porta-Pardo, Sohini Sengupta, Denis Bertrand, Amila Weerasinghe, Antonio Colaprico, et al. “Comprehensive Characterization of Cancer Driver Genes and Mutations.” Cell 173, no. 2 (April 5, 2018): 371-385.e18. https://doi.org/10.1016/j.cell.2018.02.060. - Pan-Cancer mutation analysis. Combined use of 26 tools (https://www.cell.com/cell/fulltext/S0092-8674(18)30237-X#secsectitle0075, description of each tool in Methods) on harmonized data. 299 cancer driver genes, >3,400 putative missense driver mutations. Table S6 - excluded TCGA samples.
+</details>
 
 - [data/TARGET_db_v3_02142015.xlsx](data/TARGET_db_v3_02142015.xlsx) - TARGET (tumor alterations relevant for genomics-driven therapy) is a database of genes that, when somatically altered in cancer, are directly linked to a clinical action. TARGET genes may be predictive of response or resistance to a therapy, prognostic, and/or diagnostic. https://software.broadinstitute.org/cancer/cga/target
 
-- [data/Tokheim_2016_cancer_driver_genes.xlsx](data/Tokheim_2016_cancer_driver_genes.xlsx) - Dataset S2: Predicted driver genes by various number of methods
+- [data/Tokheim_2016_cancer_driver_genes.xlsx](data/Tokheim_2016_cancer_driver_genes.xlsx) - Dataset S2: Predicted driver genes by various number of methods. <details>
+    <summary>Paper</summary>
     - Tokheim, Collin J., Nickolas Papadopoulos, Kenneth W. Kinzler, Bert Vogelstein, and Rachel Karchin. “Evaluating the Evaluation of Cancer Driver Genes.” Proceedings of the National Academy of Sciences 113, no. 50 (December 13, 2016): 14330–35. https://doi.org/10.1073/pnas.1616440113. - 20/20+ machine learning method, ratiometric approach to predict cancer driver genes. Performance comparison of other methods, 20/20+, TUSON, OncodriveFML and MutsigCV are the top performers. https://github.com/KarchinLab/2020plus
+</details>
 
 ### Cancer gene signatures
 
@@ -618,11 +697,15 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - Resources / databases for clinical interpretation of cancer variants, by Malachi Griffith, https://www.biostars.org/p/403117/
 
-- [sigminer](https://github.com/ShixiangWang/sigminer) - an R package for SNP, CNV, DBS, InDel signature extraction from whole-exome data. NMF-based. Tested on tumor-notmal prostate cancer data. https://github.com/ShixiangWang/sigminer
+- [sigminer](https://github.com/ShixiangWang/sigminer) - an R package for SNP, CNV, DBS, InDel signature extraction from whole-exome data. NMF-based. Tested on tumor-notmal prostate cancer data. https://github.com/ShixiangWang/sigminer. <details>
+    <summary>Paper</summary>
     - Wang, Shixiang, Huimin Li, Minfang Song, Zaoke He, Tao Wu, Xuan Wang, Ziyu Tao, Kai Wu, and Xue-Song Liu. “Copy Number Signature Analyses in Prostate Cancer Reveal Distinct Etiologies and Clinical Outcomes.” Preprint. Genetic and Genomic Medicine, April 29, 2020. https://doi.org/10.1101/2020.04.27.20082404.
+</details>
 
-- `CANCERSIGN` - identifies 3-mer and 5-mer mutational signatures, cluster samples by signatures. Based on Alexandrov method, Non-negative matrix factorization, explanation. Other tools - SomaticSignatures, SigneR, deconstructSigs, compared in Table 1. https://github.com/ictic-bioinformatics/CANCERSIGN
+- `CANCERSIGN` - identifies 3-mer and 5-mer mutational signatures, cluster samples by signatures. Based on Alexandrov method, Non-negative matrix factorization, explanation. Other tools - SomaticSignatures, SigneR, deconstructSigs, compared in Table 1. https://github.com/ictic-bioinformatics/CANCERSIGN. <details>
+    <summary>Paper</summary>
     - Bayati, Masroor, Hamid Reza Rabiee, Mehrdad Mehrbod, Fatemeh Vafaee, Diako Ebrahimi, Alistair Forrest, and Hamid Alinejad-Rokny. “CANCERSIGN: A User-Friendly and Robust Tool for Identification and Classification of Mutational Signatures and Patterns in Cancer Genomes.” BioRxiv, January 1, 2019, 424960. https://doi.org/10.1101/424960.
+</details>
 
 ## Cancer mutational signatures
 
@@ -686,16 +769,23 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     Suntsova, Maria, Nurshat Gaifullin, Daria Allina, Alexey Reshetun, Xinmin Li, Larisa Mendeleeva, Vadim Surin, et al. “Atlas of RNA Sequencing Profiles for Normal Human Tissues.” Scientific Data 6, no. 1 (December 2019): 36. https://doi.org/10.1038/s41597-019-0043-4.
 </details>
 
-- `MiOncoCirc` - cancer-oriented circRNA database. Exome-capture RNA-seq protocol achieves better enrichment for circRNAs than Ribo-Zero and Rnase R protocols. CIRCExplorer pipeline. Data: https://mioncocirc.github.io/download/
+- `MiOncoCirc` - cancer-oriented circRNA database. Exome-capture RNA-seq protocol achieves better enrichment for circRNAs than Ribo-Zero and Rnase R protocols. CIRCExplorer pipeline. Data: https://mioncocirc.github.io/download/. <details>
+    <summary>Paper</summary>
     - Vo, Josh N., Marcin Cieslik, Yajia Zhang, Sudhanshu Shukla, Lanbo Xiao, Yuping Zhang, Yi-Mi Wu, et al. “The Landscape of Circular RNA in Cancer.” Cell 176, no. 4 (February 2019): 869-881.e13. https://doi.org/10.1016/j.cell.2018.12.021.
+</details>
 
 - [Xena](http://xena.ucsc.edu/) platform visualization capabilities ([Xena Browser](https://xenabrowser.net/)). Data description, public and private (for user data analysis) [Xena Hubs](https://xenabrowser.net/hub/). Survival analysis, tumor-normal expression comparison, gene expression-clinical associations, data download. <details>
     <summary>Paper</summary>
 
-- [UCSCXenaTools](https://cran.r-project.org/web/packages/UCSCXenaTools/) - An R package downloading and exploring data from UCSC Xena data hubs. [GitHub](https://github.com/ShixiangWang/UCSCXenaTools)
+- [UCSCXenaTools](https://cran.r-project.org/web/packages/UCSCXenaTools/) - An R package downloading and exploring data from UCSC Xena data hubs. [GitHub](https://github.com/ShixiangWang/UCSCXenaTools). <details>
+    <summary>Paper</summary>
     - Wang, Shixiang, and Xuesong Liu. “[The UCSCXenaTools R Package: A Toolkit for Accessing Genomics Data from UCSC Xena Platform, from Cancer Multi-Omics to Single-Cell RNA-Seq](https://doi.org/10.21105/joss.01627).” Journal of Open Source Software 4, no. 40 (August 5, 2019)
-- [UCSCXenaShiny](https://CRAN.R-project.org/package=UCSCXenaShiny) - Shiny interface to cancer omics data (TCGA, CCLE, PCAWG) and analysis (comparison/association of molecular profiles, association with tumor/immune features or drug response, survival analysis, drug response differences. [GitHub](https://github.com/openbiox/UCSCXenaShiny), [Docker](https://hub.docker.com/r/shixiangwang/ucscxenashiny)
+</details>
+
+- [UCSCXenaShiny](https://CRAN.R-project.org/package=UCSCXenaShiny) - Shiny interface to cancer omics data (TCGA, CCLE, PCAWG) and analysis (comparison/association of molecular profiles, association with tumor/immune features or drug response, survival analysis, drug response differences. [GitHub](https://github.com/openbiox/UCSCXenaShiny), [Docker](https://hub.docker.com/r/shixiangwang/ucscxenashiny). <details>
+    <summary>Paper</summary>
     - Wang, Shixiang, Yi Xiong, Longfei Zhao, Kai Gu, Yin Li, Fei Zhao, Jianfeng Li, et al. “[UCSCXenaShiny: An R/CRAN Package for Interactive Analysis of UCSC Xena Data](https://doi.org/10.1093/bioinformatics/btab561).” Bioinformatics, 29 July 2021
+</details>
 
 - Sherlock-Lung study, lung cancer in never smokers. WGS of 232 normal and tumor paired sequencing, RNA-seq, histopathological images. Three major subtypes (piano. mezzo-forte, forte), detailed genomic characterization. [dbGAP phs001697.v1.p1](https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001697.v1.p1), [GEO](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE171415) - RNA-seq, [Episphere](https://episphere.github.io/svs/#imageTag=Slide-0027830_Y561170_1002408.svs&imageNslcId=NSLC-0245) - images. <details>
     <summary>Paper</summary>
@@ -708,11 +798,15 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - Gendoo, Deena M.A., Michael Zon, Vandana Sandhu, Venkata Manem, Natchar Ratanasirigulchai, Gregory M. Chen, Levi Waldron, and Benjamin Haibe-Kains. “MetaGxData: Clinically Annotated Breast, Ovarian and Pancreatic Cancer Datasets and Their Use in Generating a Multi-Cancer Gene Signature,” November 12, 2018. https://doi.org/10.1101/052910. - MetaGxData package containing breast and ovarian cancer data, microarray- and RNA-seq gene expression and clinical annotations. Scripts to conduct genome-wide survival analysis for all genes. https://github.com/bhklab/MetaGxData 
 
-- `DepMap` - Large-scale RNAi screen for cancer vulnerability genes in 501 cell lines from 20 cancers, shRNA silencing \~17,000 genes. DEMETER - Modeling and removal of shRNA off-target effects. 6 sigma cutoff of DEMETER scores to identify 769 differential gene dependencies. ATLANTIS model to predict other genes - MDPs, marker dependency pairs. Main data portal: https://depmap.org/portal/download/
+- `DepMap` - Large-scale RNAi screen for cancer vulnerability genes in 501 cell lines from 20 cancers, shRNA silencing \~17,000 genes. DEMETER - Modeling and removal of shRNA off-target effects. 6 sigma cutoff of DEMETER scores to identify 769 differential gene dependencies. ATLANTIS model to predict other genes - MDPs, marker dependency pairs. Main data portal: https://depmap.org/portal/download/.  <details>
+    <summary>Paper</summary>
     - Tsherniak, Aviad, Francisca Vazquez, Phil G. Montgomery, Barbara A. Weir, Gregory Kryukov, Glenn S. Cowley, Stanley Gill, et al. “Defining a Cancer Dependency Map.” Cell 170, no. 3 (July 2017): 564-576.e16. https://doi.org/10.1016/j.cell.2017.06.010. [Supplemental tables](https://www.sciencedirect.com/science/article/pii/S0092867417306517?via%3Dihub#app2), `DepMap_TableS3_DependencyCorrelation.csv` - Table S3. Gene Dependency-Dependency Correlations, pairs of genes essential for proliferation/viability. Columns: Gene symbol 1, Gene symbol 2, correlation (r), z_score. [Source](https://ars.els-cdn.com/content/image/1-s2.0-S0092867417306517-mmc3.csv)
+</details>
 
-- `CCLE2 data` - CCLE characterization using sequencing technologies. Data described: RNA splicing, DNA methylation, Histone modification, miRNA expression, RPPA for 1072 cells. Data availability: https://portals.broadinstitute.org/ccle/data, https://depmap.org/portal/download/
+- `CCLE2 data` - CCLE characterization using sequencing technologies. Data described: RNA splicing, DNA methylation, Histone modification, miRNA expression, RPPA for 1072 cells. Data availability: https://portals.broadinstitute.org/ccle/data, https://depmap.org/portal/download/. <details>
+    <summary>Paper</summary>
     - Ghandi, Mahmoud, Franklin W. Huang, Judit Jané-Valbuena, Gregory V. Kryukov, Christopher C. Lo, E. Robert McDonald, Jordi Barretina, et al. “Next-Generation Characterization of the Cancer Cell Line Encyclopedia.” Nature, May 8, 2019. https://doi.org/10.1038/s41586-019-1186-3.
+</details>
 
 - [RNA-seq of 675 commonly used human cancer cell lines](https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-2706)
 
@@ -728,8 +822,10 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     The ICGC/TCGA Pan-Cancer Analysis of Whole Genomes Consortium. “Pan-Cancer Analysis of Whole Genomes.” Nature 578, no. 7793 (February 2020): 82–93. https://doi.org/10.1038/s41586-020-1969-6.
 </details>
 
-- Pan-cancer analysis of somatic noncoding driver mutations. Raw data: https://docs.icgc.org/pcawg/data/, Processed data: https://dcc.icgc.org/releases/PCAWG/drivers, significantly recurring breakpoints and juxtapositions http://www.svscape.org/. Extended data figures and tables should be considered individually https://www.nature.com/articles/s41586-020-1965-x#additional-information
+- Pan-cancer analysis of somatic noncoding driver mutations. Raw data: https://docs.icgc.org/pcawg/data/, Processed data: https://dcc.icgc.org/releases/PCAWG/drivers, significantly recurring breakpoints and juxtapositions http://www.svscape.org/. Extended data figures and tables should be considered individually https://www.nature.com/articles/s41586-020-1965-x#additional-information. <details>
+    <summary>Paper</summary>
     - PCAWG Drivers and Functional Interpretation Working Group, PCAWG Structural Variation Working Group, PCAWG Consortium, Esther Rheinbay, Morten Muhlig Nielsen, Federico Abascal, Jeremiah A. Wala, et al. “Analyses of Non-Coding Somatic Drivers in 2,658 Cancer Whole Genomes.” Nature 578, no. 7793 (February 2020): 102–11. https://doi.org/10.1038/s41586-020-1965-x.
+</details>
 
 - Pan-cancer study of metastatic solid tumour genomes, including whole-genome sequencing data for 2,520 pairs of tumour and normal tissue. Cancer-specific genomic variants, GATK/Strelka/Manta/MutationalPatterns/MSIseq. [Online data](https://database.hartwigmedicalfoundation.nl/) and processed [Supplementary tables](https://www.nature.com/articles/s41586-019-1689-y#Sec25) with processed data. Table 4 - Recurring amplifications (a) and deletions (b) and associated target genes; Table 5 - Somatic driver catalogue; Table 6 - Germline driver catalogue; Table 7 - Gene Fusions; Table 9 - Actionable mutations. [Priestley_2019_PanCancer](data/Priestley_2019_PanCancer) data folder. <details>
     <summary>Paper</summary>
@@ -737,45 +833,61 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 </details>
 
 - Alternative promoter activity in >18K RNA-seq samples of 42 cancer types (PCAWG, TCGA, GTeX). Tissue/cancer-specific deregulation, isoform diversity, variation in alternative promoters is associated with survival. H3K4me3 as a marker of active promoters. [proActiv R package](https://goekelab.github.io/proActiv/
-) for estimation of promoter activity from RNA-seq data. [Tweet](https://twitter.com/JonathanGoeke/status/1317281194321485824?s=20)
+) for estimation of promoter activity from RNA-seq data. [Tweet](https://twitter.com/JonathanGoeke/status/1317281194321485824?s=20). <details>
+    <summary>Paper</summary>
     - Demircioğlu, Deniz, Engin Cukuroglu, Martin Kindermans, Tannistha Nandi, Claudia Calabrese, Nuno A. Fonseca, André Kahles, et al. “[A Pan-Cancer Transcriptome Analysis Reveals Pervasive Regulation through Alternative Promoters](https://doi.org/10.1016/j.cell.2019.08.018).” Cell, (September 2019)
     - [Supplementary Material](https://www.cell.com/cell/fulltext/S0092-8674(19)30906-7#supplementaryMaterial)
     - [Table S1](https://www.cell.com/cms/10.1016/j.cell.2019.08.018/attachment/92de2589-ad5c-4f91-afa7-d8f8f1890496/mmc1.xlsx) - The Transcript IDs with Corresponding Transcription Start Site IDs, Promoter IDs, and Gene IDs According to Gencode (Release 19) Annotations
     - [Table S2](https://www.cell.com/cms/10.1016/j.cell.2019.08.018/attachment/aea71664-9e6b-4168-aabd-059e14144197/mmc2.xlsx) - The Transcription Start Site Coordinates for the Compiled Promoters (hg19)
     - [Table S5](https://www.cell.com/cms/10.1016/j.cell.2019.08.018/attachment/7df09a9c-9234-45b5-b39e-b656f85b0c80/mmc5.xlsx) - The Complete List of Alternative Promoters, Including Tissue-Specific, Cancer-Associated, Multi-cancer-Associated, BRCA Molecular-Subtype-Associated, and Pan-Cancer-Associated Alternative Promoters 
     - [Table S7](https://www.cell.com/cms/10.1016/j.cell.2019.08.018/attachment/f8263752-862b-49e4-8792-064062551b55/mmc7.xlsx) -  Promoters that Are Significantly Associated with Patient Survival, Related to Figures 5 and S5
+</details>
 
-- Pan-Cancer atlas of alternative splicing events, called using SplAdder. Data in GFF3, HDF5, TXT formats: https://gdc.cancer.gov/about-data/publications/PanCanAtlas-Splicing-2018
+- Pan-Cancer atlas of alternative splicing events, called using SplAdder. Data in GFF3, HDF5, TXT formats: https://gdc.cancer.gov/about-data/publications/PanCanAtlas-Splicing-2018. <details>
+    <summary>Paper</summary>
     - Kahles, André, Kjong-Van Lehmann, Nora C. Toussaint, Matthias Hüser, Stefan G. Stark, Timo Sachsenberg, Oliver Stegle, et al. “Comprehensive Analysis of Alternative Splicing Across Tumors from 8,705 Patients.” Cancer Cell 34, no. 2 (August 2018): 211-224.e6. https://doi.org/10.1016/j.ccell.2018.07.001.
+</details>
 
-- ATAC-seq data in 410 tumor samples from TCGA (23 cancer types). Correlation with gene expression predicts distal interactions. 18 clusters by cancer type. Data: hg19 coordinates of pan-cancer and BRCA-specific ATAC-seq peaks (Data S2), eQTLs (Data S5), peak-to-gene and enhancer-to-gene links (Data S7), and more https://gdc.cancer.gov/about-data/publications/ATACseq-AWG 
+- ATAC-seq data in 410 tumor samples from TCGA (23 cancer types). Correlation with gene expression predicts distal interactions. 18 clusters by cancer type. Data: hg19 coordinates of pan-cancer and BRCA-specific ATAC-seq peaks (Data S2), eQTLs (Data S5), peak-to-gene and enhancer-to-gene links (Data S7), and more https://gdc.cancer.gov/about-data/publications/ATACseq-AWG. <details>
+    <summary>Paper</summary> 
     - Corces, M. Ryan, Jeffrey M. Granja, Shadi Shams, Bryan H. Louie, Jose A. Seoane, Wanding Zhou, Tiago C. Silva, et al. “The Chromatin Accessibility Landscape of Primary Human Cancers.” Edited by Rehan Akbani, Christopher C. Benz, Evan A. Boyle, Bradley M. Broom, Andrew D. Cherniack, Brian Craft, John A. Demchok, et al. Science 362, no. 6413 (2018). https://doi.org/10.1126/science.aav1898.
+</details>
 
-- Papers and supplementary data from PanCancer publications. Clinical annotations, RNA-seq counts, RPPA, Methylation, miRNA, copy number, mutations in .maf format. https://gdc.cancer.gov/about-data/publications/pancanatlas
+- Papers and supplementary data from PanCancer publications. Clinical annotations, RNA-seq counts, RPPA, Methylation, miRNA, copy number, mutations in .maf format. https://gdc.cancer.gov/about-data/publications/pancanatlas. <details>
+    <summary>Paper</summary>
     - Ding, Li, Matthew H. Bailey, Eduard Porta-Pardo, Vesteinn Thorsson, Antonio Colaprico, Denis Bertrand, David L. Gibbs, et al. “Perspective on Oncogenic Processes at the End of the Beginning of Cancer Genomics.” Cell 173, no. 2 (April 5, 2018): 305-320.e10. https://doi.org/10.1016/j.cell.2018.03.033. - An overview of PanCancer Atlas.
+</details>
 
 - The Pan-Cancer analysis by TCGA consortium, all papers. https://www.cell.com/pb-assets/consortium/pancanceratlas/pancani3/index.html
 
-- TCGA MC3 variant calling project. Eight variant callers. Protocols for filtering samples, variants. Public and controlled access MAF files at https://gdc.cancer.gov/about-data/publications/mc3-2017
+- TCGA MC3 variant calling project. Eight variant callers. Protocols for filtering samples, variants. Public and controlled access MAF files at https://gdc.cancer.gov/about-data/publications/mc3-2017. <details>
+    <summary>Paper</summary>
     - Ellrott, Kyle, Matthew H. Bailey, Gordon Saksena, Kyle R. Covington, Cyriac Kandoth, Chip Stewart, Julian Hess, et al. “Scalable Open Science Approach for Mutation Calling of Tumor Exomes Using Multiple Genomic Pipelines.” Cell Systems 6, no. 3 (March 2018): 271-281.e7. https://doi.org/10.1016/j.cels.2018.03.002.
+</details>
 
-- `PCAGW` - The PCAWG study is an international collaboration to identify common patterns of mutation in more than 2,800 cancer whole genomes from the International Cancer Genome Consortium. The project produced large amount data with many types including simple somatic mutations (SNVs, MNVs and small INDELs), large-scale somatic structural variations, copy number alterations, germline variations, RNA expression profiles, gene fusions, and phenotypic annotations etc. PCAWG data have been imported, processed and made available in the following four major online resources for download and exploration by the cancer researchers worldwide. http://docs.icgc.org/pcawg/
+- `PCAGW` - The PCAWG study is an international collaboration to identify common patterns of mutation in more than 2,800 cancer whole genomes from the International Cancer Genome Consortium. The project produced large amount data with many types including simple somatic mutations (SNVs, MNVs and small INDELs), large-scale somatic structural variations, copy number alterations, germline variations, RNA expression profiles, gene fusions, and phenotypic annotations etc. PCAWG data have been imported, processed and made available in the following four major online resources for download and exploration by the cancer researchers worldwide. http://docs.icgc.org/pcawg/. <details>
+    <summary>Paper</summary>
     - Goldman, Mary, Junjun Zhang, Nuno A. Fonseca, Qian Xiang, Brian Craft, Elena Piñeiro, Brian O’Connor, et al. “Online Resources for PCAWG Data Exploration, Visualization, and Discovery.” BioRxiv, October 18, 2017. https://doi.org/10.1101/163907. https://www.biorxiv.org/content/early/2017/10/18/163907
+</details>
 
 ### Pediatric
 
 - [The Childhood Cancer Research Resources (CCRR) Portal](https://resources.alexslemonade.org/) maintained by [Alex’s Lemonade Stand Foundation for Childhood Cancer](https://www.alexslemonade.org/). Projects as of September 2021: "Epigenomic profiling of neuroblastoma cell lines", "ATAC-Seq of neuroblastoma cell lines", "MYCN and MYC ChIP-Seq profiling in neuroblastoma cell lines", "Histone ChIP-Seq of neuroblastoma cell lines", "Transcriptomic Profiling of 39 Neuroblastoma Cell Lines", "A novel and highly effective mitochondrial uncoupling drug (MB1-47) in T-cell acute lymphoblastic leukemia", "A Tumor Suppressor Enhancer of PTEN in T-cell development and leukemia", "scRNAseq in Pten enhancer wild-type or deleted thymocytes, enriched for immature thymocyte stages (CD4-CD3-)", "ATAC-seq in NOTCH1-induced mouse T-ALLs", "Temporal, spatial, and genetic constraints contribute to the patterning and penetrance of murine Neurofibromatosis-1 optic glioma", "The Genomic Landscape of Juvenile Myelomonocytic Leukemia", "Mapping the Cellular Origin and Early Evolution of Leukemia in Down Syndrome"
 
-- [St. Jude cloud](https://www.stjude.cloud/) Pediatric cancer resource. Whole genomes, exomes, transcriptomes, free download. Integrates other datasets. 135 subtypes of pediatric cancers, blood cancers, CNS and non-CNS solid tumors. hg38 processed data. [Genomics platform](https://platform.stjude.cloud/) for controlled access. [PeCan](https://pecan.stjude.cloud/) - exploration of somatic variants. [Visualization Community](https://viz.stjude.cloud/) - integrated visualization of multi-omics and clinical information. [ProteinPaint and Genome Paint](https://genomepaint.stjude.cloud/). [Data download](https://platform.stjude.cloud/data/diseases)
+- [St. Jude cloud](https://www.stjude.cloud/) Pediatric cancer resource. Whole genomes, exomes, transcriptomes, free download. Integrates other datasets. 135 subtypes of pediatric cancers, blood cancers, CNS and non-CNS solid tumors. hg38 processed data. [Genomics platform](https://platform.stjude.cloud/) for controlled access. [PeCan](https://pecan.stjude.cloud/) - exploration of somatic variants. [Visualization Community](https://viz.stjude.cloud/) - integrated visualization of multi-omics and clinical information. [ProteinPaint and Genome Paint](https://genomepaint.stjude.cloud/). [Data download](https://platform.stjude.cloud/data/diseases). <details>
+    <summary>Paper</summary>
     - McLeod, Clay, Alexander M Gout, Xin Zhou, Andrew Thrasher, Delaram Rahbarinia, Samuel Warren Brady, Michael Macias, et al. “[St. Jude Cloud-a Pediatric Cancer Genomic Data Sharing Ecosystem](https://doi.org/10.1158/2159-8290.CD-20-1230).” Cancer Discovery, January 6, 2021
+</details>
 
 - [Treehouse](https://treehousegenomics.ucsc.edu/) - the Treehouse Childhood Cancer Initiative, a pediatric cancer-focused project at the University of California Santa Cruz Genomics Institute. Gene expression (counts, log2 TPM), deidentified clinical data. Compiles data from TCGA, TARGET, ICGC, St. Jude and other consortia, over 12K samples. Data curation challenges. <details>
     <summary>Paper</summary>
     Learned, Katrina, Ann Durbin, Robert Currie, Ellen Towle Kephart, Holly C. Beale, Lauren M. Sanders, Jacob Pfeil, et al. “Barriers to Accessing Public Cancer Genomic Data.” Scientific Data 6, no. 1 (December 2019): 98. https://doi.org/10.1038/s41597-019-0096-4.
 </details>
 
-- `PedcBioPortal` - childhood cancer genomics portal. 261 pediatric PDX models, 37 pediatric malignancies, CNS and rhabdoid tumors, extracranial solid tumors, hematological malignancies. WES (includes segmentation, copy number estimates, high breakpoint density), RNA-seq. Description of individual tumor types. hg19-mm10 alignment. Raw data: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001437.v1.p1, Processed data: https://figshare.com/projects/Genomic_landscape_of_childhood_cancer_patient-derived_xenograft_models/38147, Code at https://github.com/marislab, Online cBioPortal interface: https://pedcbioportal.kidsfirstdrc.org/
+- `PedcBioPortal` - childhood cancer genomics portal. 261 pediatric PDX models, 37 pediatric malignancies, CNS and rhabdoid tumors, extracranial solid tumors, hematological malignancies. WES (includes segmentation, copy number estimates, high breakpoint density), RNA-seq. Description of individual tumor types. hg19-mm10 alignment. Raw data: https://www.ncbi.nlm.nih.gov/projects/gap/cgi-bin/study.cgi?study_id=phs001437.v1.p1, Processed data: https://figshare.com/projects/Genomic_landscape_of_childhood_cancer_patient-derived_xenograft_models/38147, Code at https://github.com/marislab, Online cBioPortal interface: https://pedcbioportal.kidsfirstdrc.org/. <details>
+    <summary>Paper</summary>
     - Rokita, Jo Lynne, Komal S. Rathi, Maria F. Cardenas, Kristen A. Upton, Joy Jayaseelan, Katherine L. Cross, Jacob Pfeil, et al. “Genomic Profiling of Childhood Tumor Patient-Derived Xenograft Models to Enable Rational Clinical Trial Design.” Cell Reports 29, no. 6 (November 2019): 1675-1689.e9. https://doi.org/10.1016/j.celrep.2019.09.071.
+</details>
 
 - TARGET pediatric tumors RNA-sequencing dataset: https://ocg.cancer.gov/programs/target/data-matrix
 
@@ -821,8 +933,10 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     kConFab Investigators, ABCTB Investigators, EMBRACE Study, GEMO Study Collaborators, Haoyu Zhang, Thomas U. Ahearn, Julie Lecarpentier, et al. “Genome-Wide Association Study Identifies 32 Novel Breast Cancer Susceptibility Loci from Overall and Subtype-Specific Analyses.” Nature Genetics 52, no. 6 (June 2020): 572–81. https://doi.org/10.1038/s41588-020-0609-2
 </details>
 
-- [BREAST CANCER LANDSCAPE RESOURCE](http://www.breastcancerlandscape.org/) - A web portal to proteomics, transcriptomics, genomics and metabolomics of breast cancer.
+- [BREAST CANCER LANDSCAPE RESOURCE](http://www.breastcancerlandscape.org/) - A web portal to proteomics, transcriptomics, genomics and metabolomics of breast cancer. <details>
+    <summary>Paper</summary>
     - Consortia Oslo Breast Cancer Research Consortium (OSBREAC), Henrik J. Johansson, Fabio Socciarelli, Nathaniel M. Vacanti, Mads H. Haugen, Yafeng Zhu, Ioannis Siavelis, et al. “Breast Cancer Quantitative Proteome and Proteogenomic Landscape.” Nature Communications 10, no. 1 (December 2019): 1600. https://doi.org/10.1038/s41467-019-09018-y. - Proteogenomics of breast cancer subtypes. \~10K proteins by LS-MS/MS. 9 samples for each of the five PAM50 subtypes. Protein expression partially recapitulates PAM50 subtypes, their own consensus clustering. High correlation with mRNA, less so for CNV. Correlation of 290 proteins that are FDA-approved drug targets. [Online tool](http://www.breastcancerlandscape.org/), [supplementary Data 1](https://www.nature.com/articles/s41467-019-09018-y#Sec15) has the full protein expression matrix
+</details>
 
 - BRCA GWAS in 122,977 European cases and 105,974 controls and 14,068 Asian cases and 13,104 controls. 65 new loci that are associated with overall breast cancer risk at p<5E-8. <details>
     <summary>Paper</summary>
@@ -844,13 +958,15 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     - **Supplementary Table 19/20** - Summary/Detailed INQUISIT gene prediction scores, separated to distal, promoter, coding, deteted with Oncoarray and published data.  
 </details>
 
-- Pooled shRNA screen of 77 breast cancer cell lines. siMEM algorithm to improve identification of susceptibility/driver genes. Known and novel genes. [Processed gene expression and proteomics data](http://neellab.github.io/bfg/), [Supplementary data](https://www.cell.com/cell/fulltext/S0092-8674(15)01624-4#supplementaryMaterial) with BRCA genes
+- Pooled shRNA screen of 77 breast cancer cell lines. siMEM algorithm to improve identification of susceptibility/driver genes. Known and novel genes. [Processed gene expression and proteomics data](http://neellab.github.io/bfg/), [Supplementary data](https://www.cell.com/cell/fulltext/S0092-8674(15)01624-4#supplementaryMaterial) with BRCA genes.  <details>
+    <summary>Paper</summary>
     - Marcotte, Richard, Azin Sayad, Kevin R. Brown, Felix Sanchez-Garcia, Jüri Reimand, Maliha Haider, Carl Virtanen, et al. “[Functional Genomic Landscape of Human Breast Cancer Drivers, Vulnerabilities, and Resistance](https://doi.org/10.1016/j.cell.2015.11.062).” Cell 164, no. 1–2 (January 14, 2016)
     - [Table S2](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc3.xls) - BRCA general essential and HER2+ specific genes.
     - [Table S3](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc4.xls) - subtype-specific essential genes
     - [Table S4](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc5.xls) - Genes Synthetic Lethal with Specific CNAs, MYCN-interacting genes
     - [Table S5](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc6.xls) - Genes Associated with Functional Clusters and Drug Response
     - [Table S6](data/Marcotte_2016_BRCA/Marcotte_2016_BRCA_mmc7.xls) - Genes Associated with Expression or Copy Number Loss
+</details>
 
 - [METABRIC paper](https://www.nature.com/articles/nature10983). CNV/SNP and gene expression discovery and validation in 997 and 995 primary breast tumors, PAM50-classified. CNA segmentation using Circular Binary Segmentation (CBS). Integrative k-means clustering using 1000 genes cis-associated with CNVs, 10 clusters, characteristics of each. Affy/Illumina microarrays. Coordinates in hg18. [Supplementary tables](https://www.nature.com/articles/nature10983#Sec10): Tables S2, S3 - clinical annotations; Tables S5, S12 - gene-centric Minimal common regions of alteration for CNAs (derived from CBS), stratified by ER status and PAM50 subtype for regions with frequency > 0.05; Tables S22, S23 - region-centric amplifications, S24 - deletions. [Data on cBioPortal](https://www.cbioportal.org/study/summary?id=brca_metabric). <details>
     <summary>Paper</summary>
@@ -862,9 +978,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - [Breast Cancer (METABRIC, Nature 2012 & Nat Commun 2016)](https://www.cbioportal.org/study/summary?id=brca_metabric) - Targeted sequencing of 2509 primary breast tumors with 548 matched normals. [PubMed](https://www.ncbi.nlm.nih.gov/pubmed/27161491,30867590,22522925)
 
-- CTCF ChIP-seq data (Supplementary Table S5 from https://doi.org/10.1101/2023.04.17.537031)
+- CTCF ChIP-seq data (Supplementary Table S5 from https://doi.org/10.1101/2023.04.17.537031).  <details>
+    <summary>Data</summary>
   - Normal, MCF10A ([GSE98551](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE98551), [GSM4158368](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4158368), [GSM4158370](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM4158370)), HMEC ([GSM1022631](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM1022631), [GSM749753](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM749753))
   - Cancer, MCF-7 ([GSE130852](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE130852), [GSM2257816](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2257816), [GSM2067524](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2067524), [GSM2067525](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM2067525), [GSM822305](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM822305)), T47D ([GSM3045107](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3045107), [GSM3045110](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3045110), [GSM3415545](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM3415545), [GSM5098085](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSM5098085))
+</details>
 
 - ERalpha ChIP-seq data from six female BRCA patients, [GSE104399](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE104399)
 
@@ -927,8 +1045,10 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - `MEXPRESS` - Gene-centric methylation and correlation with clinical parameters. http://mexpress.be/
 
-- `Pancan-meQTL` database of meQTLs across 23 TCGA cancer types. Cis-, trans-meQTLs, pancancer-meQTLs, survival meQTLs. SNP-, gene-, CpG-centric search for each cancer. Visualization, KM plots for survival. Download. http://bioinfo.life.hust.edu.cn/Pancan-meQTL/
+- `Pancan-meQTL` database of meQTLs across 23 TCGA cancer types. Cis-, trans-meQTLs, pancancer-meQTLs, survival meQTLs. SNP-, gene-, CpG-centric search for each cancer. Visualization, KM plots for survival. Download. http://bioinfo.life.hust.edu.cn/Pancan-meQTL/.  <details>
+    <summary>Paper</summary>
     - Gong, Jing, Hao Wan, Shufang Mei, Hang Ruan, Zhao Zhang, Chunjie Liu, An-Yuan Guo, Lixia Diao, Xiaoping Miao, and Leng Han. “Pancan-MeQTL: A Database to Systematically Evaluate the Effects of Genetic Variants on Methylation in Human Cancer.” Nucleic Acids Research, September 7, 2018. https://doi.org/10.1093/nar/gky814.
+</details>
 
 - [Wanderer](http://gattaca.imppc.org:3838/wanderer/index.html) - An interactive viewer to explore DNA methylation and gene expression data in human cancer
 
@@ -948,8 +1068,10 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
     Ni Huang, Mi, John R. McPherson, Ioana Cutcutache, Bin Tean Teh, Patrick Tan, and Steven G. Rozen. “MSIseq: Software for Assessing Microsatellite Instability from Catalogs of Somatic Mutations.” Scientific Reports 5, no. 1 (October 2015): 13321. https://doi.org/10.1038/srep13321.
 </details>
 
-- [CancerSubtypes](http://bioconductor.org/packages/release/bioc/html/CancerSubtypes.html) - an R package implementing four methods for clustering/subtype identification. Includes consensus nonnegative matrix factorization (CNMF), iCluster, SNF and its variations. Better distinguish survival groups, single file format
+- [CancerSubtypes](http://bioconductor.org/packages/release/bioc/html/CancerSubtypes.html) - an R package implementing four methods for clustering/subtype identification. Includes consensus nonnegative matrix factorization (CNMF), iCluster, SNF and its variations. Better distinguish survival groups, single file format. <details>
+    <summary>Paper</summary>
     - Xu, Taosheng, Thuc Duy Le, Lin Liu, Ning Su, Rujing Wang, Bingyu Sun, Antonio Colaprico, Gianluca Bontempi, and Jiuyong Li. “[CancerSubtypes: An R/Bioconductor Package for Molecular Cancer Subtype Identification, Validation and Visualization](https://doi.org/10.1093/bioinformatics/btx378).” Bioinformatics 33, no. 19 (October 1, 2017)
+</details>
 
 - Oncology Model Fidelity Score based on the Hallmarks of Cancer. Quantify fidelity of PDX models in recapitulating human cancers. https://github.com/tedgoldstein/hallmarks
 
