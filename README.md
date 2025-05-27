@@ -667,7 +667,7 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
     - Schlicker, Andreas, Magali Michaut, Rubayte Rahman, and Lodewyk F. A. Wessels. “OncoScape: Exploring the Cancer Aberration Landscape by Genomic Data Fusion.” Scientific Reports 6 (20 2016): 28103. https://doi.org/10.1038/srep28103.
 </details>
 
-- [data/Bailey_2018_cancer_genes.xlsx](Bailey_2018_cancer_genes.xlsx) - Table S1, consensus list of cancer driver genes. <details>
+- [data/Bailey_2018_cancer_genes.xlsx](Bailey_2018_cancer_genes.xlsx) - Table S1, consensus list of 110 cancer driver genes. <details>
     <summary>Paper</summary>
 	- Bailey, Matthew H., Collin Tokheim, Eduard Porta-Pardo, Sohini Sengupta, Denis Bertrand, Amila Weerasinghe, Antonio Colaprico, et al. “Comprehensive Characterization of Cancer Driver Genes and Mutations.” Cell 173, no. 2 (April 5, 2018): 371-385.e18. https://doi.org/10.1016/j.cell.2018.02.060. - Pan-Cancer mutation analysis. Combined use of 26 tools (https://www.cell.com/cell/fulltext/S0092-8674(18)30237-X#secsectitle0075, description of each tool in Methods) on harmonized data. 299 cancer driver genes, >3,400 putative missense driver mutations. Table S6 - excluded TCGA samples.
 </details>
@@ -723,6 +723,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 
 ## Databases
+
+- Neuroblastoma genomics (WES, low-coverage WGS), transcriptomics, and dsug screening (200 components, IC50) [data resource](https://hgserver1.amc.nl/cgi-bin/r2/main.cgi?dscope=pmcnb_dco&option=about_dscope). 19 cell lines, 15 organoids. Data download. http://r2platform.com/pmc_nb_drugs. <details>
+    <summary>Paper</summary>
+    Langenberg, Karin P S. “Exploring High-Throughput Drug Sensitivity Testing in Neuroblastoma Cell Lines and Patient-Derived Tumor Organoids in the Era of Precision Medicine.” European Journal of Cancer, 2025.
+</details>
 
 - [Activity-by-Contact (ABC) Model](https://www.engreitzlab.org/resources/) predicting SNP-enhancer regularoty pairs. [Predictions](ftp://ftp.broadinstitute.org/outgoing/lincRNA/ABC/AllPredictions.AvgHiC.ABC0.015.minus150.ForABCPaperV3.txt.gz) in 131 cell types and tissues (all element-gene connections with ABC scores >= 0.015. [GitHub](https://github.com/broadinstitute/ABC-Enhancer-Gene-Prediction).
 
