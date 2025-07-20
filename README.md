@@ -322,6 +322,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ### BRCA
 
+- TNBC classification based on the hypothesis that the tumor heterogeneity should be reflected in the tissue and cell heterogeneity. 250 pre-treatment samples 127 AA and 123 EA, Louisiana Tumor Registry, tested for ancestry. Using 261 cell type markers from 22 cell types important in breast cancer and tumor microenvironment. Compared with Lehmann's TNBCtype, spatial phenotype classifier that provides gene expression signatures of immunophenotypes (excluded, ignored, or inflamed). Survival analysis, ancestry-specific analysis. [Shiny app](https://www.tnbcworkbench.org/TNBCsubtyping/). [Supplementary Table 1: List of all of the cell type-markers.](https://www.biorxiv.org/content/10.1101/2025.07.04.663242v1.supplementary-material). <details>
+    <summary>Paper</summary>
+    A novel subtyping method for TNBC with implications for prognosis and therapy. Zahra Mesrizadeh, Kavitha Mukund, Jovanny Zabaleta, Luis Del Valle, Jerneja Tomsic, Susan Neuhausen, Yuan Chun Ding, Victoria Seewaldt, Augusto Ochoa, Lucio Miele, Shankar Subramaniam. bioRxiv 2025.07.04.663242; doi: https://doi.org/10.1101/2025.07.04.663242
+</details>
+
 - [HRDetect](https://github.com/eyzhao/hrdetect-pipeline) (homologous recombination-repair deficiency) classification of TNBC patients. Whole-genome sequencing-based. HRDetect-high have higher chemosensitivity, better survival profiles.  <details>
     <summary>Paper</summary>
     - Staaf, Johan, Dominik Glodzik, Ana Bosch, Johan Vallon-Christersson, Christel Reuterswärd, Jari Häkkinen, Andrea Degasperi, et al. “[Whole-Genome Sequencing of Triple-Negative Breast Cancers in a Population-Based Clinical Study](https://doi.org/10.1038/s41591-019-0582-4).” Nature Medicine, September 30, 2019
