@@ -327,6 +327,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
     A novel subtyping method for TNBC with implications for prognosis and therapy. Zahra Mesrizadeh, Kavitha Mukund, Jovanny Zabaleta, Luis Del Valle, Jerneja Tomsic, Susan Neuhausen, Yuan Chun Ding, Victoria Seewaldt, Augusto Ochoa, Lucio Miele, Shankar Subramaniam. bioRxiv 2025.07.04.663242; doi: https://doi.org/10.1101/2025.07.04.663242
 </details>
 
+- Three spatial (IHC) immunophenotypes in untreated TNBC (excluded, CD8+ T cells at border, 26%; ignored, minimal CD8+ T cells, 28%; and inflammed, CD8+ T cells at border and center, 46%). Predict response to anti-PD1 treatment, associated with survival (metastasis-free, disease-free, overall). Inflammed had the best prognosis, ignored - the worst. 42 genes most differential among types, [Supplementary Dataset 1](https://www.nature.com/articles/s41467-021-25962-0#Sec27) lists them, including ranking in different types. <details>
+    <summary>Paper</summary>
+    Hammerl, Dora, John W. M. Martens, Mieke Timmermans, et al. “Spatial Immunophenotypes Predict Response to Anti-PD1 Treatment and Capture Distinct Paths of T Cell Evasion in Triple Negative Breast Cancer.” Nature Communications 12, no. 1 (2021). https://doi.org/10.1038/s41467-021-25962-0.
+</details>
+
 - [HRDetect](https://github.com/eyzhao/hrdetect-pipeline) (homologous recombination-repair deficiency) classification of TNBC patients. Whole-genome sequencing-based. HRDetect-high have higher chemosensitivity, better survival profiles.  <details>
     <summary>Paper</summary>
     - Staaf, Johan, Dominik Glodzik, Ana Bosch, Johan Vallon-Christersson, Christel Reuterswärd, Jari Häkkinen, Andrea Degasperi, et al. “[Whole-Genome Sequencing of Triple-Negative Breast Cancers in a Population-Based Clinical Study](https://doi.org/10.1038/s41591-019-0582-4).” Nature Medicine, September 30, 2019
