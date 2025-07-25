@@ -153,6 +153,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ### Synergy
 
+- ML models (random forest, elastic net, neural network) for predictions of the relative growth inhibition (sensitivity predictions instead of classical synergy scores) for multi-drug combinations. Limitations of synergy scores (Loewe, Bliss, HSA, ZIP). CMax viability measure, a relative viability after treatment with the drug's CMax concentration. Tested four input types, 1) OneHot (256-dimensioal encoding where each feature corresponds to the 256 drugs), 2) OneHotTar, additionally includes 290 features representing drug target molecules, 3) MACCS162-dimensional molecular access system fingerprint, 4) PhysChem, 183 physicochemical properties, such as molecular weight, number of valence electrons. Best performer - random forest with MACCS fingerprints. Data from [GDSC](https://www.cancerrxgene.org/) (Genomics of Drug Sensitivity in Cancer), [DrugCombDb](http://drugcombdb.denglab.org/main), others, summarized across 947 cell lines, 265 drugs, and 9,535 drug combinations. <details>
+    <summary>Paper</summary>
+    Eckhart, Lea, Kerstin Lenhof, Lutz Herrmann, Lisa-Marie Rolli, and Hans-Peter Lenhof. “How to Predict Effective Drug Combinations - Moving beyond Synergy Scores.” Preprint, Cold Spring Harbor Laboratory, November 23, 2024. https://doi.org/10.1101/2024.11.22.624812.
+</details>
+
 - Review of drug response prediction methods in cancer. Overview of deep learning architectures, Table 1 - DL terminology, Table 2 - data resources (NCI-60, CCLE, GDSC1 etc.), Table 3 - drug combination screening studies. DREAM challenges addressing drug sensitivity. Approaches for building and evaluating drug response prediction models, single-drug (Table 4 - studies, models) and drug combination (Table 6) approaches. DeepSynergy, NCI-ALMANAC dataset, AstraZeneca-Sanger Drug Combination DREAM challenge paper. Evaluation of model ensembles. Deep learning for drug repurposing. Methods for model evaluation, improving performance, increase interpretability. Deep reading with lots of references. <details>
     <summary>Paper</summary>
     Baptista, Delora, Pedro G. Ferreira, and Miguel Rocha. "Deep learning for drug response prediction in cancer." Briefings in bioinformatics 22, no. 1 (January 2021): 360-379. https://doi.org/10.1093/bib/bbz171
