@@ -44,6 +44,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Drugs
 
+- [scIDUC](https://osf.io/z9e2x/overview) - predict therapeutic efficacies on the individual-cell basis by integrating scRNA-seq and bulk RNA-seq (NMF, CCA, k components in each). Embeddings of bulk RNA-seq data are used to construct drug response regression model, coefficients applied to scRNA-seq embeddings. Drug screen data from [CTRPv2](https://pharmacodb.ca/datasets/2), cancer RNA-seq from [DepMap](https://depmap.org/portal/). Benchmarked against Beyondcells, CaDRReS-Sc. <details>
+    <summary>Paper</summary>
+    Zhang, Weijie, Danielle Maeser, Adam Lee, et al. “Inferring Therapeutic Vulnerability within Tumors through Integration of Pan-Cancer Cell Line and Single-Cell Transcriptomic Profiles.” Preprint, Bioinformatics, November 1, 2023. https://doi.org/10.1101/2023.10.29.564598.
+</details>
+
 - [oncoPredict](https://github.com/maese005/oncoPredict) - R package for drug response prediction from cell line screening data. Incorporates three methodologies: (1) correct for general levels of drug sensitivity to enable drug-specific biomarker discovery, (2) predict clinical drug response in patients and (3) associate these predictions with clinical features to perform in vivo drug biomarker discovery. Two methods for biomarkers identification: 1) imputed drug-wide association study (IDWAS), identifies biomarkers directly in clinical data based on associations of predicted drug sensitivity with copy number variation (CNV) and other somatic mutation data. 2) performs biomarker discovery directly in the cell line dataset and aims at identifying drug-specific biomarkers after accounting for variability in general levels of drug sensitivity (GLDS). [Data](https://osf.io/c6tfx/overview). <details>
     <summary>Paper</summary>
     Maeser, Danielle, Robert F Gruener, and Rong Stephanie Huang. “oncoPredict: An R Package for Predicting in Vivo or Cancer Patient Drug Response and Biomarkers from Cell Line Screening Data.” Briefings in Bioinformatics 22, no. 6 (2021): bbab260. https://doi.org/10.1093/bib/bbab260.
