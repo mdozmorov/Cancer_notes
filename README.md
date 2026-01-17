@@ -437,6 +437,12 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ### Image analysis
 
+- Breast cancer subtype classification (IDC, ILC, luminal subtypes combined, non-luminal also) using Whole Slide Images (TCGA-BRCA). Two network architectures: ConvNeXt and ResNet.
+Two patch fusion strategies: early fusion (patch stacking along the channel dimension), intermediate fusion implemented through Multiple Instance Learning. Three aggregation methods (mean pooling, flattening followed by dense layers), attention pooling. Preprocessing: cropping, normalization, background exclusion, 256x256 tiles scored for informativeness, 20X and 40X magnification processed simultaneously. Oversampling, data augmentation (90 degree rotations, horizontal/vertical flips). Early fusion performs well with smaller models. Table 1 - summary of previous studies. <details>
+    <summary>Paper</summary>
+    Marianini C. et al. Breast Cancer Subtype Prediction from Histopathology: A TCGA-Based Study. https://www.researchgate.net/profile/Mallek-Mziou-Sallami/publication/399496276_Breast_Cancer_Subtype_prediction_from_histopathology_a_TCGA-based_study/links/695d19f5a1fd017989115de3/Breast-Cancer-Subtype-prediction-from-histopathology-a-TCGA-based-study.pdf
+</details>
+
 - [GigaTIME](https://aka.ms/gigatime_code) - multimodal AI (NestedUNet architecture, ecoder-decoder framework) to generate multiplex immunofluorescence images from standard H&E slides. Trained on 40M cells with paired H&E data (VALIS, Virtual Alignment of pathoLogy Image Series) across 21 proteins. Applied to real data (24 cancer types, 306 subtypes), finds associations with staging, survival at the pan-cancer, cancer type, and subtype levels. Independently validated on TCGA. Outperforms CycleGAN. [Dropbox](https://www.dropbox.com/scl/fi/25izrm9spcwifwvjojhuf/GigaTIME_codebase.zip?e=2&file_subpath=%2FGigaTIME&rlkey=1bjydehycmycozwxhjtiv376z&st=1k9sdepl&dl=0) limited download of code. Model at [Microsoft Foundry Labs](https://labs.ai.azure.com/projects/gigatime/) and on [Hugging Face](https://huggingface.co/prov-gigatime/GigaTIME). [Blog post](https://www.microsoft.com/en-us/research/blog/gigatime-scaling-tumor-microenvironment-modeling-using-virtual-population-generated-by-multimodal-ai/).  <details>
     <summary>Paper</summary>
     Valanarasu, Jeya Maria Jose, Hanwen Xu, Naoto Usuyama, et al. “Multimodal AI Generates Virtual Population for Tumor Microenvironment Modeling.” Cell, December 2025, S0092867425013121. https://doi.org/10.1016/j.cell.2025.11.016.
