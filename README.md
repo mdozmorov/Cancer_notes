@@ -460,6 +460,11 @@ Two patch fusion strategies: early fusion (patch stacking along the channel dime
 
 - [High content image analysis with CellProfiler (2D and 3D)](https://github.com/hmbotelho/SPAOM2020-ws1-high-content-screening) - detailed Python- and R-based workshop
 
+- Image classification using DL is affected by site-specific differences. Introduction summarizes digital histology research. Methods to eliminate biases - color transfer (Reinhard), color normalization (Macenko), color augmentation. Xception architecture. A quadratic programming solution - equalizing the proportion of patients with/without a feature of interest across each fold. Stain-normalization and color augmentation should be used. [GitHub](https://github.com/fmhoward/PreservedSiteCV). <details>
+    <summary>Paper</summary>
+    Howard, Frederick M., James Dolezal, Sara Kochanny, et al. “The Impact of Site-Specific Digital Histology Signatures on Deep Learning Model Accuracy and Bias.” Nature Communications 12, no. 1 (2021): 4423. https://doi.org/10.1038/s41467-021-24698-1.
+</details>
+
 - Prediction of chromosomal instability (CIN, fraction of genome altered, binarized into high/low) in breast cancer using deep learning on histology images. Tested different convnet architectures, Densenet-121 worked best. TensorFlow2. [Code for CIN](https://github.com/eipm/CIN).  <details>
     <summary>Paper</summary>
     - Xu, Zhuoran, Akanksha Verma, Uska Naveed, Samuel Bakhoum, Pegah Khosravi, and Olivier Elemento. “[Using Histopathology Images to Predict Chromosomal Instability in Breast Cancer: A Deep Learning Approach](https://doi.org/10.1101/2020.09.23.20200139).” Preprint. Genetic and Genomic Medicine, September 24, 2020. 
