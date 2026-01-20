@@ -485,6 +485,11 @@ Two patch fusion strategies: early fusion (patch stacking along the channel dime
     Grossberg, Aaron J., Abdallah S. R. Mohamed, Hesham El Halawani, William C. Bennett, Kirk E. Smith, Tracy S. Nolan, Bowman Williams, et al. “Imaging and Clinical Data Archive for Head and Neck Squamous Cell Carcinoma Patients Treated with Radiotherapy.” Scientific Data 5 (September 4, 2018): 180173. https://doi.org/10.1038/sdata.2018.173.
 </details>
 
+- Machine learning image analysis, histopathology, review and references. Areas of application. Table 1 - overview of papers dealing with problems and solutions (color, magnification). Table 2 - downloadable datasets. Table 3 - datasets with annotations. <details>
+    <summary>Paper</summary>
+    Komura, Daisuke, and Shumpei Ishikawa. “Machine Learning Methods for Histopathological Image Analysis.” Computational and Structural Biotechnology Journal 16 (2018): 34–42. https://doi.org/10.1016/j.csbj.2018.01.001.
+</details>
+
 - `IHCount` - IHC-image analysis workflow, https://github.com/mui-icbi/IHCount
 
 - `pathology_learning` - Using traditional machine learning and deep learning methods to predict stuff from TCGA pathology slides. [https://github.com/millett/pathology_learning](https://github.com/millett/pathology_learning)
