@@ -14,7 +14,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 - [Tools](#tools)
   - [Preprocessing](#preprocessing)
   - [Purity](#purity)
-  - [Ploidy](#ploidy)
+  - [Ploidy, CNVs](#ploidy-cnvs)
   - [Deconvolution](#deconvolution)
   - [BRCA](#brca)
   - [OvCa](#ovca)
@@ -266,7 +266,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     - Quon, Gerald, Syed Haider, Amit G Deshwar, Ang Cui, Paul C Boutros, and Quaid Morris. “[Computational Purification of Individual Tumor Gene Expression Profiles Leads to Significant Improvements in Prognostic Prediction](https://doi.org/10.1186/gm433).” Genome Medicine 5, no. 3 (2013)
 </details>
 
-### Ploidy
+### Ploidy, CNVs
 
 - [GenomeScope](http://qb.cshl.edu/genomescope/genomescope2.0/) and [Smudgeplot](https://github.com/KamilSJaron/smudgeplot) for ploidy detection directly from sequencing data. Based on k-mer counting using KMC or Jellyfish, negative binomial-based mathematical model. [GenomeScope](https://github.com/tbenavi1/genomescope2.0). <details>
     <summary>Paper</summary>
@@ -277,6 +277,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     <summary>Paper</summary>
     Favero, F., T. Joshi, A. M. Marquard, N. J. Birkbak, M. Krzystanek, Q. Li, Z. Szallasi, and A. C. Eklund. “Sequenza: Allele-Specific Copy Number and Mutation Profiles from Tumor Sequencing Data.” Annals of Oncology 26, no. 1 (January 2015): 64–70. https://doi.org/10.1093/annonc/mdu479.
 </details>
+
+- [MANTIS](https://github.com/OSU-SRLab/MANTIS) - Microsatellite Analysis for Normal-Tumor InStability
 
 ### Deconvolution
 
