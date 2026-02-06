@@ -439,6 +439,8 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ### Image analysis
 
+- [Hist.ai](https://hist.ai/#trust) - digital pathology platform. Largest open-access data of whole-slide images (H&E, IHC), some manually annotated. Models for image analysis. [Huggingface](https://huggingface.co/histai/datasets), [GitHub](https://github.com/histai/HISTAI)
+
 - Breast cancer subtype classification (IDC, ILC, luminal subtypes combined, non-luminal also) using Whole Slide Images (TCGA-BRCA). Two network architectures: ConvNeXt and ResNet.
 Two patch fusion strategies: early fusion (patch stacking along the channel dimension), intermediate fusion implemented through Multiple Instance Learning. Three aggregation methods (mean pooling, flattening followed by dense layers), attention pooling. Preprocessing: cropping, normalization, background exclusion, 256x256 tiles scored for informativeness, 20X and 40X magnification processed simultaneously. Oversampling, data augmentation (90 degree rotations, horizontal/vertical flips). Early fusion performs well with smaller models. Table 1 - summary of previous studies. <details>
     <summary>Paper</summary>
