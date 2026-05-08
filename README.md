@@ -1061,6 +1061,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 ## PDX
 
+- [Xenomake](https://github.com/qianzhulab/Xenomake) - Xengsort wrapper for 10x spatial transcriptomics. Tested on TNBC PDX spatial data. Outperforms Space Ranger aligning to the barnyard genome. <details>
+    <summary>Paper</summary>
+    Strope, Benjamin S., Katherine E. Pendleton, William Z. Bowie, Gloria V. Echeverria, and Qian Zhu. “Xenomake: A Pipeline for Processing and Sorting Xenograft Reads from Spatial Transcriptomic Experiments.” Bioinformatics 40, no. 11 (2024): btae608. https://doi.org/10.1093/bioinformatics/btae608.
+</details>
+
 - [Xengsort](https://gitlab.com/genomeinformatics/xengsort) - alignment-free human-mouse read separation tool. Three-way bucketed quotiented Cuckoo hashing. Critique of XenofilteR, Xenosplit, Bamcmp and Disambiguate, BBsplit, xenome. Outperforms all, 3-4x faster. Python. <details>
     <summary>Paper</summary>
     Zentgraf, Jens, and Sven Rahmann. “Fast Lightweight Accurate Xenograft Sorting.” Algorithms for Molecular Biology 16, no. 1 (December 2021): 2. https://doi.org/10.1186/s13015-021-00181-w.
