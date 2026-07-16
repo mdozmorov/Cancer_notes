@@ -439,6 +439,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
 
 ### Image analysis
 
+- [SAM-Med3D](https://github.com/uni-medical/SAM-Med3D) - Segmentation of volumetric medical images (CT, MRI, Ultrasound), prompt guided. Fully learnable 3D image encoder, 3D prompt encoder, 3D mask decoder. Ourperforms SAM-Med2D, SegVol, UNETR, nnU-Net. Trained on SA-Med3D-140K dataset, evaluated on 16 external data. <details>
+    <summary>Paper</summary>
+    Wang, Haoyu, Sizheng Guo, Jin Ye, et al. SAM-Med3D: Towards General-Purpose Segmentation Models for Volumetric Medical Images. https://doi.org/10.48550/arXiv.2310.15161
+</details>
+
 - [Hist.ai](https://hist.ai/#trust) - digital pathology platform. Largest open-access data of whole-slide images (H&E, IHC), some manually annotated. Models for image analysis. [Huggingface](https://huggingface.co/histai/datasets), [GitHub](https://github.com/histai/HISTAI)
 
 - Breast cancer subtype classification (IDC, ILC, luminal subtypes combined, non-luminal also) using Whole Slide Images (TCGA-BRCA). Two network architectures: ConvNeXt and ResNet.
