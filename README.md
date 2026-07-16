@@ -444,6 +444,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
     Wang, Haoyu, Sizheng Guo, Jin Ye, et al. SAM-Med3D: Towards General-Purpose Segmentation Models for Volumetric Medical Images. https://doi.org/10.48550/arXiv.2310.15161
 </details>
 
+- [VoxTell](https://github.com/MIC-DKFZ/VoxTell) - text-guided 3D image segmentation (CT, MRI, PET). nnU-Net framework, ResEncL encoder for vision, Qwen3-Embedding-4B encoder for text, cross-modal integration via a two-layer MLP. Repeated image-text integration through the decoding hierarchy. Loss function promoting this integration. Tested on 158 public datasets with over 62K volumetric scans (Appendix B). Outperforms TotalSegmentator, BioMedParse, Text3dSAM, SegVol, SAT on zero-shot segmentation performance and cross-modality and unseen concept generalization, Mask2Former and MaskFormed on ablation study. <details>
+    <summary>Paper</summary>
+    Rokuss, Maximilian, Moritz Langenberg, Yannick Kirchhoff, et al. “VoxTell: Free-Text Promptable Universal 3D Medical Image Segmentation.” Version 1. Preprint, arXiv, 2025. https://doi.org/10.48550/ARXIV.2511.11450.
+</details>
+
 - [Hist.ai](https://hist.ai/#trust) - digital pathology platform. Largest open-access data of whole-slide images (H&E, IHC), some manually annotated. Models for image analysis. [Huggingface](https://huggingface.co/histai/datasets), [GitHub](https://github.com/histai/HISTAI)
 
 - Breast cancer subtype classification (IDC, ILC, luminal subtypes combined, non-luminal also) using Whole Slide Images (TCGA-BRCA). Two network architectures: ConvNeXt and ResNet.
