@@ -950,6 +950,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 ### Pediatric
 
+- [ScPCA](https://scpca.alexslemonade.org) - sc/snRNA-seq from pediatric tumor samples (). Over 700 samples, 55 cancer types. Includes other data (bulk RNA-seq, spatial, CITE-seq). Metadata (age (Human Developmental Stages Ontology [HSapDv](https://bioportal.bioontology.org/ontologies/HSAPDV), sex (Phenotype And Trait Ontology [PATO](https://obofoundry.org/ontology/pato.html)), diagnosis ([MONDO](https://mondo.monarchinitiative.org/) disease ontology), tissue [UBERON](https://www.ebi.ac.uk/ols4/ontologies/uberon), ethnicity (The Human Ancestry Ontology [HAncestro](https://ebispot.github.io/hancestro/))). [scpca-nf](https://github.com/AlexsLemonade/scpca-nf) Nextflow pipeline, alevin-fry, processes various data modalities. [miQC](https://bioconductor.org/packages/miQC/) R package for scRNA QC. Cells annotated by consensus of SingleR (celldex::BlueprintEncodeData), CellAssign (PanglaoDB), Scimilarity. CNV estimation with inferCNV. OpenScPCA cell-type annotations for tumor cell annotations. Downloads as SingleCellExperiment, AnnData (zellkonverter::writeH5AD(), compatible with CELLxGENE, Kana) objects, not batch corrected. [ScPCAr](https://alexslemonade.github.io/ScPCAr/) R package for programmatic access. <details>
+    <summary>Paper</summary>
+    Hawkins, Allegra G., Joshua A. Shapiro, Stephanie J. Spielman, et al. “The Single-Cell Pediatric Cancer Atlas: Data Portal and Open-Source Tools for Single-Cell Transcriptomics of Pediatric Tumors.” Preprint, Bioinformatics, April 24, 2024. https://doi.org/10.1101/2024.04.19.590243.
+</details>
+
 - [OpenPedCan](https://github.com/d3b-center/OpenPedCan-analysis) analysis workflow. Aggregates data from TARGET, PPTC, PBTA, CPTAC, more. Data description. Gabriella Miller Kids First workflows to harmonize WGS, WXS, RNA-seq, and targeted sequencing datasets to include SNVs, InDels, CNVs, SVs, gene expression, fusion, and splice variants. <details>
     <summary>Paper</summary>
     Geng, Zhuangzhuang, Eric Wafula, Ryan J. Corbett, et al. “The Open Pediatric Cancer Project.” Preprint, Cold Spring Harbor Laboratory, July 11, 2024. https://doi.org/10.1101/2024.07.09.599086.
