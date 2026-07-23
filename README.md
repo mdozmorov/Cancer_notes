@@ -44,6 +44,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Drugs
 
+- Review of deep learning methods for drug-target binding (DTB) prediction, drug-target affinity (DTA) and drug-target interactions (DTI) goals. Pre- and post-deep-learning methods. Network, graph-based methods, leveraging Alphafold predictions, transformer/attention architectures, Protein Language Models (PLMs, Table 1). Benchmark datasets (Table 2). Evaluation metrics. Case studies, using FragXsiteDTI, FusionDTA. <details>
+    <summary>Paper</summary>
+    Debnath, Kusal, Pratip Rana, and Preetam Ghosh. “A Survey on Deep Learning for Drug-Target Binding Prediction: Models, Benchmarks, Evaluation, and Case Studies.” Briefings in Bioinformatics 26, no. 5 (2025): bbaf491. https://doi.org/10.1093/bib/bbaf491.
+</details>
+
 - [scIDUC](https://osf.io/z9e2x/overview) - predict therapeutic efficacies on the individual-cell basis by integrating scRNA-seq and bulk RNA-seq (NMF, CCA, k components in each). Embeddings of bulk RNA-seq data are used to construct drug response regression model, coefficients applied to scRNA-seq embeddings. Drug screen data from [CTRPv2](https://pharmacodb.ca/datasets/2), cancer RNA-seq from [DepMap](https://depmap.org/portal/). Benchmarked against Beyondcells, CaDRReS-Sc. <details>
     <summary>Paper</summary>
     Zhang, Weijie, Danielle Maeser, Adam Lee, et al. “Inferring Therapeutic Vulnerability within Tumors through Integration of Pan-Cancer Cell Line and Single-Cell Transcriptomic Profiles.” Preprint, Bioinformatics, November 1, 2023. https://doi.org/10.1101/2023.10.29.564598.
