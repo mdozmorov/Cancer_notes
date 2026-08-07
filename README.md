@@ -70,6 +70,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Jaaks, Patricia, Elizabeth A. Coker, Daniel J. Vis, Olivia Edwards, Emma F. Carpenter, Simonetta M. Leto, Lisa Dwane, et al. “Effective Drug Combinations in Breast, Colon and Pancreatic Cancer Cells.” Nature 603, no. 7899 (March 3, 2022): 166–73. https://doi.org/10.1038/s41586-022-04437-2.
 </details>
 
+- [Therapeutic Data Commons](https://tdcommons.ai/) (TDC) - a resource to access and evaluate AI methods across therapeutic modalities and stages of discovery. Datasets, 22 problems, wide variety of tasks (drug response, synergy, gene therapies, etc.). Contains various ML data-processing and algorithmic functions, for model evaluation, dataset splits, data processing, has leaderboards. Python interface, [HuggingFace](https://huggingface.co/tdc) models, [GitHub](https://github.com/mims-harvard/TDC). <details>
+    <summary>Paper</summary>
+    Huang, Kexin, Tianfan Fu, Wenhao Gao, et al. “Artificial Intelligence Foundation for Therapeutic Science.” Nature Chemical Biology 18, no. 10 (2022): 1033–36. https://doi.org/10.1038/s41589-022-01131-2.
+</details>
+
 - Drug-target interaction (DTI) predictions using the Bidirectional Encoder Representations from Transformers (BERT) algorithm. 2.1M studies from PubMed (PubTator API). 512-token (word) sequences. Majority voting of five BERT modelts (BERT, SciBERT, BioBERT, BioMed-RoBERTa and BlueBERT). 99% accuracy using 10-fold CV. Other DTI resources: ChEMBL, BindingDB, PubChem, GtopDB, and DrugTargetCommons. [Predicted and integrated data download](https://dataset.drugtargetcommons.org/), text format. Main portal: [Drug Target Commons (DTC)](http://drugtargetcommons.fimm.fi/) - a crowd-sourcing platform to improve the consensus and use of drug-target interactions. <details>
     <summary>Paper</summary>
     Aldahdooh, Jehad, Markus Vähä-Koskela, Jing Tang, and Ziaurrehman Tanoli. “Using BERT to Identify Drug-Target Interactions from Whole PubMed.” Preprint. Bioinformatics, September 11, 2021. https://doi.org/10.1101/2021.09.10.459845.
