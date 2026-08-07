@@ -65,6 +65,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Liu, Xiaona, Jiahao Yi, Tina Li, Jianguo Wen, Kexin Huang, Jiajia Liu, Grant Wang, Pora Kim, Qianqian Song, and Xiaobo Zhou. “DRMref: Comprehensive Reference Map of Drug Resistance Mechanisms in Human Cancer.” Nucleic Acids Research, November 20, 2023, gkad1087. https://doi.org/10.1093/nar/gkad1087.
 </details>
 
+- [SynergyFinder](https://synergyfinder.fimm.fi) - Web app for multi-drug (2 or more). Loewe, Bliss, HSA, ZIP, MuSyC metrics, a consensus synergy score. Input: dose-response matrix or table of %inhibition or %viability.  Outlier detection (composite NMF method), visualization. Replicate, multi-sample analysis support. [GitHub](https://github.com/IanevskiAleksandr/SynergyFinder). <details>
+    <summary>Paper</summary>
+    Ianevski, Aleksandr, Anil K. Giri, and Tero Aittokallio. “SynergyFinder 3.0: An Interactive Analysis and Consensus Interpretation of Multi-Drug Synergies across Multiple Samples.” Nucleic Acids Research 50, no. W1 (2022): W739–43. https://doi.org/10.1093/nar/gkac382.
+</details>
+
 - [Genomics of Drug Sensitivity in Cancer](https://gdsc-combinations.depmap.sanger.ac.uk/) - Drug Synergy in breast, colon, pancreatic cancers. Synergy is rare. In breast cancer, Navitoclax + Alisertib/Tozasertib/ZM447439 (all AURK inhibitors) is the most synergistic. [Cell Model Passports](https://cellmodelpassports.sanger.ac.uk/) - information about cancer cell lines. [Downloads from GDSC2](https://gdsc-combinations.depmap.sanger.ac.uk/downloads) and [Figshare 1](https://doi.org/10.6084/m9.figshare.16843597), [Figshare 2](https://figshare.com/articles/dataset/Anchored_screen_glossary_file/16895371). <details>
     <summary>Paper</summary>
     Jaaks, Patricia, Elizabeth A. Coker, Daniel J. Vis, Olivia Edwards, Emma F. Carpenter, Simonetta M. Leto, Lisa Dwane, et al. “Effective Drug Combinations in Breast, Colon and Pancreatic Cancer Cells.” Nature 603, no. 7899 (March 3, 2022): 166–73. https://doi.org/10.1038/s41586-022-04437-2.
