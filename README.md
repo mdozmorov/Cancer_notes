@@ -297,9 +297,13 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [HATCHet](https://github.com/raphael-group/hatchet) - (Holistic Allele-specific Tumor Copy-number Heterogeneity) is an algorithm that infers allele and clone-specific CNAs and WGDs jointly across multiple tumor samples from the same patient, and that leverages the relationships between clones in these samples.
 
+- [MANTIS](https://github.com/OSU-SRLab/MANTIS) - Microsatellite Analysis for Normal-Tumor InStability
+
+- [PURPLE](https://github.com/oicr-gsi/purple) - integrated some tools from hmftools (https://github.com/hartwigmedical/hmftools), including AMBER, COBALT, GRIPSS, PURPLE and LINX. It combines B-allele frequency (BAF) from AMBER, read depth ratios from COBALT, somatic variants and structural variants to estimate the purity and copy number profile of a tumor sample.
+
 - [ReMixT](https://github.com/amcpherson/remixt) - Clone-specific genomic structure estimation in cancer. Tumor/normal BAM files.
 
-- [MANTIS](https://github.com/OSU-SRLab/MANTIS) - Microsatellite Analysis for Normal-Tumor InStability
+
 
 ### Deconvolution
 
