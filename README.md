@@ -303,7 +303,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [ReMixT](https://github.com/amcpherson/remixt) - Clone-specific genomic structure estimation in cancer. Tumor/normal BAM files.
 
-- [SvABA](https://github.com/walaj/svaba) - Structural variation and indel detection by local assembly
+
 
 ### Deconvolution
 
@@ -819,6 +819,7 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 - `DeconstructSig` - Contribution of known SNP cancer mutation signatures to tumor samples. Data from Alexandrov, COSMIC, others. https://github.com/raerose01/deconstructSigs 
 
+- [SignatureAnalyzer](https://github.com/getzlab/SignatureAnalyzer) - Updated SignatureAnalyzer-GPU with mutational spectra & RNA expression compatibility.
 
 ## Databases
 
