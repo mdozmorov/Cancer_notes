@@ -295,6 +295,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [ASCAT](https://github.com/VanLoo-lab/ascat) - R package to infer tumour purity, ploidy and allele-specific copy number profiles. Arrays or WGS.
 
+- [ReMixT](https://github.com/amcpherson/remixt) - Clone-specific genomic structure estimation in cancer. Tumor/normal BAM files.
+- 
 - [MANTIS](https://github.com/OSU-SRLab/MANTIS) - Microsatellite Analysis for Normal-Tumor InStability
 
 ### Deconvolution
