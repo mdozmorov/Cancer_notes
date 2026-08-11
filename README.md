@@ -1091,6 +1091,11 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 ## PDX
 
+- The Human Cancer Models Initiative ([HCMI](https://appshare.cancer.gov/HCMI_Explorer_Suite/)), 665 models, 25 cancer types, 153 models of rare cancers, 71 models of non-European ancestry. High genetic and epigenetic concordance. Integration and matching with TCGA, TARGET, DepMap. <details>
+    <summary>Paper</summary>
+    ElHarouni, Dina, Mushriq Al-Jazrawe, Seongmin Choi, et al. “A Compendium of Next-Generation Patient-Derived Models for Diverse Cancers.” Nature, ahead of print, August 5, 2026. https://doi.org/10.1038/s41586-026-10806-y.
+</details>
+
 - [Xenomake](https://github.com/qianzhulab/Xenomake) - Xengsort wrapper for 10x spatial transcriptomics. Tested on TNBC PDX spatial data. Outperforms Space Ranger aligning to the barnyard genome. <details>
     <summary>Paper</summary>
     Strope, Benjamin S., Katherine E. Pendleton, William Z. Bowie, Gloria V. Echeverria, and Qian Zhu. “Xenomake: A Pipeline for Processing and Sorting Xenograft Reads from Spatial Transcriptomic Experiments.” Bioinformatics 40, no. 11 (2024): btae608. https://doi.org/10.1093/bioinformatics/btae608.
