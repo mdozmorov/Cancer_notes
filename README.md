@@ -293,6 +293,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Favero, F., T. Joshi, A. M. Marquard, N. J. Birkbak, M. Krzystanek, Q. Li, Z. Szallasi, and A. C. Eklund. “Sequenza: Allele-Specific Copy Number and Mutation Profiles from Tumor Sequencing Data.” Annals of Oncology 26, no. 1 (January 2015): 64–70. https://doi.org/10.1093/annonc/mdu479.
 </details>
 
+- [ASCAT](https://github.com/VanLoo-lab/ascat) - R package to infer tumour purity, ploidy and allele-specific copy number profiles. Arrays or WGS.
+
 - [MANTIS](https://github.com/OSU-SRLab/MANTIS) - Microsatellite Analysis for Normal-Tumor InStability
 
 ### Deconvolution
