@@ -255,6 +255,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [cacao](https://github.com/sigven/cacao) - Callable Cancer Loci - assessment of sequencing coverage for actionable and pathogenic loci in cancer, example of QC report. Data: BED files for cancer loci from ClinVar, CIViC, cancerhotspots. 
 
+- [fragCounter](https://github.com/mskilab-org/fragCounter) - correct Whole genome or targeted sequencing data for GC and mappability bias (loess regression of read count by GC and mappability scores). Segmentation is done by circular binary segmentation (CBS) algorithm after getting tumor/normal ratios of corrected read counts.
+
 ### Purity
 
 - [GenomeScope](https://github.com/tbenavi1/genomescope2.0) and [Smudgeplot](https://github.com/KamilSJaron/smudgeplot) for ploidy detection directly from sequencing data. Based on k-mer counting using [KMC](https://github.com/refresh-bio/KMC) or [Jellyfish](https://github.com/gmarcais/Jellyfish), negative binomial-based mathematical model. [Web-GenomeScope](http://qb.cshl.edu/genomescope/genomescope2.0/). <details>
