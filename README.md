@@ -303,7 +303,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 - [ReMixT](https://github.com/amcpherson/remixt) - Clone-specific genomic structure estimation in cancer. Tumor/normal BAM files.
 
-
+- [SvABA](https://github.com/walaj/svaba) - Structural variation and indel detection by local assembly
 
 ### Deconvolution
 
