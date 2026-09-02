@@ -37,6 +37,7 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
   - [BRCA data](#brca-data)
 - [PDX](#pdx)
 - [Methylation](#methylation)
+- [CRISPR](#crispr)
 - [Misc](#misc)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -1184,6 +1185,19 @@ https://cellmodelpassports.sanger.ac.uk/, https://dataminer.depmap.sanger.ac.uk/
 
 - [Wanderer](http://gattaca.imppc.org:3838/wanderer/index.html) - An interactive viewer to explore DNA methylation and gene expression data in human cancer
 
+## CRISPR
+
+- [BAGEL2](https://github.com/hart-lab/bagel) gene essentiality classifier. Input: a tab-separated plain text file of gRNA read counts (Bowtie 1, [MAGeCK](https://sourceforge.net/p/mageck/wiki/Home/) pipeline, [poolQ](https://portals.broadinstitute.org/gpp/public/software/poolq)). [CRISPRcleanR](https://github.com/francescojm/CRISPRcleanR) for copy number effect correction. <details>
+    <summary>Paper</summary>
+    Kim, Eiru, and Traver Hart. “Improved Analysis of CRISPR Fitness Screens and Reduced Off-Target Effects with the BAGEL2 Gene Essentiality Classifier.” Genome Medicine 13, no. 1 (2021): 2. https://doi.org/10.1186/s13073-020-00809-3.
+</details>
+
+- CRISPR screens analysis guidelines. R implementation of [BAGEL](https://github.com/francescojm/BAGELR) gene essentiality significance, [ADaM](https://github.com/francescojm/ADAM) Adaptive Daisy Model to discriminate core-fitness/context-specific essential genes in large scale CRISPR-Cas9 screens, [CRISPRcleanR](https://github.com/francescojm/CRISPRcleanR) Unsupervised correction of gene independent cell responses to CRISPR-cas9. <details>
+    <summary>Paper</summary>
+    Behan, Fiona M., Francesco Iorio, Gabriele Picco, et al. “Prioritization of Cancer Therapeutic Targets Using CRISPR–Cas9 Screens.” Nature 568, no. 7753 (2019): 511–16. https://doi.org/10.1038/s41586-019-1103-9.
+</details>
+
+- CRISPR analysis R pipeline [SangerOrganoidBiobank](https://github.com/Garnett-Lab/SangerOrganoidBiobank)
 
 ## Misc
 
