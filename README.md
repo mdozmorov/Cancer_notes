@@ -1104,6 +1104,12 @@ For general variant interpretation databases, see [SNP_notes/SNP annotations](ht
 
 ## PDX
 
+- PDX biobank from UK, the Human Cancer Model Initiative (HCMI). 256 clinically annotated tumor organoids, colorectal, oesophageal, ovarian, pancreatic and gastric cancers. Whole-genome (copy number, mutational signatures (SigProfilerExtractor), chromothripsis (ShatterSeek), homologous recombination (CHORD)) and transcriptome sequencing, and genome-wide CRISPR–Cas9 screens across 162 organoids (BAGEL2 method)
+https://cellmodelpassports.sanger.ac.uk/, https://dataminer.depmap.sanger.ac.uk/. Tools: SNV and indel calling, https://github.com/cancerit (CaVEMan, cgpPindel, cgpCaVEManPostProcessing, vafCorrect); Structural variants and copy number, https://github.com/hartwigmedical/hmftools (AMBER, COBALT, SAGE, GRIPSS, PURPLE), [GRIDSS2](https://github.com/papenfusslab/gridss) the Genomic Rearrangement IDentification Software Suite, [SigProfilerExtractor](https://github.com/SigProfilerSuite/SigProfilerExtractor) de novo extraction of mutational signatures from data generated in a matrix format, [SigprofilerAssignment](https://github.com/SigProfilerSuite/SigprofilerAssignment); [CHORD](https://github.com/UMCUGenetics/CHORD) homologous recombination, [ShatterSeek](https://github.com/parklab/ShatterSeek) chromothripsis, ADaM [CoRe](https://github.com/DepMap-Analytics/CoRe) fitness genes. Full CRISPR analysis R pipeline [SangerOrganoidBiobank](https://github.com/Garnett-Lab/SangerOrganoidBiobank). <details>
+    <summary>Paper</summary>
+    Herranz-Ors, C., S. G. Bhosle, A. E. Beck, et al. “A Tumour-Derived Organoid Biobank Maps Cancer Gene Dependencies.” Nature, ahead of print, August 5, 2026. https://doi.org/10.1038/s41586-026-10830-y.
+</details>
+
 - The Human Cancer Models Initiative ([HCMI](https://appshare.cancer.gov/HCMI_Explorer_Suite/)), 665 models, 25 cancer types, 153 models of rare cancers, 71 models of non-European ancestry. High genetic and epigenetic concordance. Integration and matching with TCGA, TARGET, DepMap. <details>
     <summary>Paper</summary>
     ElHarouni, Dina, Mushriq Al-Jazrawe, Seongmin Choi, et al. “A Compendium of Next-Generation Patient-Derived Models for Diverse Cancers.” Nature, ahead of print, August 5, 2026. https://doi.org/10.1038/s41586-026-10806-y.
