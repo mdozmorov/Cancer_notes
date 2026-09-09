@@ -1187,6 +1187,11 @@ https://cellmodelpassports.sanger.ac.uk/, https://dataminer.depmap.sanger.ac.uk/
 
 ## CRISPR
 
+- [MAGeCK](https://bitbucket.org/liulab/mageck/src/master/) - Model-based Analysis of Genome-wide CRISPR/Cas9 Knockout, for prioritizing sgRNAs, genes and positively and negatively selected pathways ranked by RRA. Benchmarked against RNAi Gene Enrichment Ranking (RIGER), Redundant siRNA Activity (RSA), edgeR/DESeq. [Wiki](https://sourceforge.net/p/mageck/wiki/Home/), [GitHub](https://github.com/liulab-dfci/MAGeCK) with links. <details>
+    <summary>Paper</summary>
+    Li, Wei, Han Xu, Tengfei Xiao, et al. MAGeCK Enables Robust Identification of Essential Genes from Genome-Scale CRISPR/Cas9 Knockout Screens. n.d.
+</details>
+
 - [BAGEL2](https://github.com/hart-lab/bagel) gene essentiality classifier. Input: a tab-separated plain text file of gRNA read counts (Bowtie 1, [MAGeCK](https://sourceforge.net/p/mageck/wiki/Home/) pipeline, [poolQ](https://portals.broadinstitute.org/gpp/public/software/poolq)). [CRISPRcleanR](https://github.com/francescojm/CRISPRcleanR) for copy number effect correction. <details>
     <summary>Paper</summary>
     Kim, Eiru, and Traver Hart. “Improved Analysis of CRISPR Fitness Screens and Reduced Off-Target Effects with the BAGEL2 Gene Essentiality Classifier.” Genome Medicine 13, no. 1 (2021): 2. https://doi.org/10.1186/s13073-020-00809-3.
