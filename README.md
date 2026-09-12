@@ -428,6 +428,11 @@ See also [RNA-seq_notes/Deconvolution](https://github.com/mdozmorov/RNA-seq_note
     - Subramanian, Indhupriya, Srikant Verma, Shiva Kumar, Abhay Jere, and Krishanpal Anamika. “[Multi-Omics Data Integration, Interpretation, and Its Application](https://doi.org/10.1177/1177932219899051).” Bioinformatics and Biology Insights, January 31, 2020 
 </details>
 
+- [Celligner](https://github.com/broadinstitute/celligner) - Unsupervised alignment of tumor and cell line gene expression datasets. Contrastive PCA, batche effect correction with mutual nearest neighbors (MNN) method. Outperforms the method of Yi et al (ComBat based), CancerCellNet. Applied to CCLE, TCGA, TARGET, Treehouse. [Manuscript scripts](https://github.com/broadinstitute/Celligner_ms). <details>
+    <summary>Paper</summary>
+    Warren, Allison, Yejia Chen, Andrew Jones, et al. “Global Computational Alignment of Tumor and Cell Line Transcriptional Profiles.” Nature Communications 12, no. 1 (2021): 22. https://doi.org/10.1038/s41467-020-20294-x.
+</details>
+
 - [CTGS](http://ctgs.biohackers.net/) - web portal for Cancer Target Gene Screening. Visualization, survival. Gene expression, methylation, CNAs, SNPs, clinical info. METABRIC, TCGA, other published data. Similar services: cBioPortal, Breast Cancer Integrated Platform (BCIP), MOBCdb, Oncomine, Kaplan–Meier (KM) plotter and TCGA4U. <details>
     <summary>Paper</summary>
     Kim, Hyung-Yong, Hee-Joo Choi, Jeong-Yeon Lee, and Gu Kong. “Cancer Target Gene Screening: A Web Application for Breast Cancer Target Gene Screening Using Multi-Omics Data Analysis.” Briefings in Bioinformatics 21, no. 2 (March 23, 2020): 663–75. https://doi.org/10.1093/bib/bbz003.
