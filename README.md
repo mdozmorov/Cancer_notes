@@ -91,6 +91,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Zhao, Wei, Jun Li, Mei-Ju M. Chen, Yikai Luo, Zhenlin Ju, Nicole K. Nesser, Katie Johnson-Camacho, et al. “[Large-Scale Characterization of Drug Responses of Clinically Relevant Proteins in Cancer Cell Lines](https://doi.org/10.1016/j.ccell.2020.10.008).” Cancer Cell, (December 2020)
 </details>
 
+- [The PRISM drug repurposing resource](https://depmap.org/repurposing) - a public resource containing the growth-inhibitory activity of 4,518 drugs tested across 578 human cancer cell lines. Uses PRISM (profiling relative inhibition simultaneously in mixtures), a molecular barcoding method, to screen drugs against cell lines in pools. Correlates well with GDSC, CTD. [GitHub](https://github.com/broadinstitute/repurposing). <details>
+    <summary>Paper</summary>
+    Corsello, Steven M., Rohith T. Nagari, Ryan D. Spangler, et al. “Discovering the Anticancer Potential of Non-Oncology Drugs by Systematic Viability Profiling.” Nature Cancer 1, no. 2 (2020): 235–48. https://doi.org/10.1038/s43018-019-0018-6.
+</details>
+
 - [CARE](http://care.dfci.harvard.edu/) - biomarker identification from interactions of drug target genes with other genes. Multivariate linear modeling with interaction term. Illustrative example of interaction of BRAF mutation and EGFR expression. Sample separation by gene expression correlation with CARE score better predicts survival. Comparison with correlation, elastic net, support vector regression. [Download](http://care.dfci.harvard.edu/download/), nls_logsig tool to compute AUC for dose curves. <details>
     <summary>Paper</summary>
     Jiang, Peng, Winston Lee, Xujuan Li, Carl Johnson, Jun S. Liu, Myles Brown, Jon Christopher Aster, and X. Shirley Liu. “[Genome-Scale Signatures of Gene Interaction from Compound Screens Predict Clinical Efficacy of Targeted Cancer Therapies](https://doi.org/10.1016/j.cels.2018.01.009).” Cell Systems 6, no. 3 (March 2018)
