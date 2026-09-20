@@ -50,6 +50,11 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
     Debnath, Kusal, Pratip Rana, and Preetam Ghosh. “A Survey on Deep Learning for Drug-Target Binding Prediction: Models, Benchmarks, Evaluation, and Case Studies.” Briefings in Bioinformatics 26, no. 5 (2025): bbaf491. https://doi.org/10.1093/bib/bbaf491.
 </details>
 
+- [ScreenDL](https://github.com/csederman/screendl) - a novel deep learning-based cancer drug response prediction model, using Morgan fingerprints and gene expression from PDX/PDO. Fully connected two-input network. Pretrained on the Genomics of Drug Sensitivity in Cancer database with matched transcriptomic profiles from Cell Model Passports. ScreenAhead improves prediction of unscreened drugs. [Singularity](https://github.com/JDACS4C-IMPROVE/Singularity) image. <details>
+    <summary>Paper</summary>
+    Sederman, Casey, Chieh-Hsiang Yang, Emilio Cortes-Sanchez, et al. “A Precision Oncology-Focused Deep Learning Framework for Personalized Selection of Cancer Therapy.” Preprint, Cancer Biology, December 16, 2024. https://doi.org/10.1101/2024.12.12.628190.
+</details>
+
 - [scIDUC](https://osf.io/z9e2x/overview) - predict therapeutic efficacies on the individual-cell basis by integrating scRNA-seq and bulk RNA-seq (NMF, CCA, k components in each). Embeddings of bulk RNA-seq data are used to construct drug response regression model, coefficients applied to scRNA-seq embeddings. Drug screen data from [CTRPv2](https://pharmacodb.ca/datasets/2), cancer RNA-seq from [DepMap](https://depmap.org/portal/). Benchmarked against Beyondcells, CaDRReS-Sc. <details>
     <summary>Paper</summary>
     Zhang, Weijie, Danielle Maeser, Adam Lee, et al. “Inferring Therapeutic Vulnerability within Tumors through Integration of Pan-Cancer Cell Line and Single-Cell Transcriptomic Profiles.” Preprint, Bioinformatics, November 1, 2023. https://doi.org/10.1101/2023.10.29.564598.
