@@ -45,6 +45,8 @@ Please, [contribute and get in touch](CONTRIBUTING.md)! See [MDmisc notes](https
 
 ## Drugs
 
+- [DT_Models.xlsx](DT_Models.xlsx) - Tables of chronological models and their properties, datasets, GitHub links. [Source](https://github.com/agmlcenter/Bioinformatics/tree/main/DrugTargetInteraction/Review)
+
 - Review of deep learning methods for drug-target binding (DTB) prediction, drug-target affinity (DTA) and drug-target interactions (DTI) goals. Pre- and post-deep-learning methods. Network, graph-based methods, leveraging Alphafold predictions, transformer/attention architectures, Protein Language Models (PLMs, Table 1). Benchmark datasets (Table 2). Evaluation metrics. Case studies, using FragXsiteDTI, FusionDTA. <details>
     <summary>Paper</summary>
     Debnath, Kusal, Pratip Rana, and Preetam Ghosh. “A Survey on Deep Learning for Drug-Target Binding Prediction: Models, Benchmarks, Evaluation, and Case Studies.” Briefings in Bioinformatics 26, no. 5 (2025): bbaf491. https://doi.org/10.1093/bib/bbaf491.
